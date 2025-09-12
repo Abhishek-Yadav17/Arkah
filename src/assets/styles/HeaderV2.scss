@@ -18,12 +18,20 @@
         img {
             width: 10vw;
             margin-bottom: 1vw;
+
+            @media (max-width: 768px) {
+                width: 30vw;
+            }
         }
 
         .nav {
             display: flex;
             gap: 2vw;
             align-items: center;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
 
             ul {
                 list-style: none;
