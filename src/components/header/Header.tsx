@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import '../../assets/styles/HeaderV2.scss';
@@ -8,31 +8,25 @@ gsap.registerPlugin(ScrollTrigger);
 
 const HeaderV2: React.FC = () => {
     const headerRef = useRef<HTMLElement>(null);
-    const location = useLocation();
 
     useEffect(() => {
-        const header = headerRef.current;
-        if (!header) return;
+        if (!headerRef.current) return;
 
-        ScrollTrigger.getAll().forEach(t => t.kill());
-
-        if (location.pathname === "/") {
-            ScrollTrigger.create({
-                trigger: ".banner-v2",
-                start: "bottom top",
-                onEnter: () => gsap.to(header, { backgroundColor: "#000", duration: 0.3 }),
-                onLeaveBack: () => gsap.to(header, { backgroundColor: "transparent", color: "#fff", duration: 0.3 }),
-            });
-        } else if (location.pathname === "/about") {
-            gsap.to(header, { backgroundColor: "#000", color: "#fff", duration: 0.3 });
-        } else {
-            gsap.to(header, { backgroundColor: "#fff", color: "#000", duration: 0.3 });
-        }
-    }, [location]);
-
+        gsap.to(headerRef.current, {
+            backgroundColor: '#000',
+            duration: 0.3,
+            ease: 'power1.out',
+            scrollTrigger: {
+                trigger: headerRef.current,
+                start: 'top top+=1',
+                toggleActions: 'play reverse play reverse',
+                scrub: true,
+            }
+        });
+    }, []);
 
     return (
-        <header className="header-v2" ref={headerRef}>
+        <header ref={headerRef} className="header-v2">
             <div className="container">
                 <Link to="/"><img src="/logo.png" alt="logo" /></Link>
                 <nav className="nav">

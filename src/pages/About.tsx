@@ -16,7 +16,7 @@ const About = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV2 />
+                <BannerV2 height="60vh" hideContent/>
                 <AboutUs />
                 <PortfolioV3Light />
                 <FooterV2 sectionClass='bg-gray' />
