@@ -60,7 +60,7 @@ const HomeAbout = () => {
                 </defs>
                 <text>
                     <textPath href="#circlePath">
-                        • About Us • About Us • About Us
+                        • Arkah's Focus • Arkah's Focus • Arkah's Focus
                     </textPath>
                 </text>
             </svg>

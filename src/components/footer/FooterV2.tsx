@@ -1,5 +1,4 @@
 import logoLight from '/assets/img/logo-light.png';
-import logo from '/assets/img/logo.png';
 import { Link } from "react-router-dom";
 import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
@@ -18,7 +17,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             <div className="col-lg-6 footer-item about pr-120 pr-md-15 pr-xs-15">
                                 <div className="top">
                                     <img className='regular-img' src={logoLight} alt="Image Not Found" />
-                                    <img className='light-img' src={logo} alt="Image Not Found" />
+                                    <img className='light-img' src='/logo.png' alt="Image Not Found" />
                                 </div>
                                 <ul className="address-list">
                                     <li>
@@ -37,7 +36,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 <div className="footer-contact">
                                     <ul>
                                         <li>
-                                            <a href="mailto:someone@example.com">info@dixor.com</a>
+                                            <a href="mailto:someone@example.com">info@arkah.in</a>
                                         </li>
                                         <li>
                                             <a href="tel:+4733378901">+47 333 78 901</a>
@@ -48,14 +47,14 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             <div className="col-lg-5 offset-lg-1 footer-item">
                                 <h4 className="widget-title">Useful Link</h4>
                                 <ul className="useful-link">
-                                    <li><Link to="/about-us">About Us</Link></li>
-                                    <li><Link to="/contact-us">Contact</Link></li>
-                                    <li><Link to="/faq">FAQS</Link></li>
-                                    <li><Link to="/services">Services</Link></li>
-                                    <li><Link to="/about-2">Term & Conditions</Link></li>
-                                    <li><Link to="/about-us">Privacy Policy</Link></li>
-                                    <li><Link to="/about-2">Careers</Link></li>
-                                    <li><Link to="/contact-us">Help Desk</Link></li>
+                                    <li><Link to="/about-us">Home</Link></li>
+                                    <li><Link to="/contact-us">About Us</Link></li>
+                                    <li><Link to="/faq">Our Vision</Link></li>
+                                    <li><Link to="/services">Our Team</Link></li>
+                                    <li><Link to="/about-2">Renewal Natural Gas</Link></li>
+                                    <li><Link to="/about-us">Operating Philosophy</Link></li>
+                                    <li><Link to="/about-2">Privacy Policy</Link></li>
+                                    <li><Link to="/contact-us">Exploration and Production</Link></li>
                                 </ul>
                                 <NewsletterV2 />
                             </div>
@@ -72,7 +71,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} Dixor. All Rights Reserved
+                                    Privacy | Integrity ©2019 Industris Company. All Rights Reserved
                                 </p>
                             </div>
                         </div>

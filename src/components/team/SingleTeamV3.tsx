@@ -15,7 +15,7 @@ const SingleTeamV3 = ({ team }: { team: DataType }) => {
             <div className="team-style-three-item">
                 <div className="thumb">
                     <Link to={`/team-details/${id}`}>
-                        <img src={`/assets/img/team/${thumb}`} alt="Image Not Found" width={600} height={650} />
+                        <img src={`/${thumb}`} alt="Image Not Found" width={600} height={650} />
                     </Link>
                 </div>
                 <div className="info">

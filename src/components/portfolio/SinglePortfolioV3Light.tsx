@@ -14,7 +14,7 @@ const SinglePortfolioV3Light = ({ portfolio }: { portfolio: DataType }) => {
             <div className="portfolio-style-three-item">
                 <div className="row align-center">
                     <div className="col-lg-7">
-                        <img src={`/assets/img/portfolio/${thumbLight}`} alt="Image Not Found" width={800} height={600} />
+                        <img src={`/${thumbLight}`} alt="Image Not Found" width={800} height={600} />
                     </div>
                     <div className="col-lg-5" >
                         <div className="date">{date}</div>

@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "thumb": "7.jpg",
-        "thumbLight": "7.jpg",
+        "thumb": "energy1.png",
+        "thumbLight": "energy1.png",
         "date": "February 18, 2024",
         "titleFirst": "Our",
         "titleLast": "Story",
@@ -10,8 +10,8 @@
     },
     {
         "id": 2,
-        "thumb": "8.jpg",
-        "thumbLight": "20.jpg",
+        "thumb": "ESG-2.jpg",
+        "thumbLight": "ESG-2.jpg",
         "date": "January 15, 2024",
         "titleFirst": "Our",
         "titleLast": "Purpose",
