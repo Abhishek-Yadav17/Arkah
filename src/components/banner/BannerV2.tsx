@@ -2,11 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../../assets/styles/BannerV2.scss';
 import gsap from 'gsap';
 
-type BannerV2Props = {
-    height?: string;
-    hideContent?: boolean;
-};
-
 type Slide = {
     heading: string;
     bg: string;
@@ -35,7 +30,7 @@ const slides: Slide[] = [
     }
 ];
 
-const BannerV2: React.FC<BannerV2Props> = ({ height = "120vh", hideContent = false  }) => {
+const BannerV2: React.FC = () => {
     const [index, setIndex] = useState(0);
     const contentRef = useRef<HTMLDivElement>(null);
 
@@ -73,7 +68,7 @@ const BannerV2: React.FC<BannerV2Props> = ({ height = "120vh", hideContent = fal
     const { heading, img, text } = slides[index];
 
     return (
-        <div className="hero-section" id="hero-section" style={{ minHeight: height }}>
+        <div className="hero-section" id="hero-section">
             <div className="hero-bg-container">
                 {slides.map((slide, i) => (
                     <div
@@ -84,7 +79,6 @@ const BannerV2: React.FC<BannerV2Props> = ({ height = "120vh", hideContent = fal
                 ))}
             </div>
             
-            {!hideContent && (
             <div className="hero-content" ref={contentRef}>
                 <div className="hero-left">
                     <h1>{heading}</h1>
@@ -101,7 +95,6 @@ const BannerV2: React.FC<BannerV2Props> = ({ height = "120vh", hideContent = fal
                     </div>
                 </div>
             </div>
-            )}
         </div>
     );
 };

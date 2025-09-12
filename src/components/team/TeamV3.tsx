@@ -38,7 +38,7 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
 
                 <div className="container-full">
                     <div className="row">
-                        {TeamV3Data.slice(0, 5).map(team =>
+                        {TeamV3Data.slice(0, 4).map(team =>
                             <div className="col-xl-3 col-md-6 mb-30" key={team.id}>
                                 <SingleTeamV3 team={team} />
                             </div>

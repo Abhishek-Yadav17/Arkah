@@ -38,15 +38,5 @@
         "age": "31",
         "email": "Jason@digital.com",
         "phone": "+44-20-7328-4502"
-    },
-    {
-        "id": 5,
-        "thumb": "harmeet.jpg",
-        "name": "Harmeet Trivedi",
-        "designation": "Director, Human Resources & Administration",
-        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
-        "age": "31",
-        "email": "Jason@digital.com",
-        "phone": "+44-20-7328-4502"
     }
 ]

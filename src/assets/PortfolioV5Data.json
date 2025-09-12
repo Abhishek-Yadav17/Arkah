@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "thumb": "OilRig1.jpg",
-        "title": "Oil & Gas Exploration & Production",
+        "thumb": "biogas.jpg",
+        "title": "Renewable Natural Gas (RNG/CBG)",
         "tag": "Production"
     },
     {
         "id": 2,
-        "thumb": "ESG2.jpg",
-        "title": "Renewable Natural Gas (RNG/CBG)",
+        "thumb": "Offshore.jpg",
+        "title": "Oil & Gas Exploration & Production",
         "tag": "Gas"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "id": 6,
-        "thumb": "Offshore.jpg",
+        "thumb": "ESG2.jpg",
         "title": "ESG Integration & Sustainability",
         "tag": "Sustainability"
     }

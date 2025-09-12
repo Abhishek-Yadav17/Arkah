@@ -5,7 +5,7 @@ import AboutUs from "../components/about/AboutUs";
 import CursorEffect from "../components/animation/CursorEffect";
 import ThemeLight from "../components/switcher/ThemeLight";
 import PortfolioV3Light from "../components/portfolio/PortfolioV3Light";
-import BannerV2 from "../components/banner/BannerV2";
+import BannerV3 from "../components/banner/BannerV3";
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV2 height="60vh" hideContent/>
+                <BannerV3 />
                 <AboutUs />
                 <PortfolioV3Light />
                 <FooterV2 sectionClass='bg-gray' />
