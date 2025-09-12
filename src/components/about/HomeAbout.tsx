@@ -66,7 +66,7 @@ const HomeAbout = () => {
             </svg>
 
             <h2>
-                Reviving discovered fields, deploying advanced recovery, and investing in renewable natural gas.
+                Reviving <span className="highlight">discovered fields</span>, deploying advanced recovery, and investing in renewable natural gas.
             </h2>
             <button>
                 Learn More About Us <i className="ri-arrow-right-fill"></i>

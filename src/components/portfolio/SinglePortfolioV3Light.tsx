@@ -1,13 +1,12 @@
 interface DataType {
     thumbLight?: string;
-    date?: string;
     titleFirst?: string;
     titleLast?: string;
     text?: string;
 }
 
 const SinglePortfolioV3Light = ({ portfolio }: { portfolio: DataType }) => {
-    const {thumbLight, date, titleFirst, titleLast, text } = portfolio
+    const {thumbLight, titleFirst, titleLast, text } = portfolio
 
     return (
         <>
@@ -17,9 +16,8 @@ const SinglePortfolioV3Light = ({ portfolio }: { portfolio: DataType }) => {
                         <img src={`/${thumbLight}`} alt="Image Not Found" width={800} height={600} />
                     </div>
                     <div className="col-lg-5" >
-                        <div className="date">{date}</div>
-                        <h2 style={{ width: '50vw'}}>{titleFirst} {titleLast}</h2>
-                        <h4 style={{fontWeight: '500'}}>{text}</h4>
+                        <h2 style={{ width: '50vw', fontWeight: '400'}}>{titleFirst} {titleLast}</h2>
+                        <h4 style={{fontWeight: '500', lineHeight: '1.5'}}>{text}</h4>
                     </div>
                 </div>
             </div>

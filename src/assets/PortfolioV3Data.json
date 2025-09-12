@@ -3,18 +3,16 @@
         "id": 1,
         "thumb": "energy1.png",
         "thumbLight": "energy1.png",
-        "date": "February 18, 2024",
         "titleFirst": "Our",
         "titleLast": "Story",
-        "text": "Our journey began with a simple yet powerful idea: that energy could be smarter, cleaner and more responsible. Founded by a seasoned team of oil & gas industry veterans, Arkah is a next-generation energy company born from a shared vision to redefine the future of energy. With deep operational knowledge, strategic foresight and a relentless drive for innovation, we are dedicated to shaping a more sustainable, reliable and resilient energy future."
+        "text": "Our journey began with a simple yet powerful idea: that energy could be smarter, cleaner and more responsible. Founded by a seasoned team of oil & gas industry veterans, Arkah is a next-generation energy company born from a shared vision to redefine the future of energy."
     },
     {
         "id": 2,
         "thumb": "ESG-2.jpg",
         "thumbLight": "ESG-2.jpg",
-        "date": "January 15, 2024",
         "titleFirst": "Our",
         "titleLast": "Purpose",
-        "text": "At Arkah, our mission is to revolutionize the global energy landscape through responsible innovation, reliable and efficient energy solutions, and an unwavering pursuit of operational excellence. Driven by integrity and a long-term vision, we are committed to building a scalable, sustainable and inclusive energy future - one that fuels economic growth, empowers communities, creates enduring value for stakeholders and protects our planet for generations to come."
+        "text": "At Arkah, our mission is to revolutionize the global energy landscape through responsible innovation, reliable and efficient energy solutions, and an unwavering pursuit of operational excellence. Driven by integrity and a long-term vision, we are committed to building a scalable, sustainable and inclusive energy future."
     }
 ]

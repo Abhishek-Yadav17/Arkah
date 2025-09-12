@@ -10,7 +10,7 @@ interface DataType {
 const FooterV2 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <footer className={`style-two ${sectionClass ? sectionClass : ""}`}>
+            <footer className={`style-two ${sectionClass ? sectionClass : ""}`} style={{marginTop: '6vw'}}>
                 <div className="container">
                     <div className="f-items">
                         <div className="row">
@@ -21,15 +21,9 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 </div>
                                 <ul className="address-list">
                                     <li>
-                                        <h4>Australia</h4>
+                                        <h4>Gurugram</h4>
                                         <p>
                                             Travel World House, Level 7, 17 Jones St, NSW, 2060
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h4>Dubai</h4>
-                                        <p>
-                                            Sheikh Mohammed bin salah, #234 B - Downtown - Dubai
                                         </p>
                                     </li>
                                 </ul>
