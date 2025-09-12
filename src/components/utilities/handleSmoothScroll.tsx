@@ -1,4 +1,4 @@
-import { MouseEvent } from 'react';
+import type { MouseEvent } from 'react';
 
 const handleSmoothScroll = (event: MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
