@@ -38,6 +38,7 @@ const HeaderV2: React.FC = () => {
                 <nav className="nav">
                     <ul>
                         <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">Who We Are</Link></li>
                         <li><Link to="/services">Operations</Link></li>
                         <li><Link to="/portfolio">ESG</Link></li>
                         <li><Link to="/team">Investors</Link></li>
