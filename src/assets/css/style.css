@@ -8238,10 +8238,21 @@ a.btn-full i {
 	height: 100%;
 }
 
-.service-three-content .icon img {
-	height: 70px;
-	margin-bottom: 50px;
+.service-three-content .card-image {
+	width: 100%;
+	height: 30vh;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 30px;
 }
+
+.service-three-content .card-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
 
 .service-three-content .info h4 {
 	margin-bottom: 20px;

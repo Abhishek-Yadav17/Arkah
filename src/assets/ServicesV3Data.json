@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "activeClass": "out",
+        "icon": "o1.jpg",
+        "titleFirst": "Reservoir-Centric",
+        "titleLast": "Recovery Acceleration",
+        "text": "We adopt a targeted reservoir exploitation strategy aimed at accelerating reserve recovery through proven methods such as waterflooding, polymer flooding, and other Improved Oil Recovery (IOR) and Enhanced Oil Recovery (EOR) techniques. Our approach is tailored to the unique characteristics of each reservoir to ensure optimal performance.",
+        "number": "01"
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "icon": "o2.jpg",
+        "titleFirst": "Cost-Disciplined Field Development",
+        "titleLast": "& Operations",
+        "text": "We maintain a strong focus on cost efficiency by implementing a comprehensive operational parameter matrix. This framework ensures that our development and production activities are executed with precision, minimizing non-productive time and optimizing resource utilization.",
+        "number": "02"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "icon": "o3.jpg",
+        "titleFirst": "Stakeholder Engagement for",
+        "titleLast": "Triple Bottom Line Value",
+        "text": "We believe in creating shared value by aligning our operations with the triple bottom line—people, planet, and profit. Through proactive engagement with regulatory bodies, local communities, and business partners, we ensure that our projects are not only technically and commercially successful but also socially and environmentally responsible.",
+        "number": "03"
+    }
+]

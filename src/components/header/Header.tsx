@@ -7,24 +7,6 @@ import '../../assets/styles/HeaderV2.scss';
 gsap.registerPlugin(ScrollTrigger);
 
 const HeaderV2: React.FC = () => {
-    // const headerRef = useRef<HTMLElement>(null);
-
-    // useEffect(() => {
-    //     if (!headerRef.current) return;
-
-    //     gsap.to(headerRef.current, {
-    //         backgroundColor: 'rgba(148, 228, 139, 0.2)',
-    //         backdropFilter: 'blur(20px)',
-    //         duration: 0.3,
-    //         ease: 'power1.out',
-    //         scrollTrigger: {
-    //             trigger: headerRef.current,
-    //             start: 'top top+=1',
-    //             toggleActions: 'play reverse play reverse',
-    //             scrub: true,
-    //         }
-    //     });
-    // }, []);
 
     return (
         <header className="header-v2">
@@ -49,7 +31,7 @@ const HeaderV2: React.FC = () => {
                                 Operations <span className="arrow">▼</span>
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/services/power">Power</Link></li>
+                                <li><Link to="/operations/philosophy">Operational Philosophy</Link></li>
                                 <li><Link to="/services/grid">Grid</Link></li>
                                 <li><Link to="/services/solar">Solar</Link></li>
                             </ul>
