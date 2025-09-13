@@ -13,7 +13,8 @@ const HeaderV2: React.FC = () => {
         if (!headerRef.current) return;
 
         gsap.to(headerRef.current, {
-            backgroundColor: '#000',
+            backgroundColor: 'rgba(148, 228, 139, 0.2)',
+            backdropFilter: 'blur(20px)',
             duration: 0.3,
             ease: 'power1.out',
             scrollTrigger: {

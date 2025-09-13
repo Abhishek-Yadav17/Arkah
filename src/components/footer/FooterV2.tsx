@@ -65,7 +65,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p>
-                                    Privacy | Integrity ©2019 Industris Company. All Rights Reserved
+                                    Privacy | Integrity ©2019 Arkah Industry. All Rights Reserved
                                 </p>
                             </div>
                         </div>

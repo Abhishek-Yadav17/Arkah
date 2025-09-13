@@ -18,7 +18,7 @@ const slides: Slide[] = [
     },
     {
         heading: "Empowering Communities Sustaining",
-        bg: "/hero2.png",
+        bg: "/biogas1.jpg",
         img: "/hero-bottom2.webp",
         text: "Energy that drives growth, supports communities, and protects our planet."
     },

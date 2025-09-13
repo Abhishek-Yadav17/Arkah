@@ -80,6 +80,16 @@
                         pointer-events: auto;
                     }
                 }
+
+                li {
+                    a {
+                        color: #FFF;
+
+                        &:hover {
+                            color: #C9F31D;
+                        }
+                    }
+                }
             }
 
             button {
