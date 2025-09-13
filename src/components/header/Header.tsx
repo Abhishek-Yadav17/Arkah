@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
@@ -7,27 +7,27 @@ import '../../assets/styles/HeaderV2.scss';
 gsap.registerPlugin(ScrollTrigger);
 
 const HeaderV2: React.FC = () => {
-    const headerRef = useRef<HTMLElement>(null);
+    // const headerRef = useRef<HTMLElement>(null);
 
-    useEffect(() => {
-        if (!headerRef.current) return;
+    // useEffect(() => {
+    //     if (!headerRef.current) return;
 
-        gsap.to(headerRef.current, {
-            backgroundColor: 'rgba(148, 228, 139, 0.2)',
-            backdropFilter: 'blur(20px)',
-            duration: 0.3,
-            ease: 'power1.out',
-            scrollTrigger: {
-                trigger: headerRef.current,
-                start: 'top top+=1',
-                toggleActions: 'play reverse play reverse',
-                scrub: true,
-            }
-        });
-    }, []);
+    //     gsap.to(headerRef.current, {
+    //         backgroundColor: 'rgba(148, 228, 139, 0.2)',
+    //         backdropFilter: 'blur(20px)',
+    //         duration: 0.3,
+    //         ease: 'power1.out',
+    //         scrollTrigger: {
+    //             trigger: headerRef.current,
+    //             start: 'top top+=1',
+    //             toggleActions: 'play reverse play reverse',
+    //             scrub: true,
+    //         }
+    //     });
+    // }, []);
 
     return (
-        <header ref={headerRef} className="header-v2">
+        <header className="header-v2">
             <div className="container">
                 <Link to="/"><img src="/logo.png" alt="logo" /></Link>
                 <nav className="nav">

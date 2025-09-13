@@ -16,8 +16,8 @@ const SinglePortfolioV3Light = ({ portfolio }: { portfolio: DataType }) => {
                         <img src={`/${thumbLight}`} alt="Image Not Found" width={800} height={600} />
                     </div>
                     <div className="col-lg-5" >
-                        <h2 style={{ width: '50vw', fontWeight: '400', marginLeft: '8vw', letterSpacing: '-3px', fontSize: '7vw'}}>{titleFirst} {titleLast}</h2>
-                        <h4 style={{fontWeight: '500', lineHeight: '1.7', marginLeft: '1vw'}}>{text}</h4>
+                        <h2 style={{ width: '50vw', fontWeight: '400', marginLeft: '8vw', letterSpacing: '-3px', fontSize: '6vw'}}>{titleFirst} {titleLast}</h2>
+                        <h4 style={{fontWeight: '500', lineHeight: '1.5', marginLeft: '1vw'}}>{text}</h4>
                     </div>
                 </div>
             </div>

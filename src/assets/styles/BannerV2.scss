@@ -5,6 +5,17 @@
     color: #FFF;
     overflow: hidden;
 
+    &::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #0000002e;
+        z-index: 1;
+    }
+
     .hero-bg-container {
         position: absolute;
         inset: 0;
@@ -26,7 +37,7 @@
 
     .hero-content {
         position: absolute;
-        bottom: 10%;
+        bottom: 5%;
         left: 4vw;
         z-index: 2;
         background: rgba(148, 228, 139, 0.2);
