@@ -12,7 +12,7 @@ type Slide = {
 const slides: Slide[] = [
     {
         heading: "Balancing Reliability & Sustainability",
-        bg: "/hero.webp",
+        bg: "/hero.jpg",
         img: "/hero-bottom.webp",
         text: "Dual energy portfolio for a balanced future - From onshore oil rigs to renewable solutions, we deliver energy responsibly."
     },

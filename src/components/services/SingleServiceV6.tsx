@@ -5,11 +5,10 @@ interface DataType {
     subTitle?: string;
     title?: string;
     text?: string;
-    number?: string;
 }
 
 const SingleServiceV6 = ({ service }: { service: DataType }) => {
-    const { icon, subTitle, title, text, number } = service
+    const { icon, subTitle, title, text } = service
 
     return (
         <>
@@ -23,7 +22,6 @@ const SingleServiceV6 = ({ service }: { service: DataType }) => {
                         <h3>{title}</h3>
                     </div>
                     <p>{text}</p>
-                    <span>{number}</span>
                 </div>
             </li>
         </>

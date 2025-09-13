@@ -4,23 +4,20 @@
         "icon": "9.png",
         "subTitle": "Expertise",
         "title": "Decades of Expertise",
-        "text": "Leveraging over two decades of combined leadership experience in Indian and international E&P basins.",
-        "number": "01"
+        "text": "Leveraging over two decades of combined leadership experience in Indian and international E&P basins."
     },
     {
         "id": 2,
         "icon": "10.png",
         "subTitle": "Projects",
         "title": "Strategic Projects Initiated",
-        "text": "Driving key projects, including our pioneering 5 TPD CBG plant and marginal field development initiatives.",
-        "number": "02"
+        "text": "Driving key projects, including our pioneering 5 TPD CBG plant and marginal field development initiatives."
     },
     {
         "id": 3,
         "icon": "11.png",
         "subTitle": "Team",
         "title": "Growing Team & Partners",
-        "text": "A dynamic core team complemented by strong collaborations with industry partners and local communities.",
-        "number": "03"
+        "text": "A dynamic core team complemented by strong collaborations with industry partners and local communities."
     }
 ]
