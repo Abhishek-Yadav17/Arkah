@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 const Dependency = () => {
     return (
         <>
-            <ScrollToTop symbol={<i className="fas fa-long-arrow-up"></i>} />
+            <ScrollToTop symbol={<i className="ri-arrow-up-line" />} />
             <ToastContainer />
         </>
     );
