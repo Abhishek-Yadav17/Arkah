@@ -21,8 +21,8 @@ const HeaderV2: React.FC = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li><Link to="/about">Our Story</Link></li>
-                                <li><Link to="/team">Leadership</Link></li>
-                                <li><Link to="/careers">Careers</Link></li>
+                                <li><Link to="/team">Our Purpose</Link></li>
+                                <li><Link to="/careers">Our Team</Link></li>
                             </ul>
                         </li>
 
@@ -32,8 +32,8 @@ const HeaderV2: React.FC = () => {
                             </Link>
                             <ul className="dropdown-menu">
                                 <li><Link to="/operations/philosophy">Operational Philosophy</Link></li>
-                                <li><Link to="/services/grid">Grid</Link></li>
-                                <li><Link to="/services/solar">Solar</Link></li>
+                                <li><Link to="/services/grid">Exploration & Production</Link></li>
+                                <li><Link to="/services/solar">Renewal Natural Gas</Link></li>
                             </ul>
                         </li>
 
