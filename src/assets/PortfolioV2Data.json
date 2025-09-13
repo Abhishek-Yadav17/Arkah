@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "thumb": "biogas.jpg",
+        "tag": "Gas",
+        "text": "Renewable Natural Gas (RNG/CBG)"
+    },
+    {
+        "id": 2,
+        "thumb": "Offshore.jpg",
+        "tag": "Production",
+        "text": "Oil & Gas Exploration & Production"
+    },
+    {
+        "id": 3,
+        "thumb": "Marginal.jpg",
+        "tag": "Development",
+        "text": "Marginal Field Development"
+    },
+    {
+        "id": 4,
+        "thumb": "recovery.png",
+        "tag": "Recovery",
+        "text": "Advanced Recovery Technologies (EOR)"
+    },
+    {
+        "id": 5,
+        "thumb": "reservoir.jpeg",
+        "tag": "Management",
+        "text": "Reservoir Management & Optimization"
+    },
+    {
+        "id": 6,
+        "thumb": "ESG2.jpg",
+        "tag": "Sustainability",
+        "text": "ESG Integration & Sustainability"
+    }
+]

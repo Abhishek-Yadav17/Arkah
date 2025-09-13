@@ -32,8 +32,28 @@ const HeaderV2: React.FC = () => {
                 <nav className="nav">
                     <ul>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">Who We Are</Link></li>
-                        <li><Link to="/services">Operations</Link></li>
+                        <li className="dropdown">
+                            <Link to="/about">
+                                Who We Are <span className="arrow">▼</span>
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/about">Our Story</Link></li>
+                                <li><Link to="/team">Leadership</Link></li>
+                                <li><Link to="/careers">Careers</Link></li>
+                            </ul>
+                        </li>
+
+                        <li className="dropdown">
+                            <Link to="/services">
+                                Operations <span className="arrow">▼</span>
+                            </Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/services/power">Power</Link></li>
+                                <li><Link to="/services/grid">Grid</Link></li>
+                                <li><Link to="/services/solar">Solar</Link></li>
+                            </ul>
+                        </li>
+
                         <li><Link to="/portfolio">ESG</Link></li>
                         <li><Link to="/team">Investors</Link></li>
                         <li><Link to="/about">Work With Us</Link></li>

@@ -42,7 +42,7 @@ const HomeAbout = () => {
                 Reviving <span>discovered fields</span>, deploying advanced recovery, and investing in <span>renewable natural gas.</span>
             </h2>
             <button>
-                Learn More About Us <i className="ri-arrow-right-fill"></i>
+                Who We Are <i className="ri-arrow-right-fill"></i>
             </button>
         </div>
     );

@@ -14,19 +14,19 @@ const slides: Slide[] = [
         heading: "Balancing Reliability & Sustainability",
         bg: "/hero.webp",
         img: "/hero-bottom.webp",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolor?"
+        text: "Dual energy portfolio for a balanced future - From onshore oil rigs to renewable solutions, we deliver energy responsibly."
     },
     {
         heading: "Empowering Communities Sustaining",
         bg: "/hero2.png",
         img: "/hero-bottom2.webp",
-        text: "Sustainability drives our mission to reshape the energy future."
+        text: "Energy that drives growth, supports communities, and protects our planet."
     },
     {
         heading: "Powering The Future Responsibly",
         bg: "/hero3.jpg",
         img: "/hero-bottom.webp",
-        text: "Empowering communities through renewable solutions."
+        text: "Revolutionizing the global energy landscape with innovation, sustainability, and operational excellence — blending traditional expertise with next-generation solutions."
     }
 ];
 
@@ -65,7 +65,7 @@ const BannerV2: React.FC = () => {
         return () => clearInterval(interval);
     }, [index]);
 
-    const { heading, img, text } = slides[index];
+    const { heading, text } = slides[index];
 
     return (
         <div className="hero-section" id="hero-section">
@@ -78,23 +78,15 @@ const BannerV2: React.FC = () => {
                     />
                 ))}
             </div>
-            
+
             <div className="hero-content" ref={contentRef}>
-                <div className="hero-left">
-                    <h1>{heading}</h1>
-                    <button>
-                        Explore More <i className="ri-arrow-right-fill"></i>
-                    </button>
-                </div>
-                <div className="hero-right">
-                    <div className="hero-right-img">
-                        <img src={img} alt="hero" />
-                    </div>
-                    <div className="hero-right-content">
-                        <h4>{text}</h4>
-                    </div>
-                </div>
+                <h1>{heading}</h1>
+                <h4>{text}</h4>
+                <button>
+                    Explore More <i className="ri-arrow-right-fill"></i>
+                </button>
             </div>
+
         </div>
     );
 };
