@@ -12,7 +12,7 @@ const SingleServiceV6 = ({ service }: { service: DataType }) => {
 
     return (
         <>
-            <li className="item-move-top-item" style={{ backgroundImage: 'url(/assets/img/shape/5.png)', border: '5px solid #C9F31D' }}>
+            <li className="item-move-top-item" style={{ backgroundImage: 'url(/assets/img/shape/5.png)', border: '5px solid #6ddd95' }}>
                 <div className="icon">
                     <img src={`/assets/img/icon/${icon}`} alt="Icon" width={200} height={200} />
                 </div>
