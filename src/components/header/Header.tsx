@@ -39,10 +39,10 @@ const HeaderV2: React.FC = () => {
 
                         <li><Link to="/portfolio">ESG</Link></li>
                         <li><Link to="/team">Investors</Link></li>
-                        <li><Link to="/about">Work With Us</Link></li>
+                        <li><Link to="/about">News Room</Link></li>
                     </ul>
                 </nav>
-                <button>Contact Us</button>
+                <li><Link to="/about">Contact Us</Link></li>
             </div>
         </header>
     );

@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background: rgba(148, 228, 139, 0.2);
+    background-color: #FFF;;
     backdrop-filter: blur(20px);
     padding: 1.5vw 0;
     transition: all 0.3s ease;
@@ -18,8 +18,8 @@
 
         img {
             position: absolute;
-            width: 12vw;
-            top: 20%;
+            width: 14vw;
+            top: 5%;
             margin-bottom: 1vw;
 
             @media (max-width: 768px) {
@@ -68,7 +68,7 @@
                         transition: all 0.3s ease;
 
                         li a {
-                            color: #fff;
+                            color: #FFF;
                             font-size: 1.1vw;
 
                             &:hover {
@@ -87,7 +87,7 @@
 
                 li {
                     a {
-                        color: #FFF;
+                        color: #000;
 
                         &:hover {
                             color: #6ddd95;
@@ -95,12 +95,11 @@
                     }
                 }
             }
+        }
 
-            button {
-
-                &:hover {
-                    color: #FFF;
-                }
+        li {
+            &:hover {
+                color: #6ddd95;
             }
         }
     }
