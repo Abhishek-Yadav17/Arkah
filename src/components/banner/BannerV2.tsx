@@ -35,6 +35,18 @@ const BannerV2: React.FC = () => {
     const contentRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+        const bgSlides = document.querySelectorAll('.hero-bg');
+
+        bgSlides.forEach((slide, i) => {
+            gsap.set(slide, { scale: i === index ? 1 : 1.2 });
+        });
+
+        gsap.to(bgSlides[index], {
+            scale: 1.2,
+            duration: 4,
+            ease: 'power2.out'
+        });
+
         const interval = setInterval(() => {
             const nextIndex = (index + 1) % slides.length;
 
@@ -49,21 +61,24 @@ const BannerV2: React.FC = () => {
                         ease: 'power2.out',
                         onComplete: () => {
                             setIndex(nextIndex);
-                            gsap.fromTo(
-                                contentRef.current,
-                                { opacity: 0, y: -20 },
-                                { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }
-                            );
+                            setTimeout(() => {
+                                gsap.fromTo(
+                                    contentRef.current,
+                                    { opacity: 0, y: -20 },
+                                    { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }
+                                );
+                            }, 1000);
                         }
                     }
                 );
             } else {
                 setIndex(nextIndex);
             }
-        }, 4000);
+        }, 6000);
 
         return () => clearInterval(interval);
     }, [index]);
+
 
     const { heading, text } = slides[index];
 
