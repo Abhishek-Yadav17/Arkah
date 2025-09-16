@@ -1,5 +1,3 @@
-import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
-import { Link } from "react-router-dom";
 import TeamV3Data from "../../assets/TeamV3Data.json";
 import SingleTeamV3 from './SingleTeamV3.js';
 
@@ -23,13 +21,6 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
                                     <h2 className="title split-text">
                                         Meet our experts
                                     </h2>
-                                </div>
-                                <div className="col-lg-6 text-end">
-                                    <Link to="/services" className="btn-circle">
-                                        <div className="button-content">
-                                            <span><img src={arrowLongRight} alt="Image Not Found" /></span> <strong>All Members</strong>
-                                        </div>
-                                    </Link>
                                 </div>
                             </div>
                         </div>

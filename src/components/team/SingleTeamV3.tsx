@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 interface DataType {
     id?: number;
     thumb?: string;
     name?: string;
     designation?: string;
+    text?: string;
 }
 
 const SingleTeamV3 = ({ team }: { team: DataType }) => {
-    const { id, thumb, name, designation } = team
+    const { id, thumb, name, designation, text } = team
+    const [showText, setShowText] = useState(false);
 
     return (
         <>
@@ -20,8 +23,17 @@ const SingleTeamV3 = ({ team }: { team: DataType }) => {
                 </div>
                 <div className="info">
                     <h4><Link to={`/team-details/${id}`}>{name}</Link></h4>
-                    <span>{designation}</span>
-                    <button style={{color: '#FFF', marginTop: '1vw'}}>More...</button>
+                    <span style={{display: 'block'}}>{designation}</span>
+                    <button
+                        onClick={() => setShowText(!showText)}
+                        style={{ marginTop: '1vw', padding: '8px 16px', fontSize: '14px', cursor: 'pointer', border: '1px solid #6ddd95', background: '#6ddd95', color: '#FFF'}}
+                    >
+                        {showText ? 'Hide' : 'Read More'}
+                    </button>
+
+                    {showText && (
+                        <p className="team-description" style={{ marginTop: '1vw' }}>{text}</p>
+                    )}
                 </div>
             </div>
         </>
