@@ -15,35 +15,23 @@ const ScrollText: React.FC = () => {
             scrollTrigger: {
                 trigger: ".scroll-text-section",
                 start: "top top",
-                end: "+=1000",
+                end: "+=100%",
                 scrub: 1,
                 pin: true,
+                pinSpacing: true,
             },
         });
 
-        tl.fromTo(
-            text1Ref.current,
-            { x: '-100%' },
-            { x: '80%', duration: 1 }
-        )
-            .fromTo(
-                text2Ref.current,
-                { x: '100%' },
-                { x: '-80%', duration: 1 },
-                "<"
-            )
-            .fromTo(
-                text3Ref.current,
-                { x: '-100%' },
-                { x: '80%', duration: 1 },
-                "<"
-            );
+        tl.fromTo(text1Ref.current, { x: '-100%' }, { x: '200%' })
+            .fromTo(text2Ref.current, { x: '100%' }, { x: '-200%' }, "<")
+            .fromTo(text3Ref.current, { x: '-100%' }, { x: '200%' }, "<");
 
         return () => {
             tl.scrollTrigger?.kill();
             tl.kill();
         };
     }, []);
+
 
 
     return (

@@ -3,15 +3,17 @@ interface DataType {
     titleFirst?: string;
     titleLast?: string;
     text?: string;
+    reverse?: boolean;
 }
 
 const SinglePortfolioV3Light = ({ portfolio }: { portfolio: DataType }) => {
     const {thumbLight, titleFirst, titleLast, text } = portfolio
+    const isReversed = portfolio.reverse;
 
     return (
         <>
             <div className="portfolio-style-three-item" style={{ border: '5px solid #6ddd95'}}>
-                <div className="row align-center">
+                <div className={`row align-center ${isReversed ? 'flex-row-reverse' : ''}`}>
                     <div className="col-lg-7">
                         <img src={`/${thumbLight}`} alt="Image Not Found" width={800} height={600} />
                     </div>

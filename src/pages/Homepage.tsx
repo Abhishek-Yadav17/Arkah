@@ -19,8 +19,8 @@ const Home2Light = () => {
                 <BannerV2 />
                 <ScrollText />
                 <HomeAbout />
-                <ServicesV6 />
                 <Features />
+                <ServicesV6 />
                 <FooterV2 sectionClass='bg-gray' />
             </div>
         </>

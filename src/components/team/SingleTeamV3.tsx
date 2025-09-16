@@ -21,6 +21,7 @@ const SingleTeamV3 = ({ team }: { team: DataType }) => {
                 <div className="info">
                     <h4><Link to={`/team-details/${id}`}>{name}</Link></h4>
                     <span>{designation}</span>
+                    <button style={{color: '#FFF', marginTop: '1vw'}}>More...</button>
                 </div>
             </div>
         </>
