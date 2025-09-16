@@ -38,5 +38,15 @@
         "age": "31",
         "email": "Jason@digital.com",
         "phone": "+44-20-7328-4502"
+    },
+    {
+        "id": 5,
+        "thumb": "placeholder.jpg",
+        "name": "Priyanka Phukan",
+        "designation": "Director, Corporate Affairs",
+        "text": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.",
+        "age": "31",
+        "email": "Jason@digital.com",
+        "phone": "+44-20-7328-4502"
     }
 ]

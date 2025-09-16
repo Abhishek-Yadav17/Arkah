@@ -13,7 +13,6 @@ const ServicesV6 = () => {
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
                             <div className="service-style-six-info">
-                                <h4 className="sub-title">Features</h4>
                                 <h2 className="title split-text">
                                     Why Partner With Arkah?
                                 </h2>

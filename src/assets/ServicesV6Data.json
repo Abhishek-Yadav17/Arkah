@@ -3,21 +3,35 @@
         "id": 1,
         "icon": "9.png",
         "subTitle": "Expertise",
-        "title": "Decades of Expertise",
-        "text": "Leveraging over two decades of combined leadership experience in Indian and international E&P basins."
+        "title": "Proven Expertise",
+        "text": "Backed by over 75 years of combined leadership experience, Arkah's team brings deep op-erational knowledge across the full energy value chain."
     },
     {
         "id": 2,
         "icon": "10.png",
-        "subTitle": "Projects",
-        "title": "Strategic Projects Initiated",
-        "text": "Driving key projects, including our pioneering 5 TPD CBG plant and marginal field development initiatives."
+        "subTitle": "Innovation",
+        "title": "Responsible Innovation",
+        "text": "We deliver cost-effective, sustainable, and technology-driven solutions that balance per-formance with responsibility to people and the planet."
     },
     {
         "id": 3,
         "icon": "11.png",
+        "subTitle": "Operations",
+        "title": "Operational Excellence",
+        "text": "With a track record in large-scale energy operations, Arkah ensures projects are executed with precision, efficiency, and uncompromising safety."
+    },
+    {
+        "id": 4,
+        "icon": "10.png",
+        "subTitle": "Features",
+        "title": "Scalable & Future-Ready",
+        "text": "Our integrated approach spans oil & gas and green energy, enabling partners to grow with confidence in a rapidly evolving market."
+    },
+    {
+        "id": 5,
+        "icon": "9.png",
         "subTitle": "Team",
-        "title": "Growing Team & Partners",
-        "text": "A dynamic core team complemented by strong collaborations with industry partners and local communities."
+        "title": "Shared Value Creation",
+        "text": "We focus on building long-term, inclusive partnerships that empower communities, create enduring stakeholder value, and safeguard the environment."
     }
 ]

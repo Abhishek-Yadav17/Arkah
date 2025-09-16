@@ -14,7 +14,6 @@ const HeaderV2: React.FC = () => {
                 <Link to="/"><img src="/logo.png" alt="logo" /></Link>
                 <nav className="nav">
                     <ul>
-                        <li><Link to="/">Home</Link></li>
                         <li className="dropdown">
                             <Link to="/about">
                                 Who We Are <span className="arrow">▼</span>
@@ -40,9 +39,9 @@ const HeaderV2: React.FC = () => {
                         <li><Link to="/portfolio">ESG</Link></li>
                         <li><Link to="/team">Investors</Link></li>
                         <li><Link to="/about">News Room</Link></li>
+                        <li><Link to="/about">Contact Us</Link></li>
                     </ul>
                 </nav>
-                <li><Link to="/about">Contact Us</Link></li>
             </div>
         </header>
     );
