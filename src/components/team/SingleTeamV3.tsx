@@ -11,7 +11,7 @@ interface DataType {
 
 const SingleTeamV3 = ({ team }: { team: DataType }) => {
     const { id, thumb, name, designation, text } = team
-    const [showText, setShowText] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
         <>
@@ -23,19 +23,40 @@ const SingleTeamV3 = ({ team }: { team: DataType }) => {
                 </div>
                 <div className="info">
                     <h4><Link to={`/team-details/${id}`}>{name}</Link></h4>
-                    <span style={{display: 'block'}}>{designation}</span>
+                    <span style={{ display: 'block' }}>{designation}</span>
                     <button
-                        onClick={() => setShowText(!showText)}
-                        style={{ marginTop: '1vw', padding: '8px 16px', fontSize: '14px', cursor: 'pointer', border: '1px solid #6ddd95', background: '#6ddd95', color: '#FFF'}}
+                        onClick={() => setIsModalOpen(true)}
+                        style={{ marginTop: '1vw', padding: '8px 16px', fontSize: '14px', cursor: 'pointer', border: '1px solid #6ddd95', background: '#6ddd95', color: '#FFF' }}
                     >
-                        {showText ? 'Hide' : 'Read More'}
+                        Read More
                     </button>
-
-                    {showText && (
-                        <p className="team-description" style={{ marginTop: '1vw' }}>{text}</p>
-                    )}
                 </div>
             </div>
+
+            {isModalOpen && (
+                <div style={{
+                    position: 'fixed', top: 0, left: 0, width: '100%',
+                    height: '100%', background: 'rgba(0,0,0,0.5)',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    zIndex: 9999
+                }}>
+                    <div style={{
+                        background: '#fff', padding: '2rem', maxWidth: '600px',
+                        borderRadius: '8px', position: 'relative'
+                    }}>
+                        <h3 style={{color: '#000'}}>{name}</h3>
+                        <p style={{color: '#000'}}>{text}</p>
+                        <button
+                            onClick={() => setIsModalOpen(false)}
+                            style={{
+                                position: 'absolute', top: '10px', right: '10px', color: '#FFF'
+                            }}
+                        >
+                            &times;
+                        </button>
+                    </div>
+                </div>
+            )}
         </>
     );
 };
