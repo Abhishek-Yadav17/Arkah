@@ -1,0 +1,22 @@
+.team-section {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    color: #FFF;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.218);
+        z-index: 1;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
