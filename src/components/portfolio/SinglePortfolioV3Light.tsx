@@ -16,7 +16,7 @@ const SinglePortfolioV3Light = ({ portfolio }: { portfolio: DataType }) => {
     return (
         <>
             <div className="portfolio-style-three-item" style={{ border: '5px solid #6ddd95' }}>
-                <div className={`row align-center ${isReversed ? 'flex-row-reverse' : ''}`}>
+                <div className={`row align-center ${isReversed ? 'flex-row-reverse' : ''}`} style={{ gap: '40px', flexWrap: 'nowrap' }}>
                     <div className="col-lg-7">
                         <img src={`/${thumbLight}`} alt="Image Not Found" width={800} height={600} />
                     </div>
