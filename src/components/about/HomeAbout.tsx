@@ -26,18 +26,6 @@ const HomeAbout = () => {
 
     return (
         <div className="page1">
-
-            <svg className="rotating-text" viewBox="0 0 100 100" ref={rotatingRef}>
-                <defs>
-                    <path id="circlePath" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
-                </defs>
-                <text>
-                    <textPath href="#circlePath">
-                        • Arkah's Focus • Arkah's Focus • Arkah's Focus
-                    </textPath>
-                </text>
-            </svg>
-
             <h2>
                 Reviving <span>discovered fields</span>, deploying advanced recovery, and investing in <span>renewable natural gas.</span>
             </h2>

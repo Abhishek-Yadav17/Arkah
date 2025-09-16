@@ -9,8 +9,18 @@ const ScrollText: React.FC = () => {
     const text1Ref = useRef<HTMLHeadingElement | null>(null);
     const text2Ref = useRef<HTMLHeadingElement | null>(null);
     const text3Ref = useRef<HTMLHeadingElement | null>(null);
+    const rotatingRef = useRef<SVGSVGElement>(null);
 
     useEffect(() => {
+
+        gsap.to(rotatingRef.current, {
+            rotate: 360,
+            repeat: -1,
+            ease: "none",
+            duration: 20,
+            transformOrigin: "50% 50%"
+        });
+
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: ".scroll-text-section",
@@ -35,11 +45,26 @@ const ScrollText: React.FC = () => {
 
 
     return (
-        <section className="scroll-text-section">
-            <h1 ref={text1Ref}>REVIVE</h1>
-            <h1 ref={text2Ref}>RECOVER</h1>
-            <h1 ref={text3Ref}>RENEW</h1>
-        </section>
+        <>
+            <div className="scroll-text">
+                <svg className="rotating-text" viewBox="0 0 100 100" ref={rotatingRef}>
+                    <defs>
+                        <path id="circlePath" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+                    </defs>
+                    <text>
+                        <textPath href="#circlePath">
+                            • Arkah's Focus • Arkah's Focus
+                        </textPath>
+                    </text>
+                </svg>
+                <section className="scroll-text-section">
+                    <h1 ref={text1Ref}>REVIVE</h1>
+                    <h1 ref={text2Ref}>RECOVER</h1>
+                    <h1 ref={text3Ref}>RENEW</h1>
+                </section>
+            </div>
+        </>
+
     );
 };
 
