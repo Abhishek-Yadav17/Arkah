@@ -9,7 +9,7 @@ interface DataType {
 const PortfolioV3Light = ({ sectionClass }: DataType) => {
     return (
         <>
-            <div className={`portfolio-style-three-area ${sectionClass ? sectionClass : ""}`}>
+            <div className={`portfolio-style-three-area ${sectionClass ? sectionClass : ""}`} style={{paddingTop: '5vw'}}>
                 <div className="container" style={{paddingBottom: '5vw'}}>
                     <div className="portfolio-style-three-items">
                         {PortfolioV3Data.map(portfolio =>

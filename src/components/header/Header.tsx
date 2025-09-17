@@ -16,7 +16,7 @@ const HeaderV2: React.FC = () => {
                     <ul>
                         <li className="dropdown">
                             <Link to="/about">
-                                Who We Are <span className="arrow">▼</span>
+                                Who We Are
                             </Link>
                             <ul className="dropdown-menu">
                                 <li><Link to="/about">Our Story</Link></li>
@@ -27,7 +27,7 @@ const HeaderV2: React.FC = () => {
 
                         <li className="dropdown">
                             <Link to="/services">
-                                Operations <span className="arrow">▼</span>
+                                Operations
                             </Link>
                             <ul className="dropdown-menu">
                                 <li><Link to="/operations/philosophy">Operational Philosophy</Link></li>
