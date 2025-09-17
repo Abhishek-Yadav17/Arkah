@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "../../assets/styles/HomeAbout.scss";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -27,11 +28,13 @@ const HomeAbout = () => {
     return (
         <div className="page1">
             <h2>
-                Reviving <span>discovered fields</span>, deploying advanced recovery, and investing in <span>renewable natural gas.</span>
+                Reviving <span>discovered fields</span>, advancing recovery technologies, and fueling the future with <span>renewable natural gas.</span>
             </h2>
-            <button>
-                Who We Are <i className="ri-arrow-right-fill"></i>
-            </button>
+            <Link to="/about">
+                <button>
+                    Who We Are <i className="ri-arrow-right-fill"></i>
+                </button>
+            </Link>
         </div>
     );
 };

@@ -53,7 +53,7 @@ const BannerV2: React.FC = () => {
 
         const interval = setInterval(() => {
             setIndex((prev) => (prev + 1) % slides.length);
-        }, 6000);
+        }, 8000);
 
         return () => clearInterval(interval);
     }, [index]);

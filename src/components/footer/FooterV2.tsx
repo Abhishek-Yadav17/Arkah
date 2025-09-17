@@ -10,7 +10,7 @@ interface DataType {
 const FooterV2 = ({ sectionClass }: DataType) => {
     return (
         <>
-            <footer className={`style-two ${sectionClass ? sectionClass : ""}`} style={{marginTop: '6vw'}}>
+            <footer className={`style-two ${sectionClass ? sectionClass : ""}`} style={{marginTop: '6vw', backgroundColor: '#6ddd95'}}>
                 <div className="container">
                     <div className="f-items">
                         <div className="row">
