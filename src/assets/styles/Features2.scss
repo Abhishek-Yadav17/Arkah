@@ -34,7 +34,7 @@
             .feature-box {
                 display: flex;
                 flex-direction: column;
-                background: white;
+                background: rgba(255, 255, 255, 0.353);
                 padding: 2vw;
                 box-shadow: 0 1.5vw 3vw rgba(0, 0, 0, 0.12);
                 flex: 1;
@@ -42,9 +42,21 @@
                 height: 16vw;
                 transition: all ease 0.5s;
                 border-radius: 2px;
+                position: relative;
+                border-bottom: 5px solid #FFF;
 
-                &:hover {
-                    background-color: #e2ebc7;
+                h4 {
+                    color: #FFF;
+                }
+
+                svg {
+                    color: #FFF;
+                }
+
+                img {
+                    position: absolute;
+                    bottom: 1%;
+                    right: 10%;
                 }
             }
         }
@@ -57,15 +69,27 @@
 
         .feature-box {
             flex: 1;
-            background: white;
+            background: rgba(255, 255, 255, 0.353);
             padding: 3vw;
             box-shadow: 0 1.5vw 3vw rgba(0, 0, 0, 0.12);
             font-weight: 600;
             transition: all ease 0.5s;
             height: 16vw;
+            position: relative;
+            border-bottom: 5px solid #FFF;
 
-            &:hover {
-                background-color: #e2ebc7;
+            h4 {
+                color: #FFF;
+            }
+
+            svg {
+                color: #FFF;
+            }
+
+            img {
+                position: absolute;
+                bottom: 1%;
+                right: 10%;
             }
         }
     }

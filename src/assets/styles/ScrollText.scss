@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #6DDD95;
 
     .rotating-text {
         width: 15vw;
@@ -27,7 +28,7 @@
 
     .scroll-text-section {
         height: 100vh;
-        background-color: #fff;
+        background-color: #6DDD95;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -36,7 +37,7 @@
         h1 {
             font-size: 10vw;
             font-weight: bold;
-            color: #6DDD95;
+            color: #FFF;
             margin: 0;
         }
 
