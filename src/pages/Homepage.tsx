@@ -6,6 +6,7 @@ import HeaderV2 from "../components/header/Header";
 import HomeAbout from "../components/about/HomeAbout";
 import ScrollText from "../components/animation/ScrollText";
 import Features2 from "../components/features/Features2";
+import BrandV1 from "../components/brand/BrandV1";
 
 const Home2Light = () => {
     return (
@@ -19,6 +20,7 @@ const Home2Light = () => {
                 <BannerV2 />
                 <ScrollText />
                 <HomeAbout />
+                <BrandV1 />
                 <Features2 />
                 <ServicesV6 />
                 <FooterV2 sectionClass='bg-gray' />

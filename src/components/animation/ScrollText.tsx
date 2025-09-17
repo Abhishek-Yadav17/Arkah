@@ -51,8 +51,8 @@ const ScrollText: React.FC = () => {
                     <defs>
                         <path id="circlePath" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
                     </defs>
-                    <text>
-                        <textPath href="#circlePath">
+                    <text textLength="220">
+                        <textPath href="#circlePath" startOffset="0">
                             • Arkah's Focus • Arkah's Focus
                         </textPath>
                     </text>
