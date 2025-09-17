@@ -7,28 +7,33 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const HomeAbout = () => {
-    
-    const rotatingRef = useRef<SVGSVGElement>(null);
+    const textRef = useRef<HTMLHeadingElement | null>(null);
 
     useEffect(() => {
+        if (!textRef.current) return;
 
-        gsap.to(rotatingRef.current, {
-            rotate: 360,
-            repeat: -1,
-            ease: "none",
-            duration: 20,
-            transformOrigin: "50% 50%"
-        });
+        const el = textRef.current;
+        const chars = el.textContent?.split("") || [];
+        el.innerHTML = chars.map(c => `<span class="char">${c}</span>`).join("");
 
-        return () => {
-            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-        };
+        gsap.fromTo(
+            el.querySelectorAll(".char"),
+            { color: "#b9b2b2ff" },
+            {
+                color: "#fff",
+                stagger: 0.05,
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 80%",
+                },
+            }
+        );
     }, []);
 
     return (
         <div className="page1">
-            <h2>
-                Reviving <span>discovered fields</span>, advancing recovery technologies, and fueling the future with <span>renewable natural gas.</span>
+            <h2 ref={textRef}>
+                Reviving discovered fields, advancing recovery technologies, and fueling the future with renewable natural gas.
             </h2>
             <Link to="/about">
                 <button>
