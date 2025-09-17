@@ -38,8 +38,8 @@ const HeaderV2: React.FC = () => {
 
                         <li><Link to="/portfolio">ESG</Link></li>
                         <li><Link to="/team">Investors</Link></li>
-                        <li><Link to="/about">News Room</Link></li>
-                        <li><Link to="/about">Contact Us</Link></li>
+                        <li><Link to="/newsroom">News Room</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </nav>
             </div>
