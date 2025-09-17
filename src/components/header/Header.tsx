@@ -36,7 +36,7 @@ const HeaderV2: React.FC = () => {
                             </ul>
                         </li>
 
-                        <li><Link to="/portfolio">ESG</Link></li>
+                        <li><Link to="/about2">ESG</Link></li>
                         <li><Link to="/team">Investors</Link></li>
                         <li><Link to="/newsroom">News Room</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
