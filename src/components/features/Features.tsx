@@ -1,9 +1,9 @@
 import React from "react";
-import "../../assets/styles/Features2.scss";
+import "../../assets/styles/Features.scss";
 
-const Features2: React.FC = () => {
+const Features: React.FC = () => {
     return (
-        <section className="features2-section">
+        <section className="features-section">
             <div className="features-top">
                 <div className="features-left">
                     <h1>What We Do</h1>
@@ -11,23 +11,13 @@ const Features2: React.FC = () => {
                 </div>
 
                 <div className="features-right">
-                    <div className="feature-box">
-                        <h4>Renewable Natural Gas (RNG/CBG)</h4>
-                        <span className="plus-icon" aria-label="expand">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <circle cx="12" cy="12" r="10" />
-                                <line x1="12" y1="8" x2="12" y2="16" />
-                                <line x1="8" y1="12" x2="16" y2="12" />
-                            </svg>
-                        </span>
-                        <img src="/rng-cbg-icon-1.png" alt="" />
-                    </div>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, animi! Repudiandae deserunt nostrum id enim porro possimus quas modi, quaerat doloribus quidem vitae corrupti? Architecto veritatis ullam tempore perspiciatis labore exercitationem, magnam fugiat dignissimos dolorem reprehenderit rerum sed autem commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nemo optio laboriosam totam expedita natus amet aliquid sint harum provident.</h4>
                 </div>
             </div>
 
             <div className="features-bottom">
                 <div className="feature-box">
-                    <h4>Reservoir Management & Optimization</h4>
+                    <h4>Operating Philosophy</h4>
                     <span className="plus-icon" aria-label="expand">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <circle cx="12" cy="12" r="10" />
@@ -38,7 +28,7 @@ const Features2: React.FC = () => {
                     <img src="/reservoir-icon-1.png" alt="" />
                 </div>
                 <div className="feature-box">
-                    <h4>ESG Integration & Sustainability</h4>
+                    <h4>Exploration & Production</h4>
                     <span className="plus-icon" aria-label="expand">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <circle cx="12" cy="12" r="10" />
@@ -49,7 +39,7 @@ const Features2: React.FC = () => {
                     <img src="/esg-icon-1.png" alt="" />
                 </div>
                 <div className="feature-box">
-                    <h4>Marginal Field Development</h4>
+                    <h4>Renewable Natural Gas</h4>
                     <span className="plus-icon" aria-label="expand">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <circle cx="12" cy="12" r="10" />
@@ -57,11 +47,22 @@ const Features2: React.FC = () => {
                             <line x1="8" y1="12" x2="16" y2="12" />
                         </svg>
                     </span>
-                    <img src="/marginal-field-icon-1.png" alt="" />
+                    <img src="/rng-cbg-icon-1.png" alt="" />
+                </div>
+                <div className="feature-box">
+                    <h4>Sustainability</h4>
+                    <span className="plus-icon" aria-label="expand">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" y1="8" x2="12" y2="16" />
+                            <line x1="8" y1="12" x2="16" y2="12" />
+                        </svg>
+                    </span>
+                    <img src="/eor-icon-1.png" alt="" />
                 </div>
             </div>
         </section>
     );
 };
 
-export default Features2;
+export default Features;
