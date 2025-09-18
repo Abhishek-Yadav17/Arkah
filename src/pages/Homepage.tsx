@@ -7,7 +7,6 @@ import HomeAbout from "../components/about/HomeAbout";
 import ScrollText from "../components/animation/ScrollText";
 import Features2 from "../components/features/Features2";
 import BrandV1 from "../components/brand/BrandV1";
-import Features from "../components/features/Features";
 
 const Home2Light = () => {
     return (
@@ -23,7 +22,6 @@ const Home2Light = () => {
                 <HomeAbout />
                 <BrandV1 />
                 <Features2 />
-                <Features />
                 <ServicesV6 />
                 <FooterV2 sectionClass='bg-gray' />
             </div>
