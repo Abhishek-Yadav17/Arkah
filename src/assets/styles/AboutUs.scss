@@ -28,7 +28,7 @@
             align-items: center;
 
             img {
-                height: 70%;
+                height: 80%;
                 width: 100%;
                 object-fit: cover;
                 object-position: center;
@@ -68,6 +68,10 @@
         &:nth-last-child(1) {
             height: 35vw;
 
+            img {
+                height: 90%;
+            }
+
             button {
                 width: fit-content;
             }
@@ -75,6 +79,12 @@
 
         &:nth-last-child(2) {
             height: 45vw;
+        }
+        
+        &:nth-last-child(3) {
+            img {
+                height: 100%;
+            }
         }
     }
 }

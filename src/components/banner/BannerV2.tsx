@@ -13,7 +13,7 @@ const slides: Slide[] = [
     {
         heading: "Powering the Future Responsibly",
         bg: "/OilRig1.jpg",
-        text: "Revolutionizing the global energy landscape with innovation, sustainability, and operational excellence — blending traditional expertise with next-generation solutions.",
+        text: "Revolutionizing the global energy landscape with innovation, sustainability and operational excellence — blending traditional expertise with next-generation solutions.",
         btn: "Who We Are"
     },
     {
@@ -25,7 +25,7 @@ const slides: Slide[] = [
     {
         heading: "Empowering Communities, Sustaining Tomorrow",
         bg: "/esg.png",
-        text: "Delivering energy that fuels economic growth, strengthens communities, and safeguards our planet — while advancing a circular economy model that creates long-term, sustainable value.",
+        text: "Delivering energy that fuels economic growth, strengthens communities and safeguards our planet — while advancing a circular economy model that creates long-term and sustainable value.",
         btn: "Sustainability Commitment"
     }
 ];
