@@ -54,6 +54,14 @@
                 color: #FFF;
                 line-height: 1.5;
                 font-weight: 400;
+
+                &:nth-child(4) {
+                    background-color: #6DDD95;
+                    border-radius: 10px;
+                    font-style: italic;
+                    padding: 0 1vw;
+                    color: #000;
+                }
             }
         }
 
