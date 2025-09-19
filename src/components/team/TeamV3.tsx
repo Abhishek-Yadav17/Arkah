@@ -17,10 +17,7 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
                         <div className="site-heading">
                             <div className="row align-center">
                                 <div className="col-lg-6">
-                                    <h4 className="sub-title">Team member</h4>
-                                    <h2 className="title split-text">
-                                        Meet our experts
-                                    </h2>
+                                    <h4 className="sub-title" style={{color: '#FFF'}}>Our Core Team Members</h4>
                                 </div>
                             </div>
                         </div>

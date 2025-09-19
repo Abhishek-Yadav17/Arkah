@@ -20,7 +20,7 @@ const Features2: React.FC = () => {
                                 <line x1="8" y1="12" x2="16" y2="12" />
                             </svg>
                         </span>
-                        <img src="/rng-cbg-icon-1.png" alt="" />
+                        <img src="/philosophy.png" alt="philosophy" />
                     </div>
                 </div>
             </div>

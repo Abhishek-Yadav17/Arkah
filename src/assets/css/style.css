@@ -6671,23 +6671,15 @@ ul.list-style-two li:last-child {
 	align-items: center;
 	justify-content: center;
 	animation: slide-left 50s linear infinite;
-	height: 40vh;
+	height: 20vh;
 }
 
 .brand-conetnt h2 {
-	font-size: 120px;
+	font-size: 90px;
 	margin: 0 40px;
 	font-weight: 700;
 	line-height: 1.4;
-	text-decoration: underline;
-	color: var(--color-heading);
-}
-
-.brand-conetnt .item:nth-child(2n) h2 {
-	-webkit-text-stroke: 1px var(--color-heading);
-	color: transparent;
-	border: none;
-	text-decoration: none;
+	color: #1A5F32;
 }
 
 .brand-style-two-area .brand-conetnt .item:nth-child(2n) h2 {
@@ -6708,7 +6700,7 @@ ul.list-style-two li:last-child {
 .brand-conetnt .item:nth-child(1)::before {
 	position: absolute;
 	left: -70px;
-	top: 50%;
+	top: 45%;
 	content: "";
 	height: 80px;
 	width: 80px;
@@ -9982,17 +9974,9 @@ a.btn-circle:hover strong {
 .team-style-three-area {
 	position: relative;
 	z-index: 1;
-}
-
-.team-style-three-area::after {
-	position: absolute;
-	left: 0;
-	top: 0;
-	content: "";
-	bottom: 40%;
-	width: 100%;
-	background: url(/assets/img/shape/5.png);
-	z-index: -1;
+	background-image: url(/bg-12.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 .team-style-three-item {
