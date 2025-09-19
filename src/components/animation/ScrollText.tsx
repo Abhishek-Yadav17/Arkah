@@ -16,20 +16,20 @@ const ScrollText: React.FC = () => {
         });
 
         gsap.utils.toArray<HTMLElement>(".scroll-h1").forEach((el, i) => {
-    gsap.fromTo(
-        el,
-        { x: i % 2 === 0 ? -500 : 500 },
-        {
-            x: i % 2 === 0 ? 500 : -500,
-            scrollTrigger: {
-                trigger: el,
-                start: "top bottom",
-                end: "bottom top",
-                scrub: true,
-            }
-        }
-    );
-});
+            gsap.fromTo(
+                el,
+                { x: i % 2 === 0 ? -500 : 500 },
+                {
+                    x: i % 2 === 0 ? 500 : -500,
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top bottom",
+                        end: "bottom top",
+                        scrub: true,
+                    }
+                }
+            );
+        });
 
     }, []);
 

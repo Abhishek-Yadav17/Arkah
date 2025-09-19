@@ -6671,6 +6671,7 @@ ul.list-style-two li:last-child {
 	align-items: center;
 	justify-content: center;
 	animation: slide-left 50s linear infinite;
+	height: 40vh;
 }
 
 .brand-conetnt h2 {
@@ -6707,7 +6708,7 @@ ul.list-style-two li:last-child {
 	content: "";
 	height: 80px;
 	width: 80px;
-	background: url(/assets/img/shape/12.png);
+	background: url(/favicon.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: contain;

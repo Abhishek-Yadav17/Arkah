@@ -1,7 +1,7 @@
 const BrandV1 = () => {
     return (
         <>
-            <div className="brand-area relative overflow-hidden text-light" style={{height: '50vh', paddingTop: '3vw'}}>
+            <div className="brand-area relative overflow-hidden text-light">
                 <div className="brand-style-one">
                     <div className="container-fill">
                         <div className="row">
@@ -9,44 +9,35 @@ const BrandV1 = () => {
                                 <div className="brand-items">
                                     <div className="brand-conetnt">
                                         <div className="item">
-                                            <h2>Energy</h2>
+                                            <h2>Fueling</h2>
                                         </div>
                                         <div className="item">
-                                            <h2>Sustainability</h2>
+                                            <h2>Future</h2>
                                         </div>
                                         <div className="item">
-                                            <h2>Exploration</h2>
-                                        </div>
-                                        <div className="item">
-                                            <h2>Innovation</h2>
+                                            <h2>Responsibly</h2>
                                         </div>
                                     </div>
                                     <div className="brand-conetnt">
                                         <div className="item">
-                                            <h2>Energy</h2>
+                                            <h2>Fueling</h2>
                                         </div>
                                         <div className="item">
-                                            <h2>Sustainability</h2>
+                                            <h2>Future</h2>
                                         </div>
                                         <div className="item">
-                                            <h2>Exploration</h2>
-                                        </div>
-                                        <div className="item">
-                                            <h2>Innovation</h2>
+                                            <h2>Responsibly</h2>
                                         </div>
                                     </div>
                                     <div className="brand-conetnt">
                                         <div className="item">
-                                            <h2>Energy</h2>
+                                            <h2>Fueling</h2>
                                         </div>
                                         <div className="item">
-                                            <h2>Sustainability</h2>
+                                            <h2>Future</h2>
                                         </div>
                                         <div className="item">
-                                            <h2>Exploration</h2>
-                                        </div>
-                                        <div className="item">
-                                            <h2>Innovation</h2>
+                                            <h2>Responsibly</h2>
                                         </div>
                                     </div>
                                 </div>
