@@ -26,21 +26,20 @@ const HeaderV2: React.FC = () => {
                         </li>
 
                         <li className="dropdown">
-                            <Link to="/services">
-                                Operations
+                            <Link to="">
+                                What We Do
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/operations/philosophy">Operational Philosophy</Link></li>
+                                <li><Link to="/operations/philosophy">Operating Philosophy</Link></li>
                                 <li><Link to="/services/grid">Exploration & Production</Link></li>
-                                <li><Link to="/services/solar">Renewal Natural Gas</Link></li>
+                                <li><Link to="/services/solar">Renewable Natural Gas</Link></li>
                             </ul>
                         </li>
 
-                        <li><Link to="/about">What We Do</Link></li>
                         <li><Link to="/team">Sustainability</Link></li>
                         <li><Link to="/investors">Investors</Link></li>
                         <li><Link to="/newsroom">News Room</Link></li>
-                        <li><Link to="/contact">Contact Us</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
             </div>

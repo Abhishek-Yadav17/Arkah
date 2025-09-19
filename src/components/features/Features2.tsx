@@ -35,7 +35,7 @@ const Features2: React.FC = () => {
                             <line x1="8" y1="12" x2="16" y2="12" />
                         </svg>
                     </span>
-                    <img src="/reservoir-icon-1.png" alt="" />
+                    <img src="/marginal-field-icon-1.png" alt="" />
                 </div>
                 <div className="feature-box">
                     <h4>Renewable Natural Gas</h4>
@@ -46,7 +46,7 @@ const Features2: React.FC = () => {
                             <line x1="8" y1="12" x2="16" y2="12" />
                         </svg>
                     </span>
-                    <img src="/esg-icon-1.png" alt="" />
+                    <img src="/rng-cbg-icon-1.png" alt="" />
                 </div>
                 <div className="feature-box">
                     <h4>Sustainability</h4>
@@ -57,7 +57,7 @@ const Features2: React.FC = () => {
                             <line x1="8" y1="12" x2="16" y2="12" />
                         </svg>
                     </span>
-                    <img src="/marginal-field-icon-1.png" alt="" />
+                    <img src="/esg-icon-1.png" alt="" />
                 </div>
             </div>
         </section>
