@@ -7,7 +7,7 @@ const Features2: React.FC = () => {
             <div className="features-top">
                 <div className="features-left">
                     <h1>What We Do</h1>
-                    <h4>Arkah revitalizes fields through targeted redevelopment and advanced recovery, boosting production responsibly while reducing decline. In parallel, we scale renewable natural gas to decarbonize systems and create circular value for communities. This dual strategy ensures predictable cash flow, lowers emissions, and drives resilient growth — balancing performance with purpose.</h4>
+                    <h4>Arkah revitalizes discovered fields through targeted redevelopment and advanced recovery, boosting production responsibly while reducing decline. In parallel, we scale renewable natural gas to decarbonize systems and create circular value for communities. This dual strategy ensures predictable cash flow, lowers emissions and drives resilient growth - balancing performance with purpose.</h4>
                 </div>
 
                 <div className="features-right">

@@ -4,21 +4,21 @@
         "icon": "9.png",
         "subTitle": "Expertise",
         "title": "Proven Expertise",
-        "text": "Backed by over 75 years of combined leadership experience, Arkah's team brings deep op-erational knowledge across the full energy value chain."
+        "text": "Backed by over 75 years of combined leadership experience, Arkah's team brings deep operational knowledge across the full energy value chain."
     },
     {
         "id": 2,
         "icon": "10.png",
         "subTitle": "Innovation",
         "title": "Responsible Innovation",
-        "text": "We deliver cost-effective, sustainable, and technology-driven solutions that balance per-formance with responsibility to people and the planet."
+        "text": "We deliver cost-effective, sustainable and technology-driven solutions that balance performance with responsibility to people and the planet."
     },
     {
         "id": 3,
         "icon": "11.png",
         "subTitle": "Operations",
         "title": "Operational Excellence",
-        "text": "With a track record in large-scale energy operations, Arkah ensures projects are executed with precision, efficiency, and uncompromising safety."
+        "text": "With a track record in large-scale energy operations, Arkah ensures projects are executed with precision, efficiency and uncompromising safety."
     },
     {
         "id": 4,
@@ -32,6 +32,6 @@
         "icon": "9.png",
         "subTitle": "Team",
         "title": "Shared Value Creation",
-        "text": "We focus on building long-term, inclusive partnerships that empower communities, create enduring stakeholder value, and safeguard the environment."
+        "text": "We focus on building long-term, inclusive partnerships that empower communities, create enduring stakeholder value and safeguard the environment."
     }
 ]

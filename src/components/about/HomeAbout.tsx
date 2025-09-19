@@ -33,7 +33,7 @@ const HomeAbout = () => {
     return (
         <div className="page1">
             <h2 ref={textRef}>
-                Reviving discovered fields, advancing recovery technologies, and fueling the future with renewable natural gas.
+                Reviving discovered fields, advancing recovery technologies and fueling the future with renewable natural gas.
             </h2>
             <Link to="/about">
                 <button>
