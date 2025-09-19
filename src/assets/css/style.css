@@ -6676,7 +6676,7 @@ ul.list-style-two li:last-child {
 
 .brand-conetnt h2 {
 	font-size: 120px;
-	margin: 0 80px;
+	margin: 0 40px;
 	font-weight: 700;
 	line-height: 1.4;
 	text-decoration: underline;
@@ -6701,9 +6701,13 @@ ul.list-style-two li:last-child {
 	position: relative;
 }
 
-.brand-conetnt .item::after {
+.brand-conetnt .item:nth-child(1) {
+	margin-left: 100px;
+}
+
+.brand-conetnt .item:nth-child(1)::before {
 	position: absolute;
-	right: -40px;
+	left: -70px;
 	top: 50%;
 	content: "";
 	height: 80px;
