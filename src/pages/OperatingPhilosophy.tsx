@@ -2,9 +2,9 @@ import { Helmet } from "react-helmet-async";
 import HeaderV2 from "../components/header/Header";
 import FooterV2 from "../components/footer/FooterV2";
 import BannerV4 from "../components/banner/BannerV4";
-import ExplorationProductions from "../components/operations/ExplorationProductions";
+import OperationPhilosophy from "../components/operations/OperationPhilosophy";
 
-const ExplorationProduction = () => {
+const OperatingPhilosophy = () => {
     return (
         <>
             <Helmet>
@@ -14,11 +14,11 @@ const ExplorationProduction = () => {
             <div className="smooth-scroll-container">
                 <HeaderV2 />
                 <BannerV4 />
-                <ExplorationProductions />
+                <OperationPhilosophy />
                 <FooterV2 sectionClass="bg-gray" />
             </div>
         </>
     );
 };
 
-export default ExplorationProduction;
+export default OperatingPhilosophy;

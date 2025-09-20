@@ -1,6 +1,6 @@
-import "../../assets/styles/ExplorationProduction.scss";
+import "../../assets/styles/OperationPhilosophy.scss";
 
-const ExplorationProductions = () => {
+const OperationPhilosophy = () => {
 
     return (
         <section className="expro">
@@ -50,4 +50,4 @@ const ExplorationProductions = () => {
     );
 };
 
-export default ExplorationProductions;
+export default OperationPhilosophy;

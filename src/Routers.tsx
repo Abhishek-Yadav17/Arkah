@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import Home2Light from "./pages/Homepage";
-import OperationPhilosophy from "./pages/OperationsPhilosophy";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import NewsRoom from "./pages/NewsRoom";
 import About2 from "./pages/About2";
-import ExplorationProduction from "./pages/ExplorationProduction";
+import OperatingPhilosophy from "./pages/OperatingPhilosophy";
+import RenewableGas from "./pages/RenewableGas";
 
 const Routers = () => {
     return (
@@ -16,8 +16,8 @@ const Routers = () => {
                 <Route path='/team' element={<Team />}></Route>
                 <Route path='/contact' element={<Contact />}></Route>
                 <Route path='/newsroom' element={<NewsRoom />}></Route>
-                <Route path="/operations/philosophy" element={<OperationPhilosophy />} />
-                <Route path="/operations/expro" element={<ExplorationProduction />} />
+                <Route path="/operations/philosophy" element={<OperatingPhilosophy />} />
+                <Route path="/operations/renewable-natural-gas" element={<RenewableGas />} />
             </Routes>
         </>
     );

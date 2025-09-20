@@ -7909,7 +7909,7 @@ a.btn-full i {
 	content: "";
 	height: 0;
 	width: 400%;
-	background: linear-gradient(90deg, var(--dark-optional) 20%, #1d1d1d 100%);
+	background: linear-gradient(90deg, var(--dark-optional) 10%, #1C5D34 30%);
 	z-index: -1;
 	transition: all 0.35s ease-in-out;
 	opacity: 0;

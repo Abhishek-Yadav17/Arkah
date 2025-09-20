@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "activeClass": "active",
+        "icon": "17.png",
+        "subTitle": "RNG/CBG",
+        "title": "Opportunity in RNG/CBG",
+        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "listData": ["Strong market pull: Rising demand from transport industry and city gas networks", "Policy momentum: Backed by national programs such as SATAT", "Sustainable upside: Circular, waste-to-value model with near-zero carbon intensity", "First-mover advantage: High potential in semi-urban and rural clusters"],
+        "illustration": "2.png"
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "icon": "18.png",
+        "subTitle": "Our Approach ",
+        "title": "Execution-first, end-to-end delivery",
+        "text": "Regular indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "listData": ["Smart siting: Land and location selected by regional biomass mapping and logistics access", "Turnkey build: Design, EPC, commissioning and performance ramp-up under one roof", "Operational excellence: Training and capacity building for reliable and long-term operations", "Integrated model: Enables faster setup, smoother rollout and consistent plant performance"],
+        "illustration": "3.png"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "icon": "19.png",
+        "subTitle": "Process",
+        "title": "How we create value",
+        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "listData": ["Scalable, sustainable returns from proven waste-to-energy economics", "Community impact: Local jobs, soil regeneration, and cleaner air", "Go-to-market ready: Potential to build a retail network for", "CBG fuel distribution (fleet, city gas, industrial)", "Bio-fertilizer & agriculture inputs (offline and e-commerce)"],
+        "illustration": "4.png"
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "icon": "17.png",
+        "subTitle": "Challenges",
+        "title": "Challenges We Navigate",
+        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "listData": ["Feedstock volatility: Secure tie-ups with farmers, FPOs, and municipal sources", "Capex discipline: Lean engineering, modular scale-up and IRR-focused design", "Value maximization: Co-products such as bio-fertilizer/organic manure for added revenue and soil health"],
+        "illustration": "2.png"
+    },
+    {
+        "id": 5,
+        "activeClass": "",
+        "icon": "18.png",
+        "subTitle": "Our Edge ",
+        "title": "Our Edge",
+        "text": "Regular indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "listData": ["Dual-Energy Expertise: Deep oil & gas know-how blended with renewable innovation", "Local Partnerships: Long-term feedstock tie-ups with farmers, FPOs, and municipalities", "Lean Engineering: Cost-disciplined design ensuring better IRR and faster breakeven", "Scalable Model: Modular plants that expand with demand and supply availability", "ESG Impact: Tangible benefits in emissions reduction, soil regeneration and rural livelihoods"],
+        "illustration": "3.png"
+    },
+    {
+        "id": 6,
+        "activeClass": "",
+        "icon": "19.png",
+        "subTitle": "Rewards",
+        "title": "Rewards",
+        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
+        "listData": ["Sustainable Returns: A scalable, future-ready energy business with strong ROI", "Circular Economy Gains: Localized fuel, bio-fertilizer and agri-input ecosystem", "Community Empowerment: Jobs, skill development and income stability in rural areas", "Environmental Impact: Reduced dependence on fossil fuels and cleaner air quality", "Retail Potential: Opportunity to build a dual-channel network for: CBG distribution (fleets, city gas, industries) Bio-fertilizer & agri products (offline and digital platforms)"],
+        "illustration": "4.png"
+    }
+]

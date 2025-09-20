@@ -1,24 +1,24 @@
 import { Helmet } from "react-helmet-async";
 import HeaderV2 from "../components/header/Header";
 import FooterV2 from "../components/footer/FooterV2";
-import BannerV3 from "../components/banner/BannerV3";
-import ServicesV3 from "../components/services/ServicesV3";
+import BannerV2 from "../components/banner/BannerV2";
+import ServicesV2 from "../components/services/ServicesV2";
 
-const OperationPhilosophy = () => {
+const RenewableGas = () => {
     return (
         <>
             <Helmet>
-                <title>Operational Philosophy - Arkah</title>
+                <title>Renewable Natural Gas - Arkah</title>
             </Helmet>
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV3 />
-                <ServicesV3 sectionClass='default-padding' hasTitle={true} />
+                <BannerV2 />
+                <ServicesV2 />
                 <FooterV2 sectionClass="bg-gray" />
             </div>
         </>
     );
 };
 
-export default OperationPhilosophy;
+export default RenewableGas;
