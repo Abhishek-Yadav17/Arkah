@@ -2,23 +2,23 @@ import { Helmet } from "react-helmet-async";
 import HeaderV2 from "../components/header/Header";
 import FooterV2 from "../components/footer/FooterV2";
 import BannerV4 from "../components/banner/BannerV4";
-import OperationPhilosophy from "../components/operations/OperationPhilosophy";
+import ServicesV3 from "../components/services/ServicesV3";
 
-const OperatingPhilosophy = () => {
+const ExplorationProduction = () => {
     return (
         <>
             <Helmet>
-                <title>Operating Philosophy - Arkah</title>
+                <title>Exploration & Production - Arkah</title>
             </Helmet>
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
                 <BannerV4 />
-                <OperationPhilosophy />
+                <ServicesV3 sectionClass='default-padding' hasTitle={true} />
                 <FooterV2 sectionClass="bg-gray" />
             </div>
         </>
     );
 };
 
-export default OperatingPhilosophy;
+export default ExplorationProduction;

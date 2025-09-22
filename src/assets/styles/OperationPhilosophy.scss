@@ -1,4 +1,4 @@
-.expro {
+.op {
     min-height: 100vh;
     width: 100%;
     padding: 5vw;
@@ -25,7 +25,7 @@
         line-height: 1.5;
     }
 
-    .expro-inner {
+    .op-inner {
         min-height: 100vh;
         width: 100%;
         display: flex;
@@ -33,7 +33,7 @@
         gap: 6vw;
         margin-top: 5vw;
 
-        .expro-elem {
+        .op-elem {
             height: fit-content;
             width: 100%;
             display: flex;
@@ -45,7 +45,7 @@
                 flex-direction: row-reverse;
             }
 
-            .expro-left {
+            .op-left {
                 width: 50%;
                 height: 100%;
                 padding: 2vw;
@@ -62,7 +62,7 @@
                 }
             }
 
-            .expro-right {
+            .op-right {
                 width: 50%;
                 border-radius: 10px;
                 height: 100%;

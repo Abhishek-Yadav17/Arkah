@@ -4053,7 +4053,7 @@ a.btn-round-animation:hover::after {
 	left: 0;
 	right: 0;
 	mix-blend-mode: overlay;
-	background-image: linear-gradient(var(--dark), transparent 1px), linear-gradient(to right, var(--dark), transparent 1px);
+	/* background-image: linear-gradient(var(--dark), transparent 1px), linear-gradient(to right, var(--dark), transparent 1px); */
 	background-size: 100% 51px, 51px 100%;
 	opacity: 0.1;
 }
@@ -8168,6 +8168,7 @@ a.btn-full i {
 	transition: all 300ms ease;
 	position: relative;
 	gap: 30px;
+	flex-wrap: wrap;
 }
 
 .service-style-three-items li {
@@ -8178,7 +8179,7 @@ a.btn-full i {
 	margin: 0;
 	padding: 60px 37px;
 	list-style: none;
-	width: 30%;
+	width: 25%;
 	height: inherit;
 	background-position: center center;
 	background-size: cover;

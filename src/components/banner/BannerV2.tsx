@@ -10,7 +10,7 @@ const BannerV2 = () => {
                     <div className="row align-center">
                         <div className="col-lg-7">
                             <div className="banner-two-content">
-                                <h2 className="item-title" style={{fontSize: '5vw', lineHeight: '1'}}>Tapping India's Agricultural Power for a Greener Future</h2>
+                                <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Tapping India's Agricultural Power for a Greener Future</h2>
                                 <div className="d-flex">
                                     <img src={thumb5} alt="Image Not Found" />
 
