@@ -8367,6 +8367,10 @@ a.btn-full i {
 	font-size: 24px;
 }
 
+.cteative-service-item ul li {
+	list-style: disc;
+}
+
 .services-item-one-items .services-carousel {
 	padding-left: 1px;
 }
@@ -8471,24 +8475,19 @@ a.btn-full i {
 	border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.services-button-next::after {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	content: "\f061";
-	font-family: "Font Awesome 5 Pro";
-	transform: translate(-50%, -50%);
-	margin-top: 1px;
+.services-button-prev, .services-button-next {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.services-button-prev::after {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	content: "\f060";
-	font-family: "Font Awesome 5 Pro";
-	transform: translate(-50%, -50%);
-	margin-top: 1px;
+.services-button-prev i, .services-button-next i {
+  font-size: 24px;
+  color: #000;
 }
 
 .services-nav {

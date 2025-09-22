@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "titleFirst": "Opportunity in",
+    "titleLast": "Marginal Oil & Gas Fields",
+    "icon": "9.png",
+    "text": [
+      "Untapped potential: For focused operators",
+      "Underexploited reserves: Attractive upside with room for smart development",
+      "Lower competitive intensity: Faster access and clearer execution pathways",
+      "Favourable project economics: Compelling returns for disciplined, cost-aware operators"
+    ],
+    "number": "01"
+  },
+  {
+    "id": 2,
+    "titleFirst": "Our Approach:",
+    "titleLast": "Asset-Light, Execution-First",
+    "icon": "11.png",
+    "text": [
+      "Lean and asset-light strategy to maximize returns and minimize risk",
+      "Acquisition and Participating Interest in marginal and discovered small fields",
+      "Low Capex & Opex through proven, scalable development models",
+      "Manageable technical risk supported by subsurface expertise and advanced recovery techniques"
+    ],
+    "number": "02"
+  },
+  {
+    "id": 3,
+    "titleFirst": "How we",
+    "titleLast": "Create Value",
+    "icon": "12.png",
+    "text": [
+      "Rapid evaluation and screening of high-potential assets",
+      "Targeted workovers, re-completions and infill drilling",
+      "Deployment of artificial lift technologies to boost production",
+      "Vendor partnerships for high-uptime, low-cost operations"
+    ],
+    "number": "03"
+  },
+  {
+    "id": 4,
+    "titleFirst": "Challenges",
+    "titleLast": "We Navigate",
+    "icon": "13.png",
+    "text": [
+      "Asset aggregation: Identifying and building a quality portfolio",
+      "Entry navigation: Streamlined regulatory and commercial onboarding"
+    ],
+    "number": "04"
+  },
+  {
+    "id": 5,
+    "titleFirst": "Our",
+    "titleLast": "Edge",
+    "icon": "12.png",
+    "text": [
+      "Deep domain expertise: Subsurface, drilling and production",
+      "Proactive stakeholder engagement with regulators, partners and communities",
+      "Repeatable playbook from evaluation to steady-state production"
+    ],
+    "number": "05"
+  },
+  {
+    "id": 6,
+    "titleFirst": "The Reward:",
+    "titleLast": "Scaling into a Full-Cycle Operator",
+    "icon": "13.png",
+    "text": [
+      "Achieve USD 125 million in revenue by Year 6 of operations",
+      "Deliver sustained value for investors and stakeholders",
+      "Contribute to India's domestic energy security and long-term growth"
+    ],
+    "number": "06"
+  }
+]
