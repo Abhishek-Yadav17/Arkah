@@ -13,7 +13,7 @@ const Team = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV4 />
+                <BannerV4 imageSrc="/Team.jpg" />
                 <TeamV3 sectionClass="bg-dark" hasTitle={true} />
                 <FooterV2 sectionClass="bg-gray" />
             </div>
