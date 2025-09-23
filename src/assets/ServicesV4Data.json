@@ -29,7 +29,7 @@
     "id": 3,
     "titleFirst": "How we",
     "titleLast": "Create Value",
-    "icon": "12.png",
+    "icon": "11.png",
     "text": [
       "Rapid evaluation and screening of high-potential assets",
       "Targeted workovers, re-completions and infill drilling",
@@ -42,7 +42,7 @@
     "id": 4,
     "titleFirst": "Challenges",
     "titleLast": "We Navigate",
-    "icon": "13.png",
+    "icon": "9.png",
     "text": [
       "Asset aggregation: Identifying and building a quality portfolio",
       "Entry navigation: Streamlined regulatory and commercial onboarding"
@@ -51,9 +51,9 @@
   },
   {
     "id": 5,
-    "titleFirst": "Our",
-    "titleLast": "Edge",
-    "icon": "12.png",
+    "titleFirst": "Our Edge",
+    "titleLast": "Expertise, Engagement, Execution",
+    "icon": "11.png",
     "text": [
       "Deep domain expertise: Subsurface, drilling and production",
       "Proactive stakeholder engagement with regulators, partners and communities",
@@ -65,7 +65,7 @@
     "id": 6,
     "titleFirst": "The Reward:",
     "titleLast": "Scaling into a Full-Cycle Operator",
-    "icon": "13.png",
+    "icon": "9.png",
     "text": [
       "Achieve USD 125 million in revenue by Year 6 of operations",
       "Deliver sustained value for investors and stakeholders",

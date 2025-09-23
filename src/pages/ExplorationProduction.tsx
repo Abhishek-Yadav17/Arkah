@@ -13,7 +13,7 @@ const ExplorationProduction = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV4 />
+                <BannerV4 imageSrc="/expro.jpg"/>
                 <ServicesV4 />
                 <FooterV2 sectionClass="bg-gray" />
             </div>

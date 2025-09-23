@@ -1,10 +1,14 @@
 import React from 'react';
 import '../../assets/styles/BannerV4.scss';
 
-const BannerV4: React.FC = () => {
+interface BannerV4Props {
+    imageSrc: string;
+}
+
+const BannerV4: React.FC<BannerV4Props> = ({ imageSrc }) => {
     return (
         <div className="team-section">
-            <img src="/team2.jpg" alt="team" />
+            <img src={imageSrc} alt="op" />
         </div>
     );
 };

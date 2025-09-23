@@ -13,7 +13,7 @@ const SingleServiceV4 = ({ service }: { service: DataType }) => {
 
     return (
         <>
-            <div className="cteative-service-item">
+            <div className="cteative-service-item" style={{height: '35vw'}}>
                 <div className="top">
                     <h4>{titleFirst} <strong>{titleLast}</strong></h4>
                     <img src={`/assets/img/icon/${icon}`} alt="Icon" width={200} height={200} />

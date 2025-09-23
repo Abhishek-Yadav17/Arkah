@@ -12,15 +12,16 @@
 
     h1 {
         color: #FFF;
-        align-self: flex-start;
+        align-self: center;
         font-size: 5vw;
         margin-bottom: 2vw;
     }
 
     h4 {
         color: #FFF;
-        width: 50%;
-        align-self: flex-start;
+        width: 80%;
+        align-self: center;
+        text-align: center;
         font-weight: 400;
         line-height: 1.5;
     }
@@ -59,6 +60,7 @@
                     color: #FFF;
                     width: 100%;
                     font-weight: 400;
+                    text-align: left;
                 }
             }
 

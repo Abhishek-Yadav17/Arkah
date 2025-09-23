@@ -32,7 +32,7 @@ const OperationPhilosophy = () => {
                         <h4>Integrity, safety and sustainability are embedded in every decision. From subsurface planning to renewa-ble projects, we prioritize strategies that reduce environmental impact, improve efficiency and uphold the highest ethical standards. Our focus is on delivering reliable energy while ensuring that progress never comes at the cost of responsibility.</h4>
                     </div>
                     <div className="op-right">
-                        <img src="/o3.jpg" alt="" />
+                        <img src="/o4.jpg" alt="" />
                     </div>
                 </div>
                 <div className="op-elem">
