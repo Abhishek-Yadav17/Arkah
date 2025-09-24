@@ -13,7 +13,7 @@ const OperatingPhilosophy = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV4 imageSrc="/op.png" />
+                <BannerV4 imageSrc="/bulb.png" />
                 <OperationPhilosophy />
                 <FooterV2 sectionClass="bg-gray" />
             </div>

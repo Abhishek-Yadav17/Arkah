@@ -10,7 +10,7 @@ const BannerV2 = () => {
                             <div className="banner-two-content">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Tapping India's Agricultural Power for a Greener Future</h2>
                                 <div className="d-flex">
-                                    <img src='/banner4.jpg' alt="Image Not Found"/>
+                                    <img src='/recycle.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
                                         At Arkah Energies, Renewable Natural Gas (RNG/CBG) is the cornerstone of our dual-energy strategy—powering growth today while accelerating India's transition to low-carbon fuel systems.
@@ -20,7 +20,7 @@ const BannerV2 = () => {
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <div className="banner-two-thumb">
-                                <img src='/energy1.png' alt="Image Not Found" />
+                                <img src='/banner4.jpg' alt="Image Not Found" />
                                 <img src={shape1} alt="Image Not Found" />
                             </div>
                         </div>
