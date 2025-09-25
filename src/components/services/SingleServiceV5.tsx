@@ -8,7 +8,7 @@ interface DataType {
     number?: string;
 }
 
-const SingleServiceV4 = ({ service }: { service: DataType }) => {
+const SingleServiceV5 = ({ service }: { service: DataType }) => {
     const { titleFirst, titleLast, icon, text, number } = service;
 
     return (
@@ -31,4 +31,4 @@ const SingleServiceV4 = ({ service }: { service: DataType }) => {
     );
 };
 
-export default SingleServiceV4;
+export default SingleServiceV5;

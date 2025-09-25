@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import HeaderV2 from "../components/header/Header";
 import FooterV2 from "../components/footer/FooterV2";
 import BannerV4 from "../components/banner/BannerV4";
-import OperationPhilosophy from "../components/operations/OperationPhilosophy";
+import ServicesV7 from "../components/services/ServicesV7";
 
 const OperatingPhilosophy = () => {
     return (
@@ -14,7 +14,7 @@ const OperatingPhilosophy = () => {
             <div className="smooth-scroll-container">
                 <HeaderV2 />
                 <BannerV4 imageSrc="/bulb.png" />
-                <OperationPhilosophy />
+                <ServicesV7 />
                 <FooterV2 sectionClass="bg-gray" />
             </div>
         </>
