@@ -16,6 +16,7 @@ const ServicesV7 = () => {
                         <div className="col-lg-6">
                             <div className="site-heading">
                                 <h4 className="sub-title">Operating Philosophy</h4>
+                                <h5 style={{fontWeight: '400', marginTop: '2vw', lineHeight: '1.5'}}>At Arkah Energies, our philosophy is rooted in balance, responsibility and innovation. We believe the energy industry must evolve in a way that honours tradition while embracing transformation. Our operating philosophy reflects a dual commitment: to responsibly advance hydrocarbon recovery while accelerating the renewable energy transition—ensuring that we fuel progress today while protecting tomorrow.</h5>
                             </div>
                         </div>
                     </div>

@@ -30,9 +30,9 @@ const HeaderV2: React.FC = () => {
                                 What We Do
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/operations/operating-philosophy">Operating Philosophy</Link></li>
-                                <li><Link to="/operations/expro">Exploration & Production</Link></li>
-                                <li><Link to="/operations/renewable-natural-gas">Renewable Natural Gas</Link></li>
+                                <li><Link to="/what-we-do#operating-philosophy">Operating Philosophy</Link></li>
+                                <li><Link to="/what-we-do#exploration-production">Exploration & Production</Link></li>
+                                <li><Link to="/what-we-do#renewable-natural-gas">Renewable Natural Gas</Link></li>
                             </ul>
                         </li>
 

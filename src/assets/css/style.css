@@ -4018,10 +4018,6 @@ a.btn-round-animation:hover::after {
 	}
 }
 
-.banner-style-two-area {
-	border-bottom: 1px solid #e7e7e7;
-}
-
 .bg-dark .banner-style-two-area {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }

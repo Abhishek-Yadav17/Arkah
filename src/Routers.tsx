@@ -4,9 +4,7 @@ import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import NewsRoom from "./pages/NewsRoom";
 import About2 from "./pages/About2";
-import OperatingPhilosophy from "./pages/OperatingPhilosophy";
-import RenewableGas from "./pages/RenewableGas";
-import ExplorationProduction from "./pages/ExplorationProduction";
+import WhatWeDo from "./pages/WhatWeDo";
 
 const Routers = () => {
     return (
@@ -17,9 +15,7 @@ const Routers = () => {
                 <Route path='/team' element={<Team />}></Route>
                 <Route path='/contact' element={<Contact />}></Route>
                 <Route path='/newsroom' element={<NewsRoom />}></Route>
-                <Route path="/operations/operating-philosophy" element={<OperatingPhilosophy />} />
-                <Route path="/operations/expro" element={<ExplorationProduction />} />
-                <Route path="/operations/renewable-natural-gas" element={<RenewableGas />} />
+                <Route path="/what-we-do" element={<WhatWeDo />} />
             </Routes>
         </>
     );
