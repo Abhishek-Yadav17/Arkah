@@ -3,9 +3,10 @@ import shape1 from "/assets/img/shape/1.png";
 const BannerV2 = () => {
     return (
         <>
-            <div className="banner-style-two-area">
+            <div className="banner-style-two-area" style={{paddingTop: '-10vw'}}>
                 <div className="container">
                     <div className="row align-center">
+                        <h4 className="sub-title" style={{position: 'absolute', top: '10%'}}>Renewable Natural Gas</h4>
                         <div className="col-lg-7">
                             <div className="banner-two-content">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Tapping India's Agricultural Power for a Greener Future</h2>

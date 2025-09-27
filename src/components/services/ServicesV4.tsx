@@ -18,14 +18,25 @@ const ServicesV4 = () => {
             const scrollY = window.scrollY;
             const end = start + container.offsetHeight - window.innerHeight;
 
-            if (scrollY < start || scrollY > end) return;
+            const delayOffset = 100;
 
-            const progress = (scrollY - start) / (end - start);
+            if (scrollY < start + delayOffset) {
+                horizontal.style.transform = "translateX(0)";
+                return;
+            }
+            if (scrollY > end) {
+                horizontal.style.transform = `translateX(-${horizontal.scrollWidth - window.innerWidth}px)`;
+                return;
+            }
+
+            const progress = (scrollY - start - delayOffset) / (end - start - delayOffset);
+
+            const easedProgress = Math.pow(progress, 3);
+
             const maxTranslate = horizontal.scrollWidth - window.innerWidth;
-            const translateX = progress * maxTranslate;
-
-            horizontal.style.transform = `translateX(-${translateX}px)`;
+            horizontal.style.transform = `translateX(-${easedProgress * maxTranslate}px)`;
         };
+
 
         const setContainerHeight = () => {
             if (!containerRef.current || !horizontalRef.current) return;
@@ -50,7 +61,7 @@ const ServicesV4 = () => {
     return (
         <div
             className="services-style-four-area default-padding-bottom blurry-shape-left"
-            style={{ paddingTop: "5vw", position: "relative", height: "250vh" }}
+            style={{ position: "relative", height: "250vh" }}
             ref={containerRef}
         >
             <div className="container">

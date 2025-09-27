@@ -16,14 +16,14 @@ const SingleServiceV7 = ({ service }: { service: DataType }) => {
             style={{
                 minWidth: "36vw",
                 maxWidth: "36vw",
-                height: "30vw",
+                height: "28vw",
                 border: "5px solid #6ddd95",
                 padding: "2vw",
                 backgroundColor: "#fff",
                 flexShrink: 0,
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "space-between",
+                gap: '4vw',
                 textAlign: "left",
             }}
         >
@@ -56,7 +56,7 @@ const SingleServiceV7 = ({ service }: { service: DataType }) => {
                     }}
                 >
                     {text.map((item, index) => (
-                        <li key={index} style={{ marginBottom: "0.4vw" }}>
+                        <li key={index} style={{ marginBottom: "1vw" }}>
                             {item}
                         </li>
                     ))}

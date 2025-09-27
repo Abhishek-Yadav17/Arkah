@@ -26,7 +26,7 @@ const HeaderV2: React.FC = () => {
                         </li>
 
                         <li className="dropdown">
-                            <Link to="">
+                            <Link to="/what-we-do">
                                 What We Do
                             </Link>
                             <ul className="dropdown-menu">
