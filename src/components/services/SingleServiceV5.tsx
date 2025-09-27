@@ -1,6 +1,5 @@
-
 interface DataType {
-    id?: number;
+    id: number;
     titleFirst?: string;
     titleLast?: string;
     icon?: string;
@@ -12,22 +11,60 @@ const SingleServiceV5 = ({ service }: { service: DataType }) => {
     const { titleFirst, titleLast, icon, text, number } = service;
 
     return (
-        <>
-            <div className="cteative-service-item" style={{height: '35vw', border: '5px solid #6ddd95'}}>
-                <div className="top">
-                    <h4>{titleFirst} <strong>{titleLast}</strong></h4>
-                    <img src={`/assets/img/icon/${icon}`} alt="Icon" width={200} height={200} />
-                </div>
-                {text && (
-                    <ul>
-                        {text.map((item, index) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
-                )}
-                <span>{number}</span>
+        <div
+            className="cteative-service-item"
+            style={{
+                minWidth: "36vw",
+                maxWidth: "36vw",
+                height: "30vw",
+                border: "5px solid #6ddd95",
+                padding: "2vw",
+                backgroundColor: "#fff",
+                flexShrink: 0,
+                display: "flex",
+                flexDirection: "column",
+                gap: '2vw',
+                textAlign: "left",
+            }}
+        >
+            <div
+                className="top"
+                style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    gap: "1vw",
+                }}
+            >
+                <h4 style={{ margin: 0 }}>
+                    {titleFirst} <strong>{titleLast}</strong>
+                </h4>
+                <img
+                    src={`/assets/img/icon/${icon}`}
+                    alt="Icon"
+                    width={80}
+                    height={80}
+                />
             </div>
-        </>
+
+            {text && (
+                <ul
+                    style={{
+                        paddingLeft: 0,
+                        listStyle: "none",
+                        margin: "1vw 0 0 0",
+                    }}
+                >
+                    {text.map((item, index) => (
+                        <li key={index} style={{ marginBottom: "1vw" }}>
+                            {item}
+                        </li>
+                    ))}
+                </ul>
+            )}
+
+            <span style={{ marginTop: "0.5vw" }}>{number}</span>
+        </div>
     );
 };
 
