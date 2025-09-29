@@ -1,0 +1,73 @@
+.sustainable-section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vw;
+    background-image: url(/bg-12.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        font-size: 6vw;
+        color: #FFF;
+    }
+
+    .sustainable-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+
+        .box-inner {
+            display: flex;
+            justify-content: space-between;
+            height: 40vw;
+
+            .box-inner-left {
+                width: 50%;
+                height: 100%;
+                padding: 2vw 4vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h2 {
+                    font-size: 4vw;
+                    color: #FFF;
+                }
+
+                ul {
+                    color: #FFF;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1vw;
+                    font-size: 1.2vw;
+                    margin-top: 2vw;
+
+                    li {
+                        list-style: disc;
+                    }
+                }
+            }
+
+            .box-inner-right {
+                width: 50%;
+                height: 100%;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                }
+            }  
+            
+            &:nth-child(2n) {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}

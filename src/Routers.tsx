@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import NewsRoom from "./pages/NewsRoom";
 import About2 from "./pages/About2";
 import WhatWeDo from "./pages/WhatWeDo";
+import Sustainability from "./pages/Sustainability";
 
 const Routers = () => {
     return (
@@ -16,6 +17,7 @@ const Routers = () => {
                 <Route path='/contact' element={<Contact />}></Route>
                 <Route path='/newsroom' element={<NewsRoom />}></Route>
                 <Route path="/what-we-do" element={<WhatWeDo />} />
+                <Route path="/sustainability" element={<Sustainability />} />
             </Routes>
         </>
     );
