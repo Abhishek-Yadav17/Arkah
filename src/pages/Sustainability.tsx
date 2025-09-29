@@ -14,7 +14,7 @@ const Sustainability = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV4 imageSrc="/operating.jpg" />
+                <BannerV4 imageSrc="/esg7.jpg" />
                 <Sustainable />
                 <FooterV2 sectionClass="bg-gray" />
             </div>

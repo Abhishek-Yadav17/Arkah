@@ -4,8 +4,6 @@ import "../../assets/styles/Sustainable.scss";
 const Sustainable: React.FC = () => {
     return (
         <section className="sustainable-section">
-            <h1>Sustainability</h1>
-
             <div className="sustainable-box">
                 <div className="box-inner">
                     <div className="box-inner-left">
@@ -20,7 +18,7 @@ const Sustainable: React.FC = () => {
                         </ul>
                     </div>
                     <div className="box-inner-right">
-                        <img src="/energy1.png" alt="Sustainability Approach" />
+                        <img src="/sst1.jpg" alt="Sustainability Approach" />
                     </div>
                 </div>
 
@@ -35,7 +33,7 @@ const Sustainable: React.FC = () => {
                         </ul>
                     </div>
                     <div className="box-inner-right">
-                        <img src="/energy1.png" alt="Environmental Stewardship" />
+                        <img src="/sst2.jpg" alt="Environmental Stewardship" />
                     </div>
                 </div>
 
@@ -50,7 +48,7 @@ const Sustainable: React.FC = () => {
                         </ul>
                     </div>
                     <div className="box-inner-right">
-                        <img src="/energy1.png" alt="Social Responsibility" />
+                        <img src="/sst3.jpg" alt="Social Responsibility" />
                     </div>
                 </div>
 
