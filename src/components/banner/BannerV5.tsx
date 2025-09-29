@@ -1,20 +1,20 @@
 import shape1 from "/assets/img/shape/1.png";
 
-const BannerV2 = () => {
+const BannerV5 = () => {
     return (
         <>
             <div className="banner-style-two-area" style={{paddingTop: '-10vw'}}>
                 <div className="container">
                     <div className="row align-center">
-                        <h4 className="sub-title" style={{position: 'absolute', top: '10%', border: '2px solid #6DDD95', fontSize: '1.5vw'}}>Renewable Natural Gas</h4>
+                        <h4 className="sub-title" style={{position: 'absolute', top: '10%', border: '2px solid #6DDD95', fontSize: '1.5vw'}}>Exploration & Production</h4>
                         <div className="col-lg-7">
                             <div className="banner-two-content">
-                                <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Tapping India's Agricultural Power for a Greener Future</h2>
+                                <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Unlocking Value in India's Upstream Oil & Gas</h2>
                                 <div className="d-flex">
                                     <img src='/recycle.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
-                                        At Arkah Energies, Renewable Natural Gas (RNG/CBG) is the cornerstone of our dual-energy strategy—powering growth today while accelerating India's transition to low-carbon fuel systems.
+                                        At Arkah Energies, we are committed to driving growth in India's upstream oil & gas sector, with a sharp focus on marginal and discovered small fields. These assets are often overlooked, yet they represent some of the most promising opportunities for agile energy companies looking to combine efficiency, innovation and responsible operations.
                                     </p>
                                 </div>
                             </div>
@@ -32,4 +32,4 @@ const BannerV2 = () => {
     );
 };
 
-export default BannerV2;
+export default BannerV5;

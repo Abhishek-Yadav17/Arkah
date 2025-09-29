@@ -42,20 +42,7 @@ const ServicesV7 = () => {
             <div className="shape-left-top">
                 <img src={shape10} alt="Shape" />
             </div>
-
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6">
-                        <div className="site-heading">
-                            <h4 className="sub-title">Operating Philosophy</h4>
-                            <h2>
-                                Powering Progress with Purpose — balancing tradition and transformation to deliver energy that empowers today and safeguards tomorrow
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            
             <div
                 style={{
                     position: "sticky",

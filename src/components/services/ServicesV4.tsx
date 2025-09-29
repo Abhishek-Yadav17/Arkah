@@ -64,20 +64,6 @@ const ServicesV4 = () => {
             style={{ position: "relative", height: "250vh" }}
             ref={containerRef}
         >
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6">
-                        <div className="site-heading">
-                            <h4 className="sub-title">Exploration & Production</h4>
-                            <h2 className="title split-text" style={{ width: '120%' }}>
-                                Unlocking Value in India's Upstream Oil & Gas
-                            </h2>
-                            <h5 style={{ fontWeight: '400', marginTop: '2vw', lineHeight: '1.5' }}>At Arkah Energies, we are committed to driving growth in India's upstream oil & gas sector, with a sharp focus on marginal and discovered small fields. These assets are often overlooked, yet they represent some of the most promising opportunities for agile energy companies looking to combine efficiency, innovation and responsible operations</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div
                 style={{
                     position: "sticky",

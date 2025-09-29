@@ -8,6 +8,8 @@ import BannerV4 from "../components/banner/BannerV4";
 import ServicesV4 from "../components/services/ServicesV4";
 import ServicesV7 from "../components/services/ServicesV7";
 import ServicesV5 from "../components/services/ServicesV5";
+import BannerV7 from "../components/banner/BannerV7";
+import BannerV5 from "../components/banner/BannerV5";
 
 const WhatWeDo = () => {
 
@@ -36,10 +38,12 @@ const WhatWeDo = () => {
                 <BannerV4 imageSrc="/operating.jpg" />
 
                 <div id="operating-philosophy">
+                    <BannerV7 />
                     <ServicesV7 />
                 </div>
 
                 <div id="exploration-production">
+                    <BannerV5 />
                     <ServicesV4 />
                 </div>
 
