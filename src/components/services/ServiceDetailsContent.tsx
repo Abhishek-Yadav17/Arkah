@@ -11,9 +11,10 @@ const ServiceDetailsContent = ({ sectionClass }: ServiceDetailsProps) => {
 
     return (
         <>
-            <div className={`services-details-area ${sectionClass ? sectionClass : ""}`}>
+            <div className={`services-details-area ${sectionClass ? sectionClass : ""}`} style={{marginTop: '2vw'}}>
                 <div className="container">
                     <div className="services-details-items">
+                        <h4 style={{fontSize: '3vw'}}>Growth Path</h4>
                         <div className="mt-xs-20">
                             <div className="process-style-two" style={{ display: 'flex', justifyContent: 'space-between'}}>
                                 <div className="process-style-two-item">

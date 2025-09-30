@@ -14,20 +14,11 @@ const AboutV4 = ({ sectionClass }: DataType) => {
         <>
             <div className={`about-style-three-area default-padding-bottom ${sectionClass ? sectionClass : ""}`} style={{ paddingTop: '5vw' }}>
                 <div className="container">
-                    <div className="row align-center">
-                        <div className="col-lg-5">
-                            <div className="thumb-style-three">
-                                <img src={thumb11} alt="Image Not Found" />
-                                <div className="upDownScrol scroll-shape" />
-                            </div>
-                        </div>
-                        <div className="col-lg-6 offset-lg-1">
+                    <div className="row align-center" style={{justifyContent: 'space-between'}}>
+                        <div className="col-lg-6">
                             <div className="about-style-three-info text-scroll-animation" ref={containerRef}>
                                 <h2 className="title text">Risk & Mitigation</h2>
                                 <div className="d-flex mt-40">
-                                    <div className="left">
-                                        <h4 className="sub-title-border"><strong>About</strong></h4>
-                                    </div>
                                     <div className="right">
                                         {[
                                             "Commodity price volatility: Hedging frameworks, cost discipline, and diversified cash flows",
@@ -41,6 +32,11 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                         ))}
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-5">
+                            <div className="thumb-style-three">
+                                <img src={thumb11} alt="Image Not Found" />
                             </div>
                         </div>
                     </div>

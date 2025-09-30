@@ -18,16 +18,12 @@ const AboutV5 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-5">
                             <div className="thumb-style-three">
                                 <img src={thumb11} alt="Image Not Found" />
-                                <div className="upDownScrol scroll-shape" />
                             </div>
                         </div>
                         <div className="col-lg-6 offset-lg-1">
                             <div className="about-style-three-info text-scroll-animation" ref={containerRef}>
                                 <h2 className="title text">Governance & Transparency</h2>
                                 <div className="d-flex mt-40">
-                                    <div className="left">
-                                        <h4 className="sub-title-border"><strong>About</strong></h4>
-                                    </div>
                                     <div className="right">
                                         {[
                                             "Board-level oversight, independent audits, and clear delegation of authority",

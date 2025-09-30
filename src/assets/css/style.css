@@ -94,7 +94,7 @@ Sidebar heading:  22px 'Barlow', sans-serif
 :root {
 	--font-default: 'Barlow', sans-serif;
 	--font-heading: 'Barlow', sans-serif;
-	--fontawesome: "Font Awesome 5 Pro";
+	--fontawesome: "Font Awesome 5 Free";
 	--black: #000000;
 	--dark: #0e0f11;
 	--dark-secondary: #18191b;
@@ -11345,8 +11345,8 @@ h2.text-large-gradient {
 .faq-style-one button.accordion-button::after {
 	background: transparent;
 	content: "\f067";
-	font-family: "Font Awesome 5 Pro";
-	font-weight: 100;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
 	font-size: 13px;
 	position: absolute;
 	left: 0;

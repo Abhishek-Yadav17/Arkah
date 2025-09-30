@@ -17,7 +17,7 @@ const ServiceDetailsContent2 = ({ sectionClass }: ServiceDetailsProps) => {
                         <div className="d-flex justify-content-center mt-50">
                             <div className="item" style={{ width: '60%' }}>
                                 <div className="faq-style-one faq-style-two">
-                                    <h2 className="mb-30" style={{ fontSize: '4vw', textAlign: 'center',  }}>Any questions find here.</h2>
+                                    <h2 className="mb-30" style={{ fontSize: '4vw', textAlign: 'center',  }}>FAQs</h2>
                                     <div className="accordion" id="faqAccordion" style={{marginLeft: '4vw', marginTop: '4vw'}}>
                                         {[
                                             {

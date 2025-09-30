@@ -18,16 +18,12 @@ const AboutV3 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-5">
                             <div className="thumb-style-three">
                                 <img src={thumb11} alt="Image Not Found" />
-                                <div className="upDownScrol scroll-shape" />
                             </div>
                         </div>
                         <div className="col-lg-6 offset-lg-1">
                             <div className="about-style-three-info text-scroll-animation" ref={containerRef}>
                                 <h2 className="title text">ESG & Impact</h2>
                                 <div className="d-flex mt-40">
-                                    <div className="left">
-                                        <h4 className="sub-title-border"><strong>About</strong></h4>
-                                    </div>
                                     <div className="right">
                                         {[
                                             "Environmental: Emissions reduction, methane avoidance via RNG, waste-to-value pathways",
