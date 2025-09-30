@@ -8,33 +8,56 @@ const ServicesV5 = () => {
     const horizontalRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+        const container = containerRef.current;
+        const horizontal = horizontalRef.current;
 
-        const handleScroll = () => {
-            if (containerRef.current && horizontalRef.current) {
-                const containerTop = containerRef.current.offsetTop;
-                const scrollPos = window.scrollY;
-                const delayStart = 100;
+        if (!container || !horizontal) return;
 
-                let relativeScroll = scrollPos - containerTop - delayStart;
+        const delayOffset = 100;
 
-                if (relativeScroll < 0) relativeScroll = 0;
-
-                const maxScroll = containerRef.current.offsetHeight - window.innerHeight - delayStart;
-
-                const percentage = Math.min(Math.max(relativeScroll / maxScroll, 0), 1);
-
-                const maxTranslateX = horizontalRef.current.scrollWidth - window.innerWidth;
-
-                const translateX = percentage * maxTranslateX;
-
-                horizontalRef.current.style.transform = `translateX(-${translateX}px)`;
-            }
+        const setContainerHeight = () => {
+            const scrollWidth = horizontal.scrollWidth;
+            const extraScroll = scrollWidth - window.innerWidth + 2 * delayOffset + 50;
+            container.style.height = `${window.innerHeight + extraScroll}px`;
         };
 
+        const handleScroll = () => {
+            const containerTop = container.offsetTop;
+            const scrollY = window.scrollY;
 
+            const start = containerTop + delayOffset;
+            const end = containerTop + container.offsetHeight - window.innerHeight - delayOffset;
+
+            if (scrollY < start) {
+                horizontal.style.transform = "translateX(0)";
+                return;
+            }
+
+            if (scrollY > end) {
+                const maxTranslateX = horizontal.scrollWidth - window.innerWidth;
+                horizontal.style.transform = `translateX(-${maxTranslateX}px)`;
+                return;
+            }
+
+            const progress = (scrollY - start) / (end - start);
+            const easedProgress = Math.pow(progress, 3);
+
+            const maxTranslateX = horizontal.scrollWidth - window.innerWidth;
+            const translateX = easedProgress * maxTranslateX;
+
+            horizontal.style.transform = `translateX(-${translateX}px)`;
+        };
+
+        setContainerHeight();
         window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
+        window.addEventListener("resize", setContainerHeight);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("resize", setContainerHeight);
+        };
     }, []);
+
 
     return (
         <div

@@ -30,6 +30,13 @@
             width: 31.5%;
             display: flex;
             gap: 3vw;
+            position: relative;
+
+            a {
+                flex: 1;
+                display: flex;
+                text-decoration: none;
+            }
 
             .feature-box {
                 display: flex;
@@ -47,6 +54,7 @@
 
                 h4 {
                     color: #FFF;
+                    font-size: 1.8vw;
                 }
 
                 svg {
@@ -67,6 +75,12 @@
         justify-content: space-between;
         gap: 2vw;
 
+        a {
+            flex: 1;
+            display: flex;
+            text-decoration: none;
+        }
+
         .feature-box {
             flex: 1;
             background: rgba(255, 255, 255, 0.353);
@@ -80,6 +94,7 @@
 
             h4 {
                 color: #FFF;
+                font-size: 1.8vw;
             }
 
             svg {

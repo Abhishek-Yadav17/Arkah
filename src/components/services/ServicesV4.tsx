@@ -8,44 +8,41 @@ const ServicesV4 = () => {
     const horizontalRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+        const container = containerRef.current;
+        const horizontal = horizontalRef.current;
+
+        if (!container || !horizontal) return;
+
+        const delayOffset = 100;
+
+        const setContainerHeight = () => {
+            const scrollWidth = horizontal.scrollWidth;
+            const extraScroll = scrollWidth - window.innerWidth + 2 * delayOffset;
+            container.style.height = `${window.innerHeight + extraScroll}px`;
+        };
+
         const handleScroll = () => {
-            if (!containerRef.current || !horizontalRef.current) return;
-
-            const container = containerRef.current;
-            const horizontal = horizontalRef.current;
-
-            const start = container.offsetTop;
             const scrollY = window.scrollY;
+            const start = container.offsetTop;
             const end = start + container.offsetHeight - window.innerHeight;
 
-            const delayOffset = 100;
+            const totalScrollable = end - start;
 
             if (scrollY < start + delayOffset) {
                 horizontal.style.transform = "translateX(0)";
                 return;
             }
-            if (scrollY > end) {
+
+            if (scrollY > end - delayOffset) {
                 horizontal.style.transform = `translateX(-${horizontal.scrollWidth - window.innerWidth}px)`;
                 return;
             }
 
-            const progress = (scrollY - start - delayOffset) / (end - start - delayOffset);
-
+            const progress = (scrollY - start - delayOffset) / (totalScrollable - 2 * delayOffset);
             const easedProgress = Math.pow(progress, 3);
 
             const maxTranslate = horizontal.scrollWidth - window.innerWidth;
             horizontal.style.transform = `translateX(-${easedProgress * maxTranslate}px)`;
-        };
-
-
-        const setContainerHeight = () => {
-            if (!containerRef.current || !horizontalRef.current) return;
-
-            const horizontal = horizontalRef.current;
-            const scrollWidth = horizontal.scrollWidth;
-            const extraScroll = scrollWidth - window.innerWidth;
-
-            containerRef.current.style.height = `${window.innerHeight + extraScroll}px`;
         };
 
         setContainerHeight();
@@ -57,6 +54,7 @@ const ServicesV4 = () => {
             window.removeEventListener("resize", setContainerHeight);
         };
     }, []);
+
 
     return (
         <div

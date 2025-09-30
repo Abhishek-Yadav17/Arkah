@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../assets/styles/Features2.scss";
 
 const Features2: React.FC = () => {
@@ -11,54 +12,34 @@ const Features2: React.FC = () => {
                 </div>
 
                 <div className="features-right">
-                    <div className="feature-box">
-                        <h4>Operating Philosophy</h4>
-                        <span className="plus-icon" aria-label="expand">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <circle cx="12" cy="12" r="10" />
-                                <line x1="12" y1="8" x2="12" y2="16" />
-                                <line x1="8" y1="12" x2="16" y2="12" />
-                            </svg>
-                        </span>
-                        <img src="/philosophy.png" alt="philosophy" />
-                    </div>
+                    <Link to="/what-we-do#operating-philosophy">
+                        <div className="feature-box">
+                            <h4>Operating Philosophy</h4>
+                            <img src="/philosophy.png" alt="philosophy" />
+                        </div>
+                    </Link>
                 </div>
             </div>
 
             <div className="features-bottom">
-                <div className="feature-box">
-                    <h4>Exploration & Production</h4>
-                    <span className="plus-icon" aria-label="expand">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <circle cx="12" cy="12" r="10" />
-                            <line x1="12" y1="8" x2="12" y2="16" />
-                            <line x1="8" y1="12" x2="16" y2="12" />
-                        </svg>
-                    </span>
-                    <img src="/marginal-field-icon-1.png" alt="" />
-                </div>
-                <div className="feature-box">
-                    <h4>Renewable Natural Gas</h4>
-                    <span className="plus-icon" aria-label="expand">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <circle cx="12" cy="12" r="10" />
-                            <line x1="12" y1="8" x2="12" y2="16" />
-                            <line x1="8" y1="12" x2="16" y2="12" />
-                        </svg>
-                    </span>
-                    <img src="/rng-cbg-icon-1.png" alt="" />
-                </div>
-                <div className="feature-box">
-                    <h4>Sustainability</h4>
-                    <span className="plus-icon" aria-label="expand">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <circle cx="12" cy="12" r="10" />
-                            <line x1="12" y1="8" x2="12" y2="16" />
-                            <line x1="8" y1="12" x2="16" y2="12" />
-                        </svg>
-                    </span>
-                    <img src="/esg-icon-1.png" alt="" />
-                </div>
+                <Link to="/what-we-do#operating-philosophy">
+                    <div className="feature-box">
+                        <h4>Exploration & Production</h4>
+                        <img src="/marginal-field-icon-1.png" alt="" />
+                    </div>
+                </Link>
+                <Link to="/what-we-do#operating-philosophy">
+                    <div className="feature-box">
+                        <h4>Renewable Natural Gas</h4>
+                        <img src="/rng-cbg-icon-1.png" alt="" />
+                    </div>
+                </Link>
+                <Link to="/what-we-do#operating-philosophy">
+                    <div className="feature-box">
+                        <h4>Sustainability</h4>
+                        <img src="/esg-icon-1.png" alt="" />
+                    </div>
+                </Link>
             </div>
         </section>
     );

@@ -48,7 +48,7 @@ const Sustainable: React.FC = () => {
                         </ul>
                     </div>
                     <div className="box-inner-right">
-                        <img src="/sst3.jpg" alt="Social Responsibility" />
+                        <img src="/sst4.jpg" alt="Social Responsibility" />
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ const Sustainable: React.FC = () => {
                         </ul>
                     </div>
                     <div className="box-inner-right">
-                        <img src="/energy1.png" alt="Governance and Integrity" />
+                        <img src="/sst3.jpg" alt="Governance and Integrity" />
                     </div>
                 </div>
             </div>
