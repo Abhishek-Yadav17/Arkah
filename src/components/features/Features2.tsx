@@ -22,19 +22,19 @@ const Features2: React.FC = () => {
             </div>
 
             <div className="features-bottom">
-                <Link to="/what-we-do#operating-philosophy">
+                <Link to="/what-we-do#exploration-production">
                     <div className="feature-box">
                         <h4>Exploration & Production</h4>
                         <img src="/marginal-field-icon-1.png" alt="" />
                     </div>
                 </Link>
-                <Link to="/what-we-do#operating-philosophy">
+                <Link to="/what-we-do#renewable-natural-gas">
                     <div className="feature-box">
                         <h4>Renewable Natural Gas</h4>
                         <img src="/rng-cbg-icon-1.png" alt="" />
                     </div>
                 </Link>
-                <Link to="/what-we-do#operating-philosophy">
+                <Link to="/sustainability">
                     <div className="feature-box">
                         <h4>Sustainability</h4>
                         <img src="/esg-icon-1.png" alt="" />

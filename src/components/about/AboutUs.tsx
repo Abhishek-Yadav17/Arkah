@@ -1,11 +1,27 @@
 import "../../assets/styles/AboutUs.scss";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const AboutUs = () => {
 
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            const id = location.hash.replace("#", "");
+            const el = document.getElementById(id);
+            if (el) {
+                setTimeout(() => {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }, 100);
+            }
+        }
+    }, [location]);
+
     return (
         <section className="about-us">
-            <div className="about-cards">
+            <div className="about-cards" id="our-story">
                 <div className="about-cards-inner-top">
                     <img className="img1" src="/energy1.png" alt="team" />
                 </div>
@@ -19,7 +35,7 @@ const AboutUs = () => {
                     </h4>
                 </div>
             </div>
-            <div className="about-cards">
+            <div className="about-cards" id="our-purpose">
                 <div className="about-cards-inner-top">
                     <img src="/ESG2.jpg" alt="team" />
                 </div>
@@ -31,9 +47,9 @@ const AboutUs = () => {
                     </h4>
                 </div>
             </div>
-            <div className="about-cards">
+            <div className="about-cards" id="our-team">
                 <div className="about-cards-inner-top">
-                    <img src="/Team.jpg" alt="team" />
+                    <img src="/team2.jpg" alt="team" />
                 </div>
                 <div className="about-cards-inner-bottom">
                     <h1>Our Team</h1>

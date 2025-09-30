@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../../assets/styles/BannerV2.scss';
 import gsap from 'gsap';
 
@@ -75,9 +76,11 @@ const BannerV1: React.FC = () => {
             <div className="hero-content" ref={contentRef}>
                 <h1>{heading}</h1>
                 <h4>{text}</h4>
-                <button>
-                    {btn} <i className="ri-arrow-right-fill"></i>
-                </button>
+                <Link to='/about2'>
+                    <button>
+                        {btn} <i className="ri-arrow-right-fill"></i>
+                    </button>
+                </Link>
             </div>
 
         </div>

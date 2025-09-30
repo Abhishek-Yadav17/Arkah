@@ -21,7 +21,7 @@ const BannerV5 = () => {
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <div className="banner-two-thumb">
-                                <img src='/banner4.jpg' alt="Image Not Found" style={{height: '30vw', objectFit: 'cover'}} />
+                                <img src='/expro2.jpg' alt="Image Not Found" style={{height: '30vw', objectFit: 'cover'}} />
                                 <img src={shape1} alt="Image Not Found" />
                             </div>
                         </div>

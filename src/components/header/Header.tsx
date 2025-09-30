@@ -19,9 +19,9 @@ const HeaderV2: React.FC = () => {
                                 Who We Are
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/about">Our Story</Link></li>
-                                <li><Link to="/team">Our Purpose</Link></li>
-                                <li><Link to="/careers">Our Team</Link></li>
+                                <li><Link to="/about2#our-story">Our Story</Link></li>
+                                <li><Link to="/about2#our-purpose">Our Purpose</Link></li>
+                                <li><Link to="/about2#our-team">Our Team</Link></li>
                             </ul>
                         </li>
 

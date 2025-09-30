@@ -11,7 +11,7 @@ const BannerV7 = () => {
                             <div className="banner-two-content">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Tapping India's Agricultural Power for a Greener Future</h2>
                                 <div className="d-flex">
-                                    <img src='/recycle.jpg' alt="Image Not Found"/>
+                                    <img src='/opsub.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
                                         Powering Progress with Purpose — balancing tradition and transformation to deliver energy that empowers today and safeguards tomorrow.
@@ -21,7 +21,7 @@ const BannerV7 = () => {
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <div className="banner-two-thumb">
-                                <img src='/banner4.jpg' alt="Image Not Found" style={{height: '30vw', objectFit: 'cover'}} />
+                                <img src='/op5.jpg' alt="Image Not Found" style={{height: '30vw', objectFit: 'cover'}} />
                                 <img src={shape1} alt="Image Not Found" />
                             </div>
                         </div>

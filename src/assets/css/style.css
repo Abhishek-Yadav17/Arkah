@@ -6664,15 +6664,14 @@ ul.list-style-two li:last-child {
 
 .brand-conetnt {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	animation: slide-left 50s linear infinite;
-	height: 12vh;
+	height: 5vh;
 }
 
 .brand-conetnt h2 {
-	font-size: 70px;
-	margin: 0 40px;
+	font-size: 40px;
+	margin: 0 10px;
 	font-weight: 700;
 	line-height: 1.4;
 	color: #1A5F32;
@@ -6698,8 +6697,8 @@ ul.list-style-two li:last-child {
 	left: -70px;
 	top: 45%;
 	content: "";
-	height: 80px;
-	width: 80px;
+	height: 40px;
+	width: 40px;
 	background: url(/favicon.png);
 	background-repeat: no-repeat;
 	background-position: right center;
