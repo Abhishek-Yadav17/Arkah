@@ -11395,6 +11395,8 @@ h2.text-large-gradient {
 	padding-left: 40px;
 	padding-top: 15px;
 	padding-bottom: 0;
+	font-size: 18px;
+  line-height: 1.7;
 }
 
 .faq-style-one-content {

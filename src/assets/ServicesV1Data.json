@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "icon": "1.png",
+        "iconLight": "23.png",
+        "title": "Focused Strategy",
+        "text": [
+            "Disciplined asset selection: Discovered/marginal fields with clear development plans and short paybacks",
+            "RNG/CBG acceleration: Projects supported by national policy tailwinds (SATAT) and secured offtake structures",
+            "Asset-light execution: Cost-effective development with prudent risk management and strong vendor ecosystems"
+        ],
+        "activeClass": ""
+    },
+    {
+        "id": 2,
+        "icon": "2.png",
+        "iconLight": "24.png",
+        "title": "Dual-Energy Advantage",
+        "text": [
+            "Cash flow resilience: O&G production anchors near-term returns",
+            "Green growth optionality: RNG/CBG unlocks policy incentives, carbon benefits, and circular value chains"
+        ],
+        "activeClass": "active"
+    },
+    {
+        "id": 3,
+        "icon": "3.png",
+        "iconLight": "25.png",
+        "title": "Scalable Growth Path",
+        "text": [
+            "Phase-wise expansion: Enter, optimize, and aggregate to build a diversified, resilient portfolio",
+            "Digital uplift: Data-led production, uptime optimization, and cost discipline to enhance IRR"
+        ],
+        "activeClass": ""
+    },
+    {
+        "id": 4,
+        "icon": "4.png",
+        "iconLight": "26.png",
+        "title": "Leadership & Technical Edge",
+        "text": [
+            "Subsurface to surface excellence: Reservoir modeling, CEOR, and field development planning",
+            "Project delivery: Proven execution in complex environments with safety, integrity, and uptime at the core"
+        ],
+        "activeClass": ""
+    }
+]
