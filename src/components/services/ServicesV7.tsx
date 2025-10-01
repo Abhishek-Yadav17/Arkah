@@ -14,6 +14,7 @@ const ServicesV7 = () => {
                 const scrollPos = window.scrollY;
                 const relativeScroll = scrollPos - containerTop - window.innerHeight / 2;
 
+                const extraScroll = 200;
                 const maxScroll =
                     (containerRef.current.offsetHeight -
                         window.innerHeight +
@@ -21,13 +22,15 @@ const ServicesV7 = () => {
                         horizontalRef.current.scrollWidth) * 5;
 
                 const percentage = Math.min(Math.max(relativeScroll / maxScroll, 0), 1);
-                const translateX =
-                    percentage *
-                    (horizontalRef.current.scrollWidth - window.innerWidth);
+
+                const maxTranslate =
+                    horizontalRef.current.scrollWidth - window.innerWidth + extraScroll;
+                const translateX = percentage * maxTranslate;
 
                 horizontalRef.current.style.transform = `translateX(-${translateX}px)`;
             }
         };
+
 
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
@@ -42,7 +45,7 @@ const ServicesV7 = () => {
             <div className="shape-left-top">
                 <img src={shape10} alt="Shape" />
             </div>
-            
+
             <div
                 style={{
                     position: "sticky",

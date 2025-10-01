@@ -1,6 +1,5 @@
 import useScrollAnimation from '../../hooks/useScrollAnimation';
 import useUpDownScroll from '../../hooks/useUpDownScroll';
-import thumb11 from '/assets/img/thumb/11.jpg';
 
 interface DataType {
     sectionClass?: string
@@ -36,7 +35,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                         </div>
                         <div className="col-lg-5">
                             <div className="thumb-style-three">
-                                <img src={thumb11} alt="Image Not Found" />
+                                <img src='/migration.jpg' alt="Image Not Found" />
                             </div>
                         </div>
                     </div>

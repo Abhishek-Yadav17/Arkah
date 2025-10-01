@@ -14,11 +14,13 @@ const ServicesV4 = () => {
         if (!container || !horizontal) return;
 
         const delayOffset = 100;
+        const extraScroll = 200;
 
         const setContainerHeight = () => {
             const scrollWidth = horizontal.scrollWidth;
-            const extraScroll = scrollWidth - window.innerWidth + 2 * delayOffset;
-            container.style.height = `${window.innerHeight + extraScroll}px`;
+            const totalScroll =
+                scrollWidth - window.innerWidth + 2 * delayOffset + extraScroll;
+            container.style.height = `${window.innerHeight + totalScroll}px`;
         };
 
         const handleScroll = () => {
@@ -34,14 +36,19 @@ const ServicesV4 = () => {
             }
 
             if (scrollY > end - delayOffset) {
-                horizontal.style.transform = `translateX(-${horizontal.scrollWidth - window.innerWidth}px)`;
+                const maxTranslate =
+                    horizontal.scrollWidth - window.innerWidth + extraScroll;
+                horizontal.style.transform = `translateX(-${maxTranslate}px)`;
                 return;
             }
 
-            const progress = (scrollY - start - delayOffset) / (totalScrollable - 2 * delayOffset);
+            const progress =
+                (scrollY - start - delayOffset) /
+                (totalScrollable - 2 * delayOffset);
             const easedProgress = Math.pow(progress, 3);
 
-            const maxTranslate = horizontal.scrollWidth - window.innerWidth;
+            const maxTranslate =
+                horizontal.scrollWidth - window.innerWidth + extraScroll;
             horizontal.style.transform = `translateX(-${easedProgress * maxTranslate}px)`;
         };
 
@@ -54,7 +61,6 @@ const ServicesV4 = () => {
             window.removeEventListener("resize", setContainerHeight);
         };
     }, []);
-
 
     return (
         <div

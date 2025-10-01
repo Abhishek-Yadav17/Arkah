@@ -18,7 +18,7 @@ const Investors = () => {
 
             <div className="smooth-scroll-container">
                 <HeaderV2 />
-                <BannerV4 imageSrc="/Team.jpg" />
+                <BannerV4 imageSrc="/banner6.jpg" />
                 <ServicesV1 />
                 <ServiceDetailsContent />
                 <AboutV3 />

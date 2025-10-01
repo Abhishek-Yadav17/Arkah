@@ -7856,8 +7856,8 @@ a.btn-full i {
 }
 
 .services-style-one-item p {
-	opacity: 0;
-	transform: translateY(50px);
+	opacity: 1;
+	transform: none;
 	transition: all .5s;
 	transition-delay: 0.1s;
 	margin: 0;
@@ -7870,8 +7870,7 @@ a.btn-full i {
 }
 
 .services-style-one-item h4 {
-	transform: translateY(60px);
-	transition: all .5s;
+	transform: none;
 }
 
 .services-style-one-item:hover h4,

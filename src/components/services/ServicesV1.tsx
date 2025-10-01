@@ -15,7 +15,6 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
     };
 
     const handleMouseLeave = () => {
-        // Do nothing on mouse leave to keep the active item
     };
 
     return (
