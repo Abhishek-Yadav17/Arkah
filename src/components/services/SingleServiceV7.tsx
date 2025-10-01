@@ -37,7 +37,7 @@ const SingleServiceV7 = ({ service }: { service: DataType }) => {
                 }}
             >
                 <h4 style={{ margin: 0 }}>
-                    {titleFirst} <strong>{titleLast}</strong>
+                    {titleFirst} {titleLast}
                 </h4>
                 <img
                     src={`/assets/img/icon/${icon}`}
