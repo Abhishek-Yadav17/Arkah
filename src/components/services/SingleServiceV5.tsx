@@ -16,7 +16,7 @@ const SingleServiceV5 = ({ service }: { service: DataType }) => {
             style={{
                 minWidth: "36vw",
                 maxWidth: "36vw",
-                height: "30vw",
+                height: "500px",
                 border: "5px solid #6ddd95",
                 padding: "2vw",
                 backgroundColor: "#fff",

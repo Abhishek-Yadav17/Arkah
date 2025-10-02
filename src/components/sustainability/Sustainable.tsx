@@ -9,12 +9,12 @@ const Sustainable: React.FC = () => {
                     <div className="box-inner-left">
                         <h2>Our Sustainability Approach</h2>
                         <ul>
-                            <li>Sustainability First: Foundation of how we operate and grow</li>
-                            <li>Future-Focused: Meet today's demands, safeguard tomorrow's resources</li>
-                            <li>ESG as Core: Not obligation but our business enabler</li>
-                            <li>Strong & Responsible: Technically sound, financially resilient, ethically governed</li>
-                            <li>Holistic Agenda: Economic growth, environmental stewardship, community empowerment</li>
-                            <li>Performance with Purpose: Every project guided by responsible development</li>
+                            <li><span>Sustainability First:</span> Foundation of how we operate and grow</li>
+                            <li><span>Future-Focused:</span> Meet today's demands, safeguard tomorrow's resources</li>
+                            <li><span>ESG as Core:</span> Not obligation but our business enabler</li>
+                            <li><span>Strong & Responsible:</span> Technically sound, financially resilient, ethically governed</li>
+                            <li><span>Holistic Agenda:</span> Economic growth, environmental stewardship, community empowerment</li>
+                            <li><span>Performance with Purpose:</span> Every project guided by responsible development</li>
                         </ul>
                     </div>
                     <div className="box-inner-right">

@@ -59,7 +59,7 @@
         }
 
         &:nth-child(1) {
-            height: 50vw;
+            height: 1000px;
 
             .about-cards-inner-top {
                 height: 100%;
@@ -71,7 +71,7 @@
         }
 
         &:nth-last-child(1) {
-            height: 35vw;
+            height: 550px;
 
             img {
                 height: 90%;
@@ -83,7 +83,7 @@
         }
 
         &:nth-last-child(2) {
-            height: 40vw;
+            height: 600px;
 
             img {
                 object-position: center 30%;

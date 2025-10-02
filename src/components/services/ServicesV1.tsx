@@ -22,7 +22,7 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
             <div className={`services-style-one-area ${sectionClass ? sectionClass : ""}`} style={{ padding: '5vw 0' }}>
                 <div className="container">
                     <h1 style={{fontSize: '4vw'}}>Powering Profitable & Responsible Growth</h1>
-                    <h4 style={{fontSize: '1.5vw', fontWeight: '400', marginBottom: '6vw', width: '80%', lineHeight: '1.5'}}>At Arkah Energies Private Limited, we're building a next-generation energy enterprise—agile, technology-driven, and anchored in sustainability. With a focused strategy across marginal oil & gas (O&G) development and Renewable Natural Gas/Compressed Bio-Gas (RNG/CBG), Arkah sits at the intersection of conventional performance and the clean energy transition</h4>
+                    <h4 style={{fontSize: '1.5vw', fontWeight: '400', marginBottom: '6vw', width: '80%', lineHeight: '1.5'}}>At Arkah Energies Private Limited, we're building a next-generation energy enterprise—agile, technology-driven, and anchored in sustainability. With a focused strategy across marginal oil & gas (O&G) development and Renewable Natural Gas/Compressed Bio-Gas (RNG/CBG), Arkah sits at the intersection of conventional performance and the clean energy transition.</h4>
                     <div className="services-style-one-items">
                         <div className="row">
                             {ServicesV1Data.slice(0, 4).map((service) => (

@@ -11,7 +11,7 @@ const BannerV5 = () => {
                             <div className="banner-two-content">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Unlocking Value in India's Upstream Oil & Gas</h2>
                                 <div className="d-flex">
-                                    <img src='/recycle.jpg' alt="Image Not Found"/>
+                                    <img src='/oil.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
                                         At Arkah Energies, we are committed to driving growth in India's upstream oil & gas sector, with a sharp focus on marginal and discovered small fields. These assets are often overlooked, yet they represent some of the most promising opportunities for agile energy companies looking to combine efficiency, innovation and responsible operations.
