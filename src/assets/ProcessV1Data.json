@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Collaborative & Agile",
+        "thumb": "5.png",
+        "thumbLight": "27.png",
+        "text": "Small, empowered teams that move fast and own outcomes."
+    },
+    {
+        "id": 2,
+        "title": "Real Impact",
+        "thumb": "6.png",
+        "thumbLight": "28.png",
+        "text": "Work that blends tradition and transformation—O&G reliability with RNG/CBG growth."
+    },
+    {
+        "id": 3,
+        "title": "Learn & Grow",
+        "thumb": "7.png",
+        "thumbLight": "29.png",
+        "text": "Strong focus on learning, innovation and clear career progression."
+    },
+    {
+        "id": 4,
+        "title": "Safety & Integrity",
+        "thumb": "8.png",
+        "thumbLight": "30.png",
+        "text": "Uncompromising HSE, ethics and transparency."
+    }
+]

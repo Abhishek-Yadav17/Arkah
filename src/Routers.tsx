@@ -7,6 +7,7 @@ import About2 from "./pages/About2";
 import WhatWeDo from "./pages/WhatWeDo";
 import Sustainability from "./pages/Sustainability";
 import Investors from "./pages/Investors";
+import Careers from "./pages/Careers";
 
 const Routers = () => {
     return (
@@ -20,6 +21,7 @@ const Routers = () => {
                 <Route path="/what-we-do" element={<WhatWeDo />} />
                 <Route path="/sustainability" element={<Sustainability />} />
                 <Route path="/investors" element={<Investors />} />
+                <Route path="/careers" element={<Careers />} />
             </Routes>
         </>
     );

@@ -6,10 +6,10 @@ import FooterV2 from "../components/footer/FooterV2";
 import BannerV2 from "../components/banner/BannerV2";
 import BannerV4 from "../components/banner/BannerV4";
 import ServicesV4 from "../components/services/ServicesV4";
-import ServicesV7 from "../components/services/ServicesV7";
 import ServicesV5 from "../components/services/ServicesV5";
 import BannerV7 from "../components/banner/BannerV7";
 import BannerV5 from "../components/banner/BannerV5";
+import ServicesV8 from "../components/services/ServicesV8";
 
 const WhatWeDo = () => {
 
@@ -39,7 +39,7 @@ const WhatWeDo = () => {
 
                 <div id="operating-philosophy">
                     <BannerV7 />
-                    <ServicesV7 />
+                    <ServicesV8 />
                 </div>
 
                 <div id="exploration-production">

@@ -7785,6 +7785,7 @@ ul.service-list li a:hover span {
 	padding: 60px 37px;
 	border-radius: 30px;
 	background: var(--bg-gray);
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .bg-gray .services-style-one-item {
@@ -7866,16 +7867,28 @@ a.btn-full i {
 .services-style-one-item:hover p,
 .services-style-one-item.active p {
 	opacity: 1;
-	transform: translateY(0);
+	transition: color 0.3s ease;
 }
 
 .services-style-one-item h4 {
-	transform: none;
+	transition: color 0.3s ease;
 }
 
 .services-style-one-item:hover h4,
 .services-style-one-item.active h4 {
 	transform: translateY(0);
+}
+
+.services-style-one-item:hover{
+    background-color: #1C5D34;
+    color: white;
+}
+
+.services-style-one-item:hover h4,
+.services-style-one-item.active h4,
+.services-style-one-item:hover p,
+.services-style-one-item.active p {
+    color: white;
 }
 
 .services-style-one-item .btn-full {
