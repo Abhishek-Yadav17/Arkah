@@ -35,7 +35,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                         </div>
                         <div className="col-lg-5">
                             <div className="thumb-style-three">
-                                <img src='/migration.jpg' alt="Image Not Found" />
+                                <img src='/risk.jpg' alt="Image Not Found" />
                             </div>
                         </div>
                     </div>
