@@ -8,6 +8,9 @@ const ServicesV4 = () => {
     const horizontalRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+
+        if (window.innerWidth <= 768) return;
+
         const container = containerRef.current;
         const horizontal = horizontalRef.current;
 

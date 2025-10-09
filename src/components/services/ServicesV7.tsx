@@ -9,6 +9,9 @@ const ServicesV7 = () => {
 
     useEffect(() => {
         const handleScroll = () => {
+
+            if (window.innerWidth <= 768) return;
+
             if (containerRef.current && horizontalRef.current) {
                 const containerTop = containerRef.current.offsetTop;
                 const scrollPos = window.scrollY;

@@ -4221,6 +4221,12 @@ a.btn-round-animation:hover::after {
 	filter: brightness(1);
 }
 
+@media (max-width: 768px) {
+  .responsive-thumb {
+    height: 70vh !important;
+  }
+}
+
 /* Banner Three */
 
 body.fixed-cursor {
