@@ -9,7 +9,7 @@ import ServicesV4 from "../components/services/ServicesV4";
 import ServicesV5 from "../components/services/ServicesV5";
 import BannerV7 from "../components/banner/BannerV7";
 import BannerV5 from "../components/banner/BannerV5";
-import ServicesV8 from "../components/services/ServicesV8";
+import ServicesV7 from "../components/services/ServicesV7";
 
 const WhatWeDo = () => {
 
@@ -39,7 +39,7 @@ const WhatWeDo = () => {
 
                 <div id="operating-philosophy">
                     <BannerV7 />
-                    <ServicesV8 />
+                    <ServicesV7 />
                 </div>
 
                 <div id="exploration-production">

@@ -4,10 +4,15 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #FFF;;
+    background-color: #FFF;
     backdrop-filter: blur(20px);
     padding: 2vw 0;
     transition: all 0.3s ease;
+
+    @media (max-width: 768px) {
+        height: fit-content;
+        padding: 4vw 0;
+    }
 
     .container {
         padding: 0 2vw;
@@ -17,14 +22,10 @@
         max-width: 100%;
 
         img {
-            position: absolute;
-            width: 32vw;
-            top: -140%;
-            left: -6%;
-            margin-bottom: 1vw;
+            width: 15vw;
 
             @media (max-width: 768px) {
-                width: 30vw;
+                width: 35vw;
             }
         }
 

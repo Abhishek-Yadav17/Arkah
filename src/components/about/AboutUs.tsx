@@ -21,6 +21,7 @@ const AboutUs = () => {
 
     return (
         <section className="about-us">
+            <h5>Our story is still unfolding, but our mission is clear — powering progress with purpose and fueling the future responsibly.</h5>
             <div className="about-cards" id="our-story">
                 <div className="about-cards-inner-top">
                     <img className="img1" src="/energy1.png" alt="team" />
@@ -30,9 +31,6 @@ const AboutUs = () => {
                     <h4>Our journey began with a simple yet powerful idea: that energy could be smarter, cleaner and more responsible. Founded by a seasoned team of oil & gas industry veterans, Arkah is a next-generation energy company born from a shared vision to redefine the future of energy. With deep industry expertise, strategic foresight and an innovation-first mindset, we are committed to building a sustainable, reliable, and resilient energy future</h4>
 
                     <h4>We believe that the energy industry must evolve to meet the demands of a rapidly changing world. To remain relevant and responsible, it must embrace innovation, sustainability and adaptability. At Arkah, we are fueling this evolution - harnessing cutting edge technologies and cost-effective solutions with sustainable practices that serve both people and the planet. From advancing renewable energy and digital innovation to unlocking untapped fossil fuel reserves with integrity, we are redefining what energy means for the modern world.</h4>
-
-                    <h4>Our story is still unfolding, but our mission is clear - Powering progress with purpose & fueling future responsibly.
-                    </h4>
                 </div>
             </div>
             <div className="about-cards" id="our-purpose">

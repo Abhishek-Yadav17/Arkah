@@ -33,7 +33,7 @@ const HomeAbout = () => {
     return (
         <div className="page1">
             <h2 ref={textRef}>
-                Reviving discovered fields, advancing recovery technologies and fueling the future with renewable natural gas.
+                Reimagining conventional energy through field revival, technology-led recovery and sustainable growth powered by renewable natural gas.
             </h2>
             <Link to="/about">
                 <button>

@@ -13,7 +13,7 @@ type Slide = {
 const slides: Slide[] = [
     {
         heading: "Powering the Future Responsibly",
-        bg: "/hero1.jpg",
+        bg: "/hero2.png",
         text: "Revolutionizing the global energy landscape with innovation, sustainability and operational excellence — blending traditional expertise with next-generation solutions.",
         btn: "Who We Are"
     },

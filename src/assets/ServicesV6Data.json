@@ -2,36 +2,36 @@
     {
         "id": 1,
         "icon": "9.png",
-        "subTitle": "Expertise",
-        "title": "Proven Expertise",
-        "text": "Backed by over 75 years of combined leadership experience, Arkah's team brings deep operational knowledge across the full energy value chain."
+        "subTitle": "DEEP DOMAIN EXPERTISE",
+        "title": "Experience that drives transformation",
+        "text": "Powered by over 75 years of collective experience, Team Arkah blends domain expertise with agile execution—bringing operational excellence and strategic foresight across the full energy value chain."
     },
     {
         "id": 2,
         "icon": "10.png",
-        "subTitle": "Innovation",
-        "title": "Responsible Innovation",
-        "text": "We deliver cost-effective, sustainable and technology-driven solutions that balance performance with responsibility to people and the planet."
+        "subTitle": "RESPONSIBLE & DIGITAL INNOVATION",
+        "title": "Technology with purpose, progress with responsibility",
+        "text": "At Arkah, innovation is purposeful. We harness advanced technologies and data-driven insights to deliver sustainable, cost-efficient and responsible solutions that serve both people and the planet."
     },
     {
         "id": 3,
         "icon": "11.png",
-        "subTitle": "Operations",
-        "title": "Operational Excellence",
-        "text": "With a track record in large-scale energy operations, Arkah ensures projects are executed with precision, efficiency and uncompromising safety."
+        "subTitle": "AGILE OPERATIONS & EARLY MONETIZATION",
+        "title": "Smart execution for faster outcome",
+        "text": "Our asset-light, technology-enabled model ensures swift execution, operational precision and early monetisation—achieving performance with integrity, efficiency and sustained value in every project we deliver."
     },
     {
         "id": 4,
         "icon": "10.png",
-        "subTitle": "Features",
-        "title": "Scalable & Future-Ready",
-        "text": "Our integrated approach spans oil & gas and green energy, enabling partners to grow with confidence in a rapidly evolving market."
+        "subTitle": "INTEGRATED & FUTURE READY GROWTH",
+        "title": "Where tradition meets transformation",
+        "text": "Arkah bridges conventional and renewable portfolios through an integrated approach that builds resilience and unlocks new opportunities. By blending upstream expertise with green innovation, we empower partners to grow responsibly in a dynamic energy landscape."
     },
     {
         "id": 5,
         "icon": "9.png",
-        "subTitle": "Team",
-        "title": "Shared Value Creation",
-        "text": "We focus on building long-term, inclusive partnerships that empower communities, create enduring stakeholder value and safeguard the environment."
+        "subTitle": "SHARED VALUE CREATION",
+        "title": "Empowering People, Enriching Communities",
+        "text": "At Arkah, we create shared growth through lasting partnerships that empower communities, uplift livelihoods and advance sustainable development—delivering responsible energy that fuels an inclusive, equitable and resilient future."
     }
 ]
