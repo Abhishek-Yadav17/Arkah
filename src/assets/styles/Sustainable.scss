@@ -9,6 +9,7 @@
     background-image: url(/bg-12.jpg);
     background-size: cover;
     background-position: center;
+    font-family: Montserrat;
 
     .sustainable-box {
         width: 100%;
@@ -33,6 +34,7 @@
                 h2 {
                     font-size: 4vw;
                     color: #FFF;
+                    font-family: Montserrat;
                 }
 
                 ul {
@@ -63,8 +65,8 @@
                     object-fit: cover;
                     border-radius: 20px;
                 }
-            }  
-            
+            }
+
             &:nth-child(2n) {
                 flex-direction: row-reverse;
             }
