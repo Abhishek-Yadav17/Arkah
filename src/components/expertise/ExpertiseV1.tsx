@@ -4,8 +4,8 @@ const ExpertiseV1 = () => {
     return (
         <>
             <div className="container expertise">
-                
-                <div className="expertise-area text-center" style={{marginTop: '2vw'}}>
+
+                <div className="expertise-area text-center" style={{ marginTop: '2vw' }}>
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="site-heading">
@@ -15,8 +15,17 @@ const ExpertiseV1 = () => {
                     </div>
                     <ProcessV1 />
                 </div>
-                <h2 style={{fontSize: '3vw', marginTop: '5vw'}}>Where You Can Make an Impact</h2>
-                <h5 style={{fontSize: '1.4vw', fontWeight: '400'}}>Subsurface & Reservoir • Operations & Production • RNG/CBG Plant Management • Project Execution • ESG & Community • Digital & Data </h5>
+                <h2 style={{ fontSize: '3vw', marginTop: '5vw' }}>Where You Can Make an Impact</h2>
+                <div className="custom-list-container">
+                    <ul className="custom-two-column-list">
+                        <li><span className="line" />Subsurface & Reservoir</li>
+                        <li><span className="line" />Operations & Production</li>
+                        <li><span className="line" />RNG / CBG Plant Management</li>
+                        <li><span className="line" />Project Execution</li>
+                        <li><span className="line" />ESG & Community</li>
+                        <li><span className="line" />Digital & Data</li>
+                    </ul>
+                </div>
             </div>
         </>
     );

@@ -1,21 +1,11 @@
 import ServicesV1Data from "../../assets/ServicesV1Data.json"
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 interface DataType {
     sectionClass?: string;
 }
 
 const ServicesV1 = ({ sectionClass }: DataType) => {
-
-    const [activeServiceId, setActiveServiceId] = useState(ServicesV1Data[0]?.id || null);
-
-    const handleMouseEnter = (id: number) => {
-        setActiveServiceId(id);
-    };
-
-    const handleMouseLeave = () => {
-    };
 
     return (
         <>
@@ -29,10 +19,8 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
                                 <div
                                     className="col-xl-3 col-lg-6 col-md-6 single-item"
                                     key={service.id}
-                                    onMouseEnter={() => handleMouseEnter(service.id)}
-                                    onMouseLeave={handleMouseLeave}
                                 >
-                                    <div className={`services-style-one-item ${activeServiceId === service.id ? 'active' : ''}`} 
+                                    <div className={`services-style-one-item`} 
                                     style={{height: '40vw'}}>
                                         <div className="icon">
                                             <img className="regular-img" src={`/assets/img/icon/${service.icon}`} alt="Image Not Found" width={75} height={60} />

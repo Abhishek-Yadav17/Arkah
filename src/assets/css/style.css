@@ -19754,3 +19754,33 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
     font-size: 3.5vw !important;
   }
 }
+
+.custom-list-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2vw;
+}
+
+.custom-two-column-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw 10vw;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.custom-two-column-list li {
+    display: flex;
+    align-items: center;
+}
+
+.custom-two-column-list .line {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin-right: 10px;
+}
