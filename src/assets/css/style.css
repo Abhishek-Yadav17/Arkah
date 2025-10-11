@@ -4222,9 +4222,17 @@ a.btn-round-animation:hover::after {
 }
 
 @media (max-width: 768px) {
-  .responsive-thumb {
-    height: 70vh !important;
-  }
+	.responsive-thumb {
+		height: 70vh !important;
+	}
+
+	.banner-two-content h2 {
+		font-size: 8vw !important;
+	}
+
+	.banner-two-content h4 {
+		font-size: 4vw !important;
+	}
 }
 
 /* Banner Three */
@@ -5656,13 +5664,13 @@ ul.list-style-two li:last-child {
 }
 
 .banner-style-eleven-area img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .swiper-slicer-image {
@@ -7885,20 +7893,35 @@ a.btn-full i {
 	transform: translateY(0);
 }
 
-.services-style-one-item:hover{
-    background-color: #1C5D34;
-    color: white;
+.services-style-one-item:hover {
+	background-color: #1C5D34;
+	color: white;
 }
 
 .services-style-one-item:hover h4,
 .services-style-one-item.active h4,
 .services-style-one-item:hover p,
 .services-style-one-item.active p {
-    color: white;
+	color: white;
 }
 
 .services-style-one-item .btn-full {
 	margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+
+	.services-style-one-area h1 {
+		font-size: 6vw !important;
+	}
+
+	.services-style-one-area h4 {
+		font-size: 3.5vw !important;
+	}
+
+	.services-style-one-item {
+		height: fit-content !important;
+	}
 }
 
 
@@ -8488,19 +8511,21 @@ a.btn-full i {
 	border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.services-button-prev, .services-button-next {
-  position: relative;
-  width: 70px;
-  height: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.services-button-prev,
+.services-button-next {
+	position: relative;
+	width: 70px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.services-button-prev i, .services-button-next i {
-  font-size: 24px;
-  color: #000;
+.services-button-prev i,
+.services-button-next i {
+	font-size: 24px;
+	color: #000;
 }
 
 .services-nav {
@@ -9260,6 +9285,24 @@ a.btn-circle:hover strong {
 
 .bg-dark .process-style-two-item span {
 	border: 10px solid var(--dark);
+}
+
+@media (max-width: 768px) {
+
+	.services-details-items h4 {
+		font-size: 6vw !important;
+		margin-top: 6vw;
+	}
+
+	.process-style-two {
+		flex-direction: column !important;
+		align-items: flex-start;
+		gap: 2rem;
+	}
+
+	.process-style-two-item {
+		width: 100% !important;
+	}
 }
 
 /* ============================================================== 
@@ -11413,7 +11456,7 @@ h2.text-large-gradient {
 	padding-top: 15px;
 	padding-bottom: 0;
 	font-size: 18px;
-  line-height: 1.7;
+	line-height: 1.7;
 }
 
 .faq-style-one-content {
@@ -11430,6 +11473,24 @@ h2.text-large-gradient {
 
 .faq-style-one .accordion-item:last-child {
 	margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.item {
+		width: 100% !important;
+	}
+
+	.faq-style-two h2 {
+		font-size: 6vw !important;
+	}
+
+	.faq-style-two .accordion-button {
+		font-size: 4.5vw !important;
+	}
+
+	.faq-style-two .accordion-body p {
+		font-size: 4vw !important;
+	}
 }
 
 /* ============================================================== 
@@ -19683,4 +19744,13 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 	.banner-style-ten-left-info img {
 		display: none !important;
 	}
+}
+
+@media (max-width: 768px) {
+  .expertise h2 {
+    font-size: 6vw !important;
+  }
+  .expertise h5 {
+    font-size: 3.5vw !important;
+  }
 }

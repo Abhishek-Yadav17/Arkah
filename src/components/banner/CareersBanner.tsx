@@ -3,7 +3,7 @@ import shape1 from "/assets/img/shape/1.png";
 const CareersBanner = () => {
     return (
         <>
-            <div className="banner-style-two-area">
+            <div className="banner-style-two-area" style={{marginTop: '-5vw'}}>
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-7">

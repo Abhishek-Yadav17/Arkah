@@ -3,7 +3,7 @@ import ProcessV1 from '../process/ProcessV1';
 const ExpertiseV1 = () => {
     return (
         <>
-            <div className="container">
+            <div className="container expertise">
                 
                 <div className="expertise-area text-center" style={{marginTop: '2vw'}}>
                     <div className="row">
