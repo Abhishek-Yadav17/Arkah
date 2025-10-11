@@ -3,11 +3,9 @@ import ProcessV1 from '../process/ProcessV1';
 const ExpertiseV1 = () => {
     return (
         <>
-            <div className="container" style={{paddingTop: '5vw'}}>
-                <h2 style={{fontSize: '3vw'}}>Careers at Arkah</h2>
-                <h4 style={{fontSize: '2vw', fontWeight: '400', width: '70%'}}>Build energy that empowers today and safeguards tomorrow. Come work with us. Grow with us. Shape the future of energy.</h4>
-                <h5 style={{fontWeight: '400', fontSize: '1.2vw'}}>Arkah Energies is an equal opportunity employer. We celebrate diversity and are committed to a safe, respectful and inclusive workplace.</h5>
-                <div className="expertise-area text-center" style={{marginTop: '5vw'}}>
+            <div className="container">
+                
+                <div className="expertise-area text-center" style={{marginTop: '2vw'}}>
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="site-heading">

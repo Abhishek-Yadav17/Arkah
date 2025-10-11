@@ -34,6 +34,20 @@ const slides: Slide[] = [
 const BannerV1: React.FC = () => {
     const [index, setIndex] = useState(0);
     const contentRef = useRef<HTMLDivElement>(null);
+    const sliderIntervalRef = useRef<number | null>(null);
+
+    const startSlider = () => {
+        sliderIntervalRef.current = window.setInterval(() => {
+            setIndex(prev => (prev + 1) % slides.length);
+        }, 6000);
+    };
+
+    const stopSlider = () => {
+        if (sliderIntervalRef.current !== null) {
+            clearInterval(sliderIntervalRef.current);
+            sliderIntervalRef.current = null;
+        }
+    };
 
     useEffect(() => {
         const bgSlides = document.querySelectorAll('.hero-bg');
@@ -52,11 +66,9 @@ const BannerV1: React.FC = () => {
             );
         }
 
-        const interval = setInterval(() => {
-            setIndex((prev) => (prev + 1) % slides.length);
-        }, 8000);
+        startSlider();
 
-        return () => clearInterval(interval);
+        return () => stopSlider();
     }, [index]);
 
     const { heading, text, btn } = slides[index];
@@ -73,7 +85,12 @@ const BannerV1: React.FC = () => {
                 ))}
             </div>
 
-            <div className="hero-content" ref={contentRef}>
+            <div
+                className="hero-content"
+                ref={contentRef}
+                onMouseEnter={stopSlider}
+                onMouseLeave={startSlider}
+            >
                 <h1>{heading}</h1>
                 <h4>{text}</h4>
                 <Link to='/about2'>
@@ -82,7 +99,6 @@ const BannerV1: React.FC = () => {
                     </button>
                 </Link>
             </div>
-
         </div>
     );
 };

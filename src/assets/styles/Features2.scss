@@ -9,20 +9,41 @@
         align-items: flex-start;
         margin-bottom: 5vw;
 
+        @media (max-width: 768px) {
+            flex-direction: column;
+            margin-bottom: 6vw;
+
+        }
+
         .features-left {
-            width: 40%;
+            width: 60%;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
 
             h1 {
                 font-size: 4vw;
                 margin-bottom: 2vw;
                 color: #FFF;
                 font-weight: bold;
+
+                @media (max-width: 768px) {
+                    font-size: 10vw;
+                    font-weight: 600;
+                    margin-bottom: 4vw;
+                }
             }
 
             h4 {
                 font-size: 1.3vw;
                 color: #FFF;
                 font-weight: 400;
+
+                @media (max-width: 768px) {
+                    font-size: 4vw;
+                    line-height: 1.5;
+                }
             }
         }
 
@@ -31,6 +52,10 @@
             display: flex;
             gap: 3vw;
             position: relative;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
 
             a {
                 flex: 1;
@@ -52,9 +77,17 @@
                 position: relative;
                 border-bottom: 5px solid #FFF;
 
+                @media (max-width: 768px) {
+                    height: 25vh;
+                }
+
                 h4 {
                     color: #FFF;
                     font-size: 1.8vw;
+
+                    @media (max-width: 768px) {
+                        font-size: 5vw;
+                    }
                 }
 
                 svg {
@@ -75,6 +108,11 @@
         justify-content: space-between;
         gap: 2vw;
 
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 6vw;
+        }
+
         a {
             flex: 1;
             display: flex;
@@ -92,9 +130,17 @@
             position: relative;
             border-bottom: 5px solid #FFF;
 
+            @media (max-width: 768px) {
+                height: 25vh;
+            }
+
             h4 {
                 color: #FFF;
                 font-size: 1.8vw;
+
+                @media (max-width: 768px) {
+                    font-size: 5vw;
+                }
             }
 
             svg {

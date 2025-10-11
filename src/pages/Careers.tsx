@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import LayoutV1 from "../components/layout/LayoutV1";
 import ExpertiseV1 from "../components/expertise/ExpertiseV1";
 import BannerV4 from "../components/banner/BannerV4";
+import CareersBanner from "../components/banner/CareersBanner";
 
 const Careers = () => {
     return (
@@ -11,7 +12,8 @@ const Careers = () => {
             </Helmet>
 
             <LayoutV1>
-                <BannerV4 imageSrc="/esg7.jpg" />
+                <BannerV4 imageSrc="/careers.jpg" />
+                <CareersBanner />
                 <ExpertiseV1 />
             </LayoutV1>
         </>
