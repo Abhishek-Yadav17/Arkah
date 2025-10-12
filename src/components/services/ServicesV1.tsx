@@ -21,7 +21,7 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
                                     key={service.id}
                                 >
                                     <div className={`services-style-one-item`} 
-                                    style={{height: '40vw'}}>
+                                    style={{height: '25vw'}}>
                                         <div className="icon">
                                             <img className="regular-img" src={`/assets/img/icon/${service.icon}`} alt="Image Not Found" width={75} height={60} />
 

@@ -6,7 +6,7 @@ const BannerV5 = () => {
             <div className="banner-style-two-area" style={{paddingTop: '-10vw'}}>
                 <div className="container">
                     <div className="row align-center">
-                        <h4 className="sub-title" style={{position: 'absolute', top: '8%', border: '2px solid #6DDD95', fontSize: '23px'}}>Exploration & Production</h4>
+                        <h4 className="sub-title" style={{position: 'absolute', top: '8%', border: '2px solid #6DDD95', fontSize: '23px'}}>Responsible Hydrocarbons</h4>
                         <div className="col-lg-7">
                             <div className="banner-two-content">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1' }}>Unlocking Value in India's Upstream Oil & Gas</h2>
@@ -14,7 +14,7 @@ const BannerV5 = () => {
                                     <img src='/oil.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
-                                        At Arkah Energies, we are committed to driving growth in India's upstream oil & gas sector, with a sharp focus on marginal and discovered small fields. These assets are often overlooked, yet they represent some of the most promising opportunities for agile energy companies looking to combine efficiency, innovation and responsible operations.
+                                        At Arkah Energies, we are committed to driving growth in India's upstream Oil & Gas sector, with a sharp focus on marginal and discovered small fields. These assets are often overlooked, yet they represent some of the most promising opportunities for an agile energy company as ours, looking to combine efficiency, innovation and responsible operations.
                                     </p>
                                 </div>
                             </div>

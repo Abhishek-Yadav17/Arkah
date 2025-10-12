@@ -7815,6 +7815,8 @@ ul.service-list li a:hover span {
 .services-style-one-items .single-item {
 	padding: 0 1px;
 	height: 100%;
+	flex: 1 1 22%;
+	margin-bottom: 2rem;
 }
 
 a.btn-full {
@@ -7921,6 +7923,10 @@ a.btn-full i {
 
 	.services-style-one-item {
 		height: fit-content !important;
+	}
+
+	.services-style-one-items .single-item {
+		flex: 1 1 100%;
 	}
 }
 
@@ -19747,40 +19753,41 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 }
 
 @media (max-width: 768px) {
-  .expertise h2 {
-    font-size: 6vw !important;
-  }
-  .expertise h5 {
-    font-size: 3.5vw !important;
-  }
+	.expertise h2 {
+		font-size: 6vw !important;
+	}
+
+	.expertise h5 {
+		font-size: 3.5vw !important;
+	}
 }
 
 .custom-list-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 2vw;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 2vw;
 }
 
 .custom-two-column-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2vw 10vw;
-    list-style: none;
-    padding: 0;
-    max-width: 800px;
-    font-size: 1.2vw;
-    font-weight: 400;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2vw 10vw;
+	list-style: none;
+	padding: 0;
+	max-width: 800px;
+	font-size: 1.2vw;
+	font-weight: 400;
 }
 
 .custom-two-column-list li {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .custom-two-column-list .line {
-    display: inline-block;
-    width: 20px;
-    height: 2px;
-    background-color: #000;
-    margin-right: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+	margin-right: 10px;
 }

@@ -14,7 +14,7 @@ const BannerV7 = () => {
                                     <img src='/op5.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
-                                        Powering Progress with Purpose — balancing tradition and transformation to deliver energy that empowers today and safeguards tomorrow.
+                                        At Arkah, we operate with a dual commitment balancing tradition and transformation to deliver energy that empowers today and safeguards tomorrow. While advancing hydrocarbon recovery responsibly, we are accelerating renewable energy solutions that create a circular value. 
                                     </p>
                                 </div>
                             </div>

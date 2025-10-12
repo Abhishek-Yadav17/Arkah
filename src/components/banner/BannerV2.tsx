@@ -14,7 +14,7 @@ const BannerV2 = () => {
                                     <img src='/recycle.jpg' alt="Image Not Found"/>
 
                                     <p className="split-text">
-                                        At Arkah Energies, Renewable Natural Gas (RNG/CBG) is the cornerstone of our dual-energy strategy—powering growth today while accelerating India's transition to low-carbon fuel systems.
+                                        At Arkah Energies, Renewable Natural Gas (RNG/CBG) is the cornerstone of our dual-energy vision harnessing India's agricultural strength to fuel sustainable growth. By transforming agri-waste into clean energy, we drive energy self-reliance, rural prosperity and environmental renewal, powering a Viksit Bharat that is greener and future-ready.
                                     </p>
                                 </div>
                             </div>

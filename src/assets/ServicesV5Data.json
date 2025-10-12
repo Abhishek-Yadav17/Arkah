@@ -1,76 +1,56 @@
 [
   {
     "id": 1,
-    "titleFirst": "Opportunity in",
+    "titleFirst": "Opportunity:",
     "titleLast": "RNG/CBG",
     "icon": "17.png",
     "text": [
-      "Strong market pull: Rising demand from transport industry and city gas networks",
-      "Policy momentum: Backed by national programs such as SATAT",
-      "Sustainable upside: Circular, waste-to-value model with near-zero carbon intensity",
-      "First-mover advantage: High potential in semi-urban and rural clusters"
+      "Strong market pull with rising demand from transport industry and city gas networks",
+      "Policy momentum backed by national programs such as SATAT",
+      "Sustainable upside advantage for  circular, waste-to-value model and near-zero carbon intensity",
+      "First-mover advantage which has high potential in semi-urban and rural clusters"
     ],
     "number": "01"
   },
   {
     "id": 2,
     "titleFirst": "Our Approach:",
-    "titleLast": "Execution-first Delivery",
+    "titleLast": "Execution-first, end-to-end delivery",
     "icon": "18.png",
     "text": [
-      "Smart siting: Regional biomass mapping and logistics access",
-      "Turnkey build: Design, EPC, commissioning under one roof",
-      "Operational excellence: Skilled teams for long-term uptime",
-      "Integrated model: Faster setup and consistent plant performance"
+      "Smart siting with land location selected by regional biomass mapping and logistics access",
+      "Turnkey build where Design, EPC, commissioning and performance ramp-up under one roof",
+      "Operational excellence with training and capacity building for reliable and long-term operations",
+      "Integrated model that enables faster setup, smoother rollout and consistent plant performance."
     ],
     "number": "02"
   },
   {
     "id": 3,
-    "titleFirst": "How we",
-    "titleLast": "Create Value",
+    "titleFirst": "Our edge:",
+    "titleLast": "How we create value",
     "icon": "19.png",
     "text": [
-      "Proven waste-to-energy economics with sustainable returns",
-      "Local impact: Jobs, soil regeneration, cleaner air",
-      "Retail-ready: CBG fuel and bio-fertilizer distribution potential"
+      "Powering progress in alignment with the vision of a Viksit Bharat sustainable, inclusive and innovative",
+      "Scalable & Sustainable returns delivering proven waste-to-energy economics with asset-light plants",
+      "Dual-Energy Expertise blending deep Oil & Gas expertise with renewable innovation unlocking early monetization",
+      "Market-Ready Solutions enabling retail and industrial reach from CBG fuel distribution alongside bio-fertilizer sales",
+      "Community-Centric & ESG Impact empowering local ecosystems through job creation, soil regeneration and cleaner air integrating circular economy"
     ],
     "number": "03"
   },
   {
     "id": 4,
-    "titleFirst": "Challenges",
-    "titleLast": "We Navigate",
+    "titleFirst": "The Reward:",
+    "titleLast": "Scalable & Sustainable Returns",
     "icon": "17.png",
     "text": [
-      "Feedstock security: Farmer, FPO, and municipal tie-ups",
-      "Capex control: Modular, lean design for IRR focus",
-      "Value-add: Co-products like organic manure for extra revenue"
+      "Sustainable Returns due to a scalable, future-ready energy business with strong ROI",
+      "Circular Economy Gains providing localized fuel, bio-fertilizer and agricultural-input ecosystem",
+      "Community Empowerment creating jobs, skill development and income stability in rural areas",
+      "Environmental Impact by reducing dependence on fossil fuels and creating cleaner air quality",
+      "Retail Potential with opportunity to build a dual-channel network for CBG distribution & Bio-fertilizer"
     ],
     "number": "04"
-  },
-  {
-    "id": 5,
-    "titleFirst": "Our Edge:",
-    "titleLast": "Dual-Energy Advantage",
-    "icon": "18.png",
-    "text": [
-      "Oil & gas know-how blended with renewable innovation",
-      "Strong local partnerships for stable input supply",
-      "Modular plants for scale, low-cost, ESG impact"
-    ],
-    "number": "05"
-  },
-  {
-    "id": 6,
-    "titleFirst": "The Reward:",
-    "titleLast": "Sustainable Returns",
-    "icon": "19.png",
-    "text": [
-      "High ROI from circular, future-ready energy model",
-      "Community uplift: Jobs, income, skill development",
-      "Environmental impact: Cleaner air, reduced fossil reliance"
-    ],
-    "number": "06"
   }
 ]

@@ -8,7 +8,7 @@ const Features2: React.FC = () => {
             <div className="features-top">
                 <div className="features-left">
                     <h1>What We Do</h1>
-                    <h4>Arkah revitalizes discovered fields through targeted redevelopment and advanced recovery, boosting production responsibly while reducing decline. In parallel, we scale renewable natural gas to decarbonize systems and create circular value for communities. This dual strategy ensures predictable cash flow, lowers emissions and drives resilient growth - balancing performance with purpose.</h4>
+                    <h4>Arkah Energies revitalizes discovered fields through targeted redevelopment and advanced recovery, boosting production responsibly while minimizing decline. In parallel, we scale Renewable Natural Gas (RNG/CBG) to decarbonize systems and create circular value for communities. This dual-energy strategy supports India's vision of a Viksit Bharat ensuring predictable cash flows, lower emissions and resilient growth that balance performance with purpose and progress with responsibility.</h4>
                 </div>
 
                 <div className="features-right">
