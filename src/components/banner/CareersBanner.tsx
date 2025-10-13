@@ -19,7 +19,7 @@ const CareersBanner = () => {
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <div className="banner-two-thumb">
-                                <img src='/opsub.jpg' className="responsive-thumb" alt="Image Not Found" style={{ height: '30vw', objectFit: 'cover' }} />
+                                <img src='/careers1.jpg' className="responsive-thumb" alt="Image Not Found" style={{ height: '30vw', objectFit: 'cover' }} />
                                 <img src={shape1} alt="Image Not Found" />
                             </div>
                         </div>

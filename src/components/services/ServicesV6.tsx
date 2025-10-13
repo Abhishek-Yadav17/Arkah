@@ -13,9 +13,10 @@ const ServicesV6 = () => {
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
                             <div className="service-style-six-info">
-                                <h2 className="title split-text">
+                                <h2 className="title split-text" style={{color: '#1A5F32'}}>
                                     Why Partner With Arkah?
                                 </h2>
+                                <h4 style={{color: '#1A5F32'}}>Powering Progress through Expertise, Innovation and Purpose</h4>
                             </div>
                         </div>
 

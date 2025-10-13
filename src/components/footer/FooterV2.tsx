@@ -41,14 +41,12 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             <div className="col-lg-5 offset-lg-1 footer-item">
                                 <h4 className="widget-title" style={{color: '#FFF'}}>Useful Link</h4>
                                 <ul className="useful-link">
-                                    <li><Link to="/about-us" style={{color: '#FFF'}}>Home</Link></li>
-                                    <li><Link to="/contact-us" style={{color: '#FFF'}}>About Us</Link></li>
-                                    <li><Link to="/faq" style={{color: '#FFF'}}>Our Vision</Link></li>
-                                    <li><Link to="/services" style={{color: '#FFF'}}>Our Team</Link></li>
-                                    <li><Link to="/about-2" style={{color: '#FFF'}}>Renewal Natural Gas</Link></li>
-                                    <li><Link to="/about-us" style={{color: '#FFF'}}>Operating Philosophy</Link></li>
-                                    <li><Link to="/about-2" style={{color: '#FFF'}}>Privacy Policy</Link></li>
-                                    <li><Link to="/contact-us" style={{color: '#FFF'}}>Exploration and Production</Link></li>
+                                    <li><Link to="/" style={{color: '#FFF'}}>Home</Link></li>
+                                    <li><Link to="/about2#our-story" style={{color: '#FFF'}}>Our Story</Link></li>
+                                    <li><Link to="/team" style={{color: '#FFF'}}>Our Team</Link></li>
+                                    <li><Link to="/what-we-do#operating-philosophy" style={{color: '#FFF'}}>Operating Philosophy</Link></li>
+                                    <li><Link to="/what-we-do#exploration-production" style={{color: '#FFF'}}>Responsible Hydrocarbons</Link></li>
+                                    <li><Link to="/what-we-do#renewable-natural-gas" style={{color: '#FFF'}}>Renewable Natural Gas</Link></li>
                                 </ul>
                                 <NewsletterV2 />
                             </div>

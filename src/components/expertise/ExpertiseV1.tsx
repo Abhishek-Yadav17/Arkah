@@ -9,7 +9,7 @@ const ExpertiseV1 = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="site-heading">
-                                <h4 className="sub-title">Why Arkah</h4>
+                                <h4 className="sub-title" style={{fontSize: '2vw'}}>Why Arkah</h4>
                             </div>
                         </div>
                     </div>

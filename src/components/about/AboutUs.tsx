@@ -21,7 +21,7 @@ const AboutUs = () => {
 
     return (
         <section className="about-us">
-            <h5>Our story is still unfolding, but our mission is clear — powering progress with purpose and fueling the future responsibly.</h5>
+            <h5 style={{fontWeight: '900', fontStyle: 'italic'}}>Our story is still unfolding, but our mission is clear — powering progress with purpose and fueling the future responsibly.</h5>
             <div className="about-cards" id="our-story">
                 <div className="about-cards-inner-top">
                     <img className="img1" src="/energy1.png" alt="team" />
