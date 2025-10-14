@@ -67,7 +67,7 @@ const ServicesV4 = () => {
 
     return (
         <div
-            className="services-style-four-area default-padding-bottom blurry-shape-left"
+            className="services-style-four-area blurry-shape-left"
             style={{ position: "relative", height: "250vh" }}
             ref={containerRef}
         >

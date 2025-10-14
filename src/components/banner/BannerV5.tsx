@@ -3,7 +3,7 @@ import shape1 from "/assets/img/shape/1.png";
 const BannerV5 = () => {
     return (
         <>
-            <div className="banner-style-two-area" style={{paddingTop: '-10vw'}}>
+            <div className="banner-style-two-area" style={{marginTop: '-5vw'}}>
                 <div className="container">
                     <div className="row align-center">
                         <h4 className="sub-title" style={{position: 'absolute', top: '8%', border: '2px solid #6DDD95', fontSize: '23px'}}>Responsible Hydrocarbons</h4>
