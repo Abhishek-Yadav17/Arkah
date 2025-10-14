@@ -63,7 +63,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p style={{color: '#FFF'}}>
-                                    Privacy | Integrity ©2019 Arkah Industry. All Rights Reserved
+                                    &copy; 2025 Arkah. All Rights Reserved
                                 </p>
                             </div>
                         </div>
