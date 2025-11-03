@@ -4,23 +4,18 @@ const SocialShareV3 = () => {
     return (
         <>
             <li>
-                <Link className="facebook" to="https://www.facebook.com/" target="_blank">
-                    <i className="ri-facebook-fill" />
-                </Link>
-            </li>
-            <li>
-                <Link className="twitter" to="https://www.x.com" target="_blank">
+                <Link className="twitter" to="https://x.com/arkahenergies?s=11" target="_blank">
                     <i className="ri-twitter-x-fill" />
                 </Link>
             </li>
             <li>
-                <Link className="linkedin" to="https://www.pinterest.com/" target="_blank">
-                    <i className="ri-pinterest-fill" />
+                <Link className="linkedin" to="https://www.linkedin.com/company/arkah/?viewAsMember=true" target="_blank">
+                    <i className="ri-linkedin-fill" />
                 </Link>
             </li>
             <li>
-                <Link className="linkedin" to="https://www.linkedin.com/" target="_blank">
-                    <i className="ri-linkedin-fill" />
+                <Link className="linkedin" to=" https://www.instagram.com/arkahenergies?igsh=MXR6czR1bTNyMnRwbQ%3D%3D&utm_source=qr" target="_blank">
+                    <i className="ri-instagram-fill" />
                 </Link>
             </li>
         </>

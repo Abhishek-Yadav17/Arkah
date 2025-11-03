@@ -53,6 +53,7 @@ const SingleServiceV4 = ({ service }: { service: DataType }) => {
                         paddingLeft: 0,
                         listStyle: "none",
                         margin: "1vw 0 0 0",
+                        fontSize: '1.2vw'
                     }}
                 >
                     {text.map((item, index) => (

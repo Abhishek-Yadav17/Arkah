@@ -16,7 +16,7 @@ const SingleServiceV5 = ({ service }: { service: DataType }) => {
             style={{
                 minWidth: "36vw",
                 maxWidth: "36vw",
-                height: "550px",
+                height: "570px",
                 border: "5px solid #6ddd95",
                 padding: "2vw",
                 backgroundColor: "#fff",
@@ -53,6 +53,7 @@ const SingleServiceV5 = ({ service }: { service: DataType }) => {
                         paddingLeft: 0,
                         listStyle: "none",
                         margin: "1vw 0 0 0",
+                        fontSize: '1.2vw'
                     }}
                 >
                     {text.map((item, index) => (

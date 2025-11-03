@@ -8,6 +8,7 @@ type Slide = {
     bg: string;
     text: string;
     btn: string;
+    link: string;
 };
 
 const slides: Slide[] = [
@@ -15,19 +16,22 @@ const slides: Slide[] = [
         heading: "Powering the Future Responsibly",
         bg: "/hero2.png",
         text: "Revolutionizing the global energy landscape with innovation, sustainability and operational excellence — blending traditional expertise with next-generation solutions.",
-        btn: "Who We Are"
+        btn: "Who We Are",
+        link: "/about2"
     },
     {
         heading: "Balancing Reliability & Sustainability",
         bg: "/biogas1.jpg",
         text: "Dual energy portfolio for a balanced future -  From onshore oil rigs to renewable solutions, we deliver energy responsibly with zero-carbon footprint at the core of its strategy.",
-        btn: "What We Do"
+        btn: "What We Do",
+        link: "/what-we-do"
     },
     {
         heading: "Empowering Communities, Sustaining Tomorrow",
         bg: "/esg.png",
         text: "Delivering energy that fuels economic growth, strengthens communities and safeguards our planet — while advancing a circular economy model that creates long-term and sustainable value.",
-        btn: "Sustainability Commitment"
+        btn: "Sustainability Commitment",
+        link: "/sustainability"
     }
 ];
 
@@ -93,7 +97,7 @@ const BannerV1: React.FC = () => {
             >
                 <h1>{heading}</h1>
                 <h4>{text}</h4>
-                <Link to='/about2'>
+                <Link to={slides[index].link}>
                     <button>
                         {btn} <i className="ri-arrow-right-fill"></i>
                     </button>

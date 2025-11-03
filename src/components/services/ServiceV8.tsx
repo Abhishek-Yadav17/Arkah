@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 import shape10 from "/assets/img/shape/10.png";
 import ServicesV7Data from "../../assets/ServicesV7Data.json";
 import SingleServiceV7 from "./SingleServiceV7";

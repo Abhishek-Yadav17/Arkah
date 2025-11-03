@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import ContactV1 from "../components/contact/ContactV1";
 import LayoutV1 from "../components/layout/LayoutV1";
-import ContactMap from "../components/map/ContactMap";
+// import ContactMap from "../components/map/ContactMap";
 
 const Contact = () => {
     return (
@@ -14,7 +14,7 @@ const Contact = () => {
             <LayoutV1>
                 <Breadcrumb title='Get In Touch' breadCrumb='contact-us-light'  />
                 <ContactV1 />
-                <ContactMap />
+                {/* <ContactMap /> */}
             </LayoutV1>
         </>
     );
