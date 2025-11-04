@@ -1,22 +1,21 @@
-import twitter from "/assets/img/icon/twitter.png"
 import { Link } from "react-router-dom";
 
 const FooterSocial = () => {
     return (
         <>
             <li>
-                <Link to="https://www.facebook.com/" target="_blank">
-                    <i className="ri-facebook-fill" />
+                <Link className="twitter" to="https://x.com/arkahenergies?s=11" target="_blank">
+                    <i className="ri-twitter-x-fill" />
                 </Link>
             </li>
             <li>
-                <Link to="https://www.linkedin.com/" target="_blank">
+                <Link className="linkedin" to="https://www.linkedin.com/company/arkah/?viewAsMember=true" target="_blank">
                     <i className="ri-linkedin-fill" />
                 </Link>
             </li>
             <li>
-                <Link to="https://www.x.com/" target="_blank">
-                    <img src={twitter} alt="Image Not Found" />
+                <Link className="linkedin" to=" https://www.instagram.com/arkahenergies?igsh=MXR6czR1bTNyMnRwbQ%3D%3D&utm_source=qr" target="_blank">
+                    <i className="ri-instagram-fill" />
                 </Link>
             </li>
         </>
