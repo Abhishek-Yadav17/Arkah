@@ -37,17 +37,31 @@ const WhatWeDo = () => {
                 <HeaderV2 />
                 <BannerV4 imageSrc="/operating.jpg" />
 
-                <div id="operating-philosophy">
+                <div
+                    style={{
+                        background: "linear-gradient(to bottom, #FFFFFF 0%, #A0E0B8 50%, #1C5D33 100%)",
+                    }}
+                    id="operating-philosophy"
+                >
                     <BannerV7 />
                     <ServicesV8 />
                 </div>
 
-                <div id="exploration-production">
+                <div
+                    id="exploration-production"
+                    style={{
+                        background: "linear-gradient(to bottom, #FFFFFF 0%, #A0E0B8 50%, #1C5D33 100%)",
+                    }}>
                     <BannerV5 />
                     <ServicesV4 />
                 </div>
 
-                <div id="renewable-natural-gas">
+                <div
+                    id="renewable-natural-gas"
+                    style={{
+                        background: "linear-gradient(to bottom, #FFFFFF 0%, #A0E0B8 50%, #1C5D33 100%)",
+                    }}
+                >
                     <BannerV2 />
                     <ServicesV5 />
                 </div>

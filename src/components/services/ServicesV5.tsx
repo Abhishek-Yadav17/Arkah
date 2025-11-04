@@ -83,6 +83,7 @@ const ServicesV5 = () => {
                         display: "flex",
                         gap: "3vw",
                         padding: "0 5vw",
+                        marginTop: "8vw",
                         transition: "transform 0.05s ease-out",
                         willChange: "transform",
                     }}
