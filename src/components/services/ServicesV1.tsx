@@ -18,8 +18,8 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
                                     className="col-xl-3 col-lg-6 col-md-6 single-item"
                                     key={service.id}
                                 >
-                                    <div className={`services-style-one-item`} 
-                                    style={{height: '25vw'}}>
+                                    <div className={`services-style-one-item`}
+                                        style={{ height: '25vw' }}>
                                         <div className="icon">
                                             <img className="regular-img" src={`/assets/img/icon/${service.icon}`} alt="Image Not Found" width={75} height={60} />
 
@@ -47,6 +47,11 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
                                     </div>
                                 </div>
                             ))}
+                        </div>
+                        <div style={{ textAlign: "center", marginTop: "2rem" }}>
+                            <a href="/arkah.pdf" download>
+                                <button className="btn">Download PDF</button>
+                            </a>
                         </div>
                     </div>
                 </div>
