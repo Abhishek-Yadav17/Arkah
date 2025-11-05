@@ -23,11 +23,11 @@ const HeaderV2: React.FC = () => {
                 <nav className="nav desktop-nav">
                     <ul>
                         <li className="dropdown">
-                            <Link to="/about2">Who We Are</Link>
+                            <Link to="/about">Who We Are</Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/about2#our-story">Our Story</Link></li>
-                                <li><Link to="/about2#our-purpose">Our Purpose</Link></li>
-                                <li><Link to="/about2#our-team">Our Team</Link></li>
+                                <li><Link to="/about#our-story">Our Story</Link></li>
+                                <li><Link to="/about#our-purpose">Our Purpose</Link></li>
+                                <li><Link to="/about#our-team">Our Team</Link></li>
                             </ul>
                         </li>
 
@@ -48,20 +48,18 @@ const HeaderV2: React.FC = () => {
                     </ul>
                 </nav>
 
-                {/* Mobile menu icon */}
                 <div className="mobile-menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
                     ☰
                 </div>
 
-                {/* Mobile menu */}
                 <nav className={`nav mobile-nav ${menuOpen ? 'open' : ''}`}>
                     <ul>
                         <li>
-                            <Link to="/about2" onClick={() => setMenuOpen(false)}>Who We Are</Link>
+                            <Link to="/about" onClick={() => setMenuOpen(false)}>Who We Are</Link>
                             <ul>
-                                <li><Link to="/about2#our-story" onClick={() => setMenuOpen(false)}>Our Story</Link></li>
-                                <li><Link to="/about2#our-purpose" onClick={() => setMenuOpen(false)}>Our Purpose</Link></li>
-                                <li><Link to="/about2#our-team" onClick={() => setMenuOpen(false)}>Our Team</Link></li>
+                                <li><Link to="/about#our-story" onClick={() => setMenuOpen(false)}>Our Story</Link></li>
+                                <li><Link to="/about#our-purpose" onClick={() => setMenuOpen(false)}>Our Purpose</Link></li>
+                                <li><Link to="/about#our-team" onClick={() => setMenuOpen(false)}>Our Team</Link></li>
                             </ul>
                         </li>
 

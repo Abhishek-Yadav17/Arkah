@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Contact Us Light</title>
+                <title>Arkah - Contact Us</title>
             </Helmet>
 
             <LayoutV1>
