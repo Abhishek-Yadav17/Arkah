@@ -9,12 +9,12 @@ const ServicesV5 = () => {
 
     useEffect(() => {
 
-        if (window.innerWidth <= 768) return;
-
         const container = containerRef.current;
         const horizontal = horizontalRef.current;
 
         if (!container || !horizontal) return;
+
+        if (window.innerWidth <= 768) return;
 
         const delayOffset = 100;
         const extraScroll = 200;

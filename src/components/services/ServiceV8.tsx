@@ -17,6 +17,8 @@ const ServicesV8: React.FC = () => {
 
         if (!container || !cards) return;
 
+        if (window.innerWidth <= 768) return;
+
         const totalScrollWidth = cards.scrollWidth;
         const containerWidth = container.offsetWidth;
         const scrollAmount = totalScrollWidth - containerWidth;

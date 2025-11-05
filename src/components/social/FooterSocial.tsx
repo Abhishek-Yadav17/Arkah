@@ -14,7 +14,7 @@ const FooterSocial = () => {
                 </Link>
             </li>
             <li>
-                <Link className="linkedin" to=" https://www.instagram.com/arkahenergies?igsh=MXR6czR1bTNyMnRwbQ%3D%3D&utm_source=qr" target="_blank">
+                <Link className="linkedin" to="https://www.instagram.com/arkahenergies?igsh=MXR6czR1bTNyMnRwbQ%3D%3D&utm_source=qr" target="_blank">
                     <i className="ri-instagram-fill" />
                 </Link>
             </li>

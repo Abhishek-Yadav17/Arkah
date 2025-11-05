@@ -50,7 +50,7 @@ const ServicesV1 = ({ sectionClass }: DataType) => {
                         </div>
                         <div style={{ textAlign: "center", marginTop: "2rem" }}>
                             <a href="/arkah.pdf" download>
-                                <button className="btn">Download PDF</button>
+                                <button className="btn">Corporate Presentation</button>
                             </a>
                         </div>
                     </div>

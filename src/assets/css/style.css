@@ -4026,6 +4026,19 @@ a.btn-round-animation:hover::after {
 	align-items: center;
 }
 
+@media (max-width: 768px) {
+
+	.banner-style-two-area .sub-title {
+		top: 6% !important;
+	}
+
+	.banner-two-content {
+		display: flex;
+		flex-direction: column;
+		gap: 5vw;
+	}
+}
+
 @media (max-width: 1023px) {
 
 	.banner-style-two-area,
@@ -8432,6 +8445,54 @@ a.btn-full i {
 		padding-bottom: 60px;
 	}
 }
+
+/* Default (desktop) layout handled by inline styles or component styles */
+
+/* Responsive layout for max width 768px */
+@media (max-width: 768px) {
+  .services-style-four-area {
+    padding: 40px 20px;
+  }
+
+  /* Make container auto height, not pinned */
+  .services-style-four-area > div[style*="overflow: hidden"] {
+    height: fit-content !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  .services-style-four-area {
+	height: fit-content !important;
+  }
+
+  .services-style-four-area [ref="scrollRef"],
+  .services-style-four-area div[style*="display: flex"] {
+    display: block !important;
+    padding: 0 !important;
+  }
+
+  .cteative-service-item {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    height: fit-content !important;
+    margin-bottom: 30px !important;
+  }
+
+  .cteative-service-item h4 {
+    font-size: 18px;
+  }
+
+  .cteative-service-item ul {
+    font-size: 16px !important;
+	padding: 5vw !important;
+  }
+
+  .cteative-service-item img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
 
 .bg-dark .cteative-service-item {
 	background: var(--dark-optional);
