@@ -1,6 +1,5 @@
 import logoLight from '/assets/img/logo-light.png';
 import { Link } from "react-router-dom";
-import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
 
 interface DataType {
@@ -48,7 +47,6 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                     <li><Link to="/what-we-do#exploration-production" style={{color: '#FFF'}}>Responsible Hydrocarbons</Link></li>
                                     <li><Link to="/what-we-do#renewable-natural-gas" style={{color: '#FFF'}}>Renewable Natural Gas</Link></li>
                                 </ul>
-                                <NewsletterV2 />
                             </div>
                         </div>
                     </div>
