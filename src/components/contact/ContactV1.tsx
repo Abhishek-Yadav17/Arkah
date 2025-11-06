@@ -16,7 +16,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                 <div className="contact-style-one-info">
                                     <ul className="contact-address">
                                         <li>
-                                            <a className="phone-link" href="tel:+91-9910094267"><i className="ri-customer-service-2-line" /> +91-9910094267</a>
+                                            <a className="phone-link" href="tel:+91-9319990409"><i className="ri-customer-service-2-line" />+91-9319990409</a>
                                         </li>
                                         <li>
                                             <div className="info">

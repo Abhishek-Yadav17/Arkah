@@ -32,7 +32,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                             <a href="mailto:info@arkah.in" style={{color: '#FFF'}}>info@arkah.in</a>
                                         </li>
                                         <li>
-                                            <a href="tel:+91-9910094267" style={{color: '#FFF'}}>+91-9910094267</a>
+                                            <a href="tel:+91-9319990409" style={{color: '#FFF'}}>+91-9319990409</a>
                                         </li>
                                     </ul>
                                 </div>
