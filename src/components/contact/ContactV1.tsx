@@ -16,7 +16,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                 <div className="contact-style-one-info">
                                     <ul className="contact-address">
                                         <li>
-                                            <a className="phone-link" href="tel:+4733378901"><i className="ri-customer-service-2-line" /> +91-9910094267</a>
+                                            <a className="phone-link" href="tel:+91-9910094267"><i className="ri-customer-service-2-line" /> +91-9910094267</a>
                                         </li>
                                         <li>
                                             <div className="info">
@@ -29,7 +29,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                         <li>
                                             <div className="info">
                                                 <h4>Official Email</h4>
-                                                <a href="mailto:info@digital.com.com">info@arkah.in</a>
+                                                <a href="mailto:info@arkah.in">info@arkah.in</a>
                                             </div>
                                         </li>
                                         <li>

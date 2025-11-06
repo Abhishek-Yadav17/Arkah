@@ -24,7 +24,7 @@ const Features2: React.FC = () => {
             <div className="features-bottom">
                 <Link to="/what-we-do#exploration-production">
                     <div className="feature-box">
-                        <h4>Exploration & Production</h4>
+                        <h4>Responsible Hydrocarbons</h4>
                         <img src="/marginal-field-icon-1.png" alt="" />
                     </div>
                 </Link>

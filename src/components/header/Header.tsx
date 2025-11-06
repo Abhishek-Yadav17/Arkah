@@ -25,9 +25,9 @@ const HeaderV2: React.FC = () => {
                         <li className="dropdown">
                             <Link to="/about">Who We Are</Link>
                             <ul className="dropdown-menu">
-                                <li><Link to="/about#our-story">Our Story</Link></li>
+                                <li><Link to="/about">Our Story</Link></li>
                                 <li><Link to="/about#our-purpose">Our Purpose</Link></li>
-                                <li><Link to="/about#our-team">Our Team</Link></li>
+                                <li><Link to="/team">Our Team</Link></li>
                             </ul>
                         </li>
 
@@ -42,7 +42,7 @@ const HeaderV2: React.FC = () => {
 
                         <li><Link to="/sustainability">Sustainability</Link></li>
                         <li><Link to="/investors">Investors</Link></li>
-                        <li><Link to="/newsroom">News Room</Link></li>
+                        {/* <li><Link to="/newsroom">News Room</Link></li> */}
                         <li><Link to="/careers">Careers</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
@@ -57,9 +57,9 @@ const HeaderV2: React.FC = () => {
                         <li>
                             <Link to="/about" onClick={() => setMenuOpen(false)}>Who We Are</Link>
                             <ul>
-                                <li><Link to="/about#our-story" onClick={() => setMenuOpen(false)}>Our Story</Link></li>
+                                <li><Link to="/about" onClick={() => setMenuOpen(false)}>Our Story</Link></li>
                                 <li><Link to="/about#our-purpose" onClick={() => setMenuOpen(false)}>Our Purpose</Link></li>
-                                <li><Link to="/about#our-team" onClick={() => setMenuOpen(false)}>Our Team</Link></li>
+                                <li><Link to="/team" onClick={() => setMenuOpen(false)}>Our Team</Link></li>
                             </ul>
                         </li>
 
@@ -74,7 +74,7 @@ const HeaderV2: React.FC = () => {
 
                         <li><Link to="/sustainability" onClick={() => setMenuOpen(false)}>Sustainability</Link></li>
                         <li><Link to="/investors" onClick={() => setMenuOpen(false)}>Investors</Link></li>
-                        <li><Link to="/newsroom" onClick={() => setMenuOpen(false)}>News Room</Link></li>
+                        {/* <li><Link to="/newsroom" onClick={() => setMenuOpen(false)}>News Room</Link></li> */}
                         <li><Link to="/careers" onClick={() => setMenuOpen(false)}>Careers</Link></li>
                         <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
                     </ul>

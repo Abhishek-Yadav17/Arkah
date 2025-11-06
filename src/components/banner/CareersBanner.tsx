@@ -10,7 +10,7 @@ const CareersBanner = () => {
                             <div className="banner-two-content">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1', marginBottom: '4vw' }}>Careers at Arkah</h2>
                                 <div className="d-flex">
-                                    <h4 style={{ fontSize: '2vw', fontWeight: '400' }}>
+                                    <h4 style={{ fontSize: '2vw', fontWeight: '400' }} className="careers-h4">
                                         Build energy that empowers today and safeguards tomorrow. Come work with us. Grow with us. Shape the future of energy.
                                     </h4>
                                 </div>

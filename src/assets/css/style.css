@@ -4037,6 +4037,10 @@ a.btn-round-animation:hover::after {
 		flex-direction: column;
 		gap: 5vw;
 	}
+
+	.banner-two-content .careers-h4 {
+		font-size: 6vw !important;
+	}
 }
 
 @media (max-width: 1023px) {
@@ -19842,6 +19846,12 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 .custom-two-column-list li {
 	display: flex;
 	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.custom-two-column-list li {
+		font-size: 4vw !important;
+	}
 }
 
 .custom-two-column-list .line {

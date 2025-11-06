@@ -29,10 +29,10 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 <div className="footer-contact">
                                     <ul>
                                         <li>
-                                            <a href="mailto:someone@example.com" style={{color: '#FFF'}}>info@arkah.in</a>
+                                            <a href="mailto:info@arkah.in" style={{color: '#FFF'}}>info@arkah.in</a>
                                         </li>
                                         <li>
-                                            <a href="tel:+4733378901" style={{color: '#FFF'}}>+91-9910094267</a>
+                                            <a href="tel:+91-9910094267" style={{color: '#FFF'}}>+91-9910094267</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -41,7 +41,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 <h4 className="widget-title" style={{color: '#FFF'}}>Useful Link</h4>
                                 <ul className="useful-link">
                                     <li><Link to="/" style={{color: '#FFF'}}>Home</Link></li>
-                                    <li><Link to="/about2#our-story" style={{color: '#FFF'}}>Our Story</Link></li>
+                                    <li><Link to="/about" style={{color: '#FFF'}}>Our Story</Link></li>
                                     <li><Link to="/team" style={{color: '#FFF'}}>Our Team</Link></li>
                                     <li><Link to="/what-we-do#operating-philosophy" style={{color: '#FFF'}}>Operating Philosophy</Link></li>
                                     <li><Link to="/what-we-do#exploration-production" style={{color: '#FFF'}}>Responsible Hydrocarbons</Link></li>
