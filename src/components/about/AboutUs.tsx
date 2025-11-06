@@ -43,7 +43,7 @@ const AboutUs = () => {
             </div>
             <div className="about-cards" id="our-team">
                 <div className="about-cards-inner-top">
-                    <img src="/team2.jpg" alt="team" />
+                    <img src="/team7.jpg" alt="team" />
                 </div>
                 <div className="about-cards-inner-bottom">
                     <h1>Our Team</h1>

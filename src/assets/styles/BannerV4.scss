@@ -5,6 +5,10 @@
     color: #FFF;
     overflow: hidden;
 
+    @media (max-width: 768px) {
+        height: 100vh;
+    }
+
     &::before {
         content: '';
         position: absolute;
