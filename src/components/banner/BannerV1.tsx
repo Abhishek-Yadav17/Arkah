@@ -17,7 +17,7 @@ const slides: Slide[] = [
         bg: "/hero2.png",
         text: "Revolutionizing the global energy landscape with innovation, sustainability and operational excellence — blending traditional expertise with next-generation solutions.",
         btn: "Who We Are",
-        link: "/about2"
+        link: "/about"
     },
     {
         heading: "Balancing Reliability & Sustainability",

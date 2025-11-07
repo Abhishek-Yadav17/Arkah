@@ -4053,7 +4053,7 @@ a.btn-round-animation:hover::after {
 
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
 	.banner-style-two-area {
-		padding: 120px 0;
+		padding: 10px 0;
 	}
 }
 

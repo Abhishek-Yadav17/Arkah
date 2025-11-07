@@ -35,7 +35,7 @@ const HomeAbout = () => {
             <h2 ref={textRef}>
                 Reimagining conventional energy through field revival, technology-led recovery and sustainable growth powered by renewable natural gas.
             </h2>
-            <Link to="/about2">
+            <Link to="/about">
                 <button>
                     Who We Are <i className="ri-arrow-right-fill"></i>
                 </button>

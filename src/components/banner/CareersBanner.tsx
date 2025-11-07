@@ -7,7 +7,7 @@ const CareersBanner = () => {
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-7">
-                            <div className="banner-two-content">
+                            <div className="banner-two-content careers">
                                 <h2 className="item-title" style={{ fontSize: '5vw', lineHeight: '1', marginBottom: '4vw' }}>Careers at Arkah</h2>
                                 <div className="d-flex">
                                     <h4 style={{ fontSize: '2vw', fontWeight: '400' }} className="careers-h4">
