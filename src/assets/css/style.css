@@ -4040,6 +4040,7 @@ a.btn-round-animation:hover::after {
 
 	.banner-two-content .careers-h4 {
 		font-size: 6vw !important;
+		line-height: 1.2;
 	}
 }
 

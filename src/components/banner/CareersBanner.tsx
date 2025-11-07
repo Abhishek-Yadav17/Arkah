@@ -14,7 +14,7 @@ const CareersBanner = () => {
                                         Build energy that empowers today and safeguards tomorrow. Come work with us. Grow with us. Shape the future of energy.
                                     </h4>
                                 </div>
-                                <p>Arkah Energies is an equal opportunity employer. We celebrate diversity and are committed to a safe, respectful and inclusive workplace.</p>
+                                <p className="careers-h4">Arkah Energies is an equal opportunity employer. We celebrate diversity and are committed to a safe, respectful and inclusive workplace.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 offset-lg-1">

@@ -14,7 +14,7 @@ const BannerV3: React.FC = () => {
 
   return (
     <div className="about-hero-section">
-      <video ref={videoRef} src="/arkah1.mp4" autoPlay loop muted></video>
+      <video ref={videoRef} src="/arkah.mp4" autoPlay loop muted></video>
       <button className="mute-btn" onClick={toggleMute}>
         <i className={isMuted ? 'ri-volume-mute-fill' : 'ri-volume-up-fill'}></i>
       </button>
