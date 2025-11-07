@@ -6,14 +6,14 @@ const HeaderV2: React.FC = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth > 768) {
-        setMenuOpen(false);
-      }
-    };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+        const handleResize = () => {
+            if (window.innerWidth > 768) {
+                setMenuOpen(false);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <header className="header-v2">
@@ -48,8 +48,11 @@ const HeaderV2: React.FC = () => {
                     </ul>
                 </nav>
 
-                <div className="mobile-menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-                    ☰
+                <div
+                    className={`mobile-menu-icon ${menuOpen ? 'open' : ''}`}
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    {menuOpen ? 'x' : '☰'}
                 </div>
 
                 <nav className={`nav mobile-nav ${menuOpen ? 'open' : ''}`}>
