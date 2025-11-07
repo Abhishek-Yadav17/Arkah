@@ -5,10 +5,6 @@
     color: #FFF;
     overflow: hidden;
 
-    @media (max-width: 768px) {
-        height: fit-content;
-    }
-
     &::before {
         content: '';
         position: absolute;
@@ -22,10 +18,5 @@
         width: 100%;
         object-fit: cover;
         object-position: center;
-
-        @media (max-width: 768px) {
-            height: fit-content;
-            width: fit-content;
-        }
     }
 }
