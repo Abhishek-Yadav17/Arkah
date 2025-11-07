@@ -40,7 +40,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             <div className="col-lg-5 offset-lg-1 footer-item">
                                 <h4 className="widget-title" style={{color: '#FFF'}}>Useful Link</h4>
                                 <ul className="useful-link">
-                                    <li><Link to="/" style={{color: '#FFF'}}>Home</Link></li>
+                                    <li><a style={{color: '#FFF', cursor: 'pointer'}} onClick={() => { window.location.href = '/'; }}>Home</a></li>
                                     <li><Link to="/about" style={{color: '#FFF'}}>Our Story</Link></li>
                                     <li><Link to="/team" style={{color: '#FFF'}}>Our Team</Link></li>
                                     <li><Link to="/what-we-do#operating-philosophy" style={{color: '#FFF'}}>Operating Philosophy</Link></li>
