@@ -4,6 +4,10 @@
     color: #FFF;
     overflow: hidden;
 
+    @media (max-width: 768px) {
+        padding-top: 72px;
+    }
+
     &::before {
         content: '';
         position: absolute;
